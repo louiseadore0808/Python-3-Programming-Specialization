@@ -16,5 +16,33 @@ count = 0
 eve_nums = []
 while count <= 15:
     if count % 2 == 0:
-        eve_nums += count
+        eve_nums.append(count)
+    count += 1
 print(eve_nums)
+
+#Below, we’ve provided a for loop that sums all the elements of list1. 
+#Write code that accomplishes the same task, but instead uses a while loop. 
+#Assign the accumulator variable to the name accum.
+list1 = [8, 3, 4, 5, 6, 7, 9]
+
+tot = 0
+for elem in list1:
+    tot = tot + elem
+
+num = 0
+accum = 0
+while num < len(list1): #設定num=0, index 由0開始最多到6，因為list1長度為7
+    accum += list1[num]
+    num += 1
+print(accum)
+
+#Write a function called stop_at_four that iterates through a list of numbers. 
+#Using a while loop, append each number to a new list until the number 4 appears. 
+#The function should return the new list.
+
+def stop_at_four(lst):
+    num = 0
+    alist = []
+    while lst <=4:
+        alist.append(num)
+    return alist
