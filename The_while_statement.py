@@ -39,10 +39,13 @@ print(accum)
 #Write a function called stop_at_four that iterates through a list of numbers. 
 #Using a while loop, append each number to a new list until the number 4 appears. 
 #The function should return the new list.
-
+lst = [0, 9, 4.5, 1, 7, 4, 8, 9, 3]
 def stop_at_four(lst):
     num = 0
     alist = []
-    while lst <=4:
-        alist.append(num)
+    while num < len(lst) and lst[num] != 4:
+        alist.append(lst[num])
+        num += 1
     return alist
+lst = [1, 6, 2, 3, 9]
+print(stop_at_four(lst))
