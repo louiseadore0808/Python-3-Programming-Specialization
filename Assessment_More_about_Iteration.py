@@ -3,12 +3,12 @@
 # The sublist should contain the same values of the original list up until it reaches
 # the number 5 (it should not contain the number 5).
 def sublist(lst):
-    alst = []
+    a_lst = []
     num = 0
-    while num < len(lst) and lst[num] != 5: #設定index range並且不讓alst包含5
-        alst.append(lst[num])
+    while num < len(lst) and lst[num] != 5: #設定index range並且不讓a_lst包含5
+        a_lst.append(lst[num])
         num += 1
-    return alst
+    return a_lst
 print(sublist([1,2,3,4,5,6,7]))
 
 # Write a function, sublist, that takes in a list of strings as the parameter. 
