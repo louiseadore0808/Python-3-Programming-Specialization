@@ -1,0 +1,3 @@
+"0","rdu_flights %>%"
+"0","  group_by(origin) %>%"
+"0","  summarise(mean_dd = mean(dep_delay), sd_dd = sd(dep_delay), n = n())"

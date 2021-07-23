@@ -1,0 +1,9 @@
+chsh -s /bin/zsh
+ls
+cd Chrome\ Apps.localized/
+ls
+cd .. 
+ls
+cd ..
+cd ~
+ls

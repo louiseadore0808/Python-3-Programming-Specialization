@@ -1,0 +1,5 @@
+"0","arbuthnot <- arbuthnot %>%
+  mutate(total = boys + girls)
+"
+"2","Error in arbuthnot %>% mutate(total = boys + girls) : 沒有這個函數 ""%>%""
+"

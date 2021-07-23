@@ -1,0 +1,5 @@
+"0","# type your code for Question 7 here, and Knit"
+"0","nycflights %>%"
+"0","  group_by(origin) %>%"
+"0","  summarise(ot_dep_rate = max(dep_type == ""on time"") / n()) %>%"
+"0","  arrange(desc(ot_dep_rate))"

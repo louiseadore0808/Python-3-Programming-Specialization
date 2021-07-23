@@ -1,0 +1,67 @@
+]0;~/OneDrive - 國立台灣大學/RNAseq1/DEseq2[?1034hYuns-MacBook-Air:DEseq2 chrisadore$ [KYuns-MacBook-Air:DEseq2 chrisadore$ cd ../../..
+]0;~Yuns-MacBook-Air:~ chrisadore$ ls
+Applications				Public
+Creative Cloud Files			airway_scaledcounts.csv
+Desktop					gsea_home
+Documents				httpsanalysis.ingenuity.compa_1787256
+Downloads				igv
+Dropbox					igv:igv-1.log
+Google 雲端硬碟				igv:igv-2.log
+Library					igv:igv-3.log
+Movies					igv:igv-4.log
+Music					igv:igv-5.log
+OneDrive				igv:igv-6.log
+OneDrive - 國立台灣大學			igv:igv-7.log
+Pictures				prism下載連結.txt
+]0;~Yuns-MacBook-Air:~ chrisadore$ cd Dropbox/
+]0;~/DropboxYuns-MacBook-Air:Dropbox chrisadore$ ls
+Apps					regprint.pdf
+Chu					螢幕截圖
+Icon?					交通部臺灣鐵路管理局.pdf
+Yun
+]0;~/DropboxYuns-MacBook-Air:Dropbox chrisadore$ cd Chu/
+]0;~/Dropbox/ChuYuns-MacBook-Air:Chu chrisadore$ l[Kcd RN[K[K[K[K[Kls
+AI					NGS 個人
+CCA+rH2AX-PNA in XPF-FANCM double KD.ai	Progress Report
+CCA.pzfx				R-loop.docx
+DHX8					mPUMt and RNaseH
+DNA2 and EXO1				paper_figure.pzfx
+FANCM					seminar abstract 1005.doc
+Icon?					論文
+Journal presentation			修辭for論文.xlsx
+Lab protocol
+]0;~/Dropbox/ChuYuns-MacBook-Air:Chu chrisadore$ cd DHX8/
+]0;~/Dropbox/Chu/DHX8Yuns-MacBook-Air:DHX8 chrisadore$ l[Kcd RNAseq/
+]0;~/Dropbox/Chu/DHX8/RNAseqYuns-MacBook-Air:RNAseq chrisadore$ ls
+20200728 Amplify results.pptx
+D8 S1 042420.tif
+D8 S1 KD work 042820.pptx
+DESeq2.pdf
+DEXSeq.pdf
+DEseq2_teaching.ppt
+Detection and visualization of differential splicing in RNA-Seq data with JunctionSeq.pdf
+Homo_sapiens.GRCh38.102.gtf
+IGV.pptx
+Library
+Marker 042420.tif
+R commands(11.09.13)-1.pdf
+RNA seq workflow for U_D8 041620KD.pptx
+R指令.pdf
+STAR-aligment.rtf
+STAR.docx
+STAR_2pass.rtf
+STAR_Alinger_example.docx
+STARmanual.pdf
+Systematic evaluation of differential splicing tools for RNA-seq studies.pdf
+U_D8 S1 040320 show KD efficiency for RNA seq.docx
+U_D8 S1 work 042820KD for RNA seq.pptx
+assembly_GTF_list.txt
+progress report.mov
+rna-seq_design.pdf
+trim_RNAseq.rtf
+~$RNA seq workflow for U_D8 041620KD.pptx
+用R畫圖.pptx
+分析圖
+]0;~/Dropbox/Chu/DHX8/RNAseqYuns-MacBook-Air:RNAseq chrisadore$ pwd
+/Users/chrisadore/Dropbox/Chu/DHX8/RNAseq
+]0;~/Dropbox/Chu/DHX8/RNAseqYuns-MacBook-Air:RNAseq chrisadore$ 

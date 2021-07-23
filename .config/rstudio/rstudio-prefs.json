@@ -1,0 +1,40 @@
+{
+    "font_size_points": 16,
+    "editor_theme": "Crimson Editor",
+    "pdf_previewer": "none",
+    "posix_terminal_shell": "bash",
+    "default_project_location": "~/Desktop",
+    "jobs_tab_visibility": "shown",
+    "initial_working_directory": "/Volumes/TOSHIBA EXT/RNAseq1",
+    "show_terminal_tab": false,
+    "always_save_history": false,
+    "soft_wrap_r_files": true,
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Plots",
+            "Connections",
+            "Help",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Packages",
+            "Viewer"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true
+    },
+    "save_workspace": "always",
+    "new_proj_git_init": true
+}

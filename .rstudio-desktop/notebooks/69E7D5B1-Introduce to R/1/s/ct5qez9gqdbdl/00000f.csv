@@ -1,0 +1,4 @@
+"0","# type your code for Question 3 here, and Knit"
+"0","sfo_feb_flights %>%"
+"0","  group_by(carrier) %>%"
+"0","    summarise(IQR_arr = IQR(arr_delay))"

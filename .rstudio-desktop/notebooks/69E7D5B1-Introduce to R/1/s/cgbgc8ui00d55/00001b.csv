@@ -1,0 +1,5 @@
+"0","# type your code for Question 1 here, and Knit"
+"0","sfo_feb_flights <- nycflights %>%"
+"0","  filter(dest == ""SFO"", month == 2)"
+"0","rdu_flights %>%"
+"0","  summarise(mean_dd = mean(arr_delay), sd_dd = sd(arr_delay), n = n())"

@@ -1,0 +1,17 @@
+{
+    "context_id": "654806F8",
+    "theme": {
+        "name": "Crimson Editor",
+        "url": "theme/default/crimson_editor.rstheme",
+        "isDark": false
+    },
+    "error_handler_type": "break",
+    "export_plot_options": {
+        "width": 613,
+        "height": 565,
+        "format": "png",
+        "keepRatio": false,
+        "viewAfterSave": false,
+        "copyAsMetafile": false
+    }
+}

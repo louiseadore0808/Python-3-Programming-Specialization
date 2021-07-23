@@ -1,0 +1,4 @@
+"0","nycflights %>%"
+"0","  group_by(month) %>%"
+"0","  summarise(mean_dd = mean(dep_delay)) %>%"
+"0","  arrange(desc(mean_dd))"

@@ -1,0 +1,373 @@
+]0;~/OneDrive/RNA-seq/U_D8_041620[?1034hYuns-MacBook-Air:U_D8_041620 chrisadore$ [KYuns-MacBook-Air:U_D8_041620 chrisadore$ pip list[K --version[K[K[K[K[K[K[K[K[K[K[K[K[Ksshls[K[K ls807terra@140.110.148.14
+Password + OTP:
+Connection closed by 140.110.148.14 port 22
+]0;~/OneDrive/RNA-seq/U_D8_041620Yuns-MacBook-Air:U_D8_041620 chrisadore$ ssh ls807terra@140.110.148.14
+Password + OTP:
+Last failed login: Thu Oct 22 23:17:56 CST 2020 from ptas.m7.ntu.edu.tw on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Thu Oct 22 22:42:53 2020 from ptas.m7.ntu.edu.tw
+
+
+
+
+Dear User,
+
+
+To run your jobs, use PBS Pro commands:
+
+step 1: Prepare your job script first and specify Queue and ProjectID in it.
+        $ less /pkg/README.JOB.SCRIPT.EXAMPLE
+
+        $ get_su_balance
+
+        $ vi pbs_job.sh
+
+step 2: Submit your job script to PBS and then you'll get the job id.
+        $ chmod u+x pbs_job.sh
+        $ qsub pbs_job.sh
+
+step 3: Trace job id and monitor your job.
+        $ qstat -u your_account
+        $ qstat -f
+
+Other handy PBS commands:
+
+      Terminate your job.
+        $ qdel job_id
+
+      Query available compute nodes.
+        $ pbsnodes -a
+
+      Display the list of all available Queues
+        $ qstat -Q
+
+Other useful query commands:
+        $ jobstat
+        $ nodestat
+        $ pqueues
+       
+Note: 
+      1. Do NOT use login nodes for computation.
+      2. No Bitcoin Mining!
+
+]0;ls807terra@clogin4:~[?1034h[ls807terra@clogin4 ~]$ cd[K[Kqstat -u lsu[K807terra
+
+srvc1: 
+                                                            Req'd  Req'd   Elap
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+8535497.srvc1   ls807ter ngs384G  Tophat      94332   1  40  370gb   --  R 316:1
+8644334.srvc1   ls807ter ngs192G  STAR_2pass   2493   1  40  180gb   --  R 24:11
+]0;ls807terra@clogin4:~[ls807terra@clogin4 ~]$ cd ../../project/GP1/ls807terra/R807_members/Yun
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ ls
+[0m[38;5;9m1_R1.fastq.gz[0m  [38;5;9m2_R2.fastq.gz[0m  [38;5;9m4_R1.fastq.gz[0m  [38;5;27mHTseq[0m           [38;5;27mtrim_RNAseq[0m
+[38;5;9m1_R2.fastq.gz[0m  [38;5;9m3_R1.fastq.gz[0m  [38;5;9m4_R2.fastq.gz[0m  [38;5;27mSTAR_alignment[0m  [38;5;27mWig2BW[0m
+[38;5;9m2_R1.fastq.gz[0m  [38;5;9m3_R2.fastq.gz[0m  [38;5;27mfilename[0m       [38;5;27mTophat[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ cd STAR_alignment/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls
+[0m[38;5;27mDHX8_1[0m  [38;5;27mDHX8_2[0m  [38;5;27mDHX8_3[0m  [38;5;27mDHX8_4[0m  [38;5;34mSTAR_2pass[0m  [38;5;27mSTAR_2PASS[0m  [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd s[K[K[K[Kll
+總計 28
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 18 21:45 [0m[38;5;27mDHX8_1[0m
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 16 19:51 [38;5;27mDHX8_2[0m
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 16 19:42 [38;5;27mDHX8_3[0m
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 16 19:45 [38;5;27mDHX8_4[0m
+-rwxrw-r--+ 1 ls807terra TRI1071854 1201 10月 22 14:56 [38;5;34mSTAR_2pass[0m
+drwxrwxr-x+ 4 ls807terra TRI1071854 4096 10月 23 11:18 [38;5;27mSTAR_2PASS[0m
+-rwxrw-r--+ 1 ls807terra TRI1071854  799 10月  3 09:46 [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd STAR_2PASS/2[K
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ ls
+[0m[38;5;27m1[0m  [38;5;27m2[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ cd 1
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/1[ls807terra@clogin4 1]$ ls
+1Aligned.sortedByCoord.out.bam       1Signal.UniqueMultiple.str2.out.wig
+1Aligned.toTranscriptome.out.bam     1Signal.Unique.str1.out.wig
+1Chimeric.out.junction               1Signal.Unique.str2.out.wig
+1Log.final.out                       1SJ.out.tab
+1Log.out                             [0m[38;5;27m1_STARgenome[0m
+1Log.progress.out                    [38;5;27m1_STARpass1[0m
+1Signal.UniqueMultiple.str1.out.wig
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/1[ls807terra@clogin4 1]$ cd ../..
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ 
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls
+[0m[38;5;27mDHX8_1[0m  [38;5;27mDHX8_2[0m  [38;5;27mDHX8_3[0m  [38;5;27mDHX8_4[0m  [38;5;34mSTAR_2pass[0m  [38;5;27mSTAR_2PASS[0m  [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ vi STAR_2
+STAR_2pass  STAR_2PASS/ 
+[ls807terra@clogin4 STAR_alignment]$ vi STAR_2pass 
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ vim STAR_2pass
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls[K[Kcd ..
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ ls
+[0m[38;5;9m1_R1.fastq.gz[0m  [38;5;9m2_R2.fastq.gz[0m  [38;5;9m4_R1.fastq.gz[0m  [38;5;27mHTseq[0m           [38;5;27mtrim_RNAseq[0m
+[38;5;9m1_R2.fastq.gz[0m  [38;5;9m3_R1.fastq.gz[0m  [38;5;9m4_R2.fastq.gz[0m  [38;5;27mSTAR_alignment[0m  [38;5;27mWig2BW[0m
+[38;5;9m2_R1.fastq.gz[0m  [38;5;9m3_R2.fastq.gz[0m  [38;5;27mfilename[0m       [38;5;27mTophat[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ cd STAR_alignment/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls
+[0m[38;5;27mDHX8_1[0m  [38;5;27mDHX8_2[0m  [38;5;27mDHX8_3[0m  [38;5;27mDHX8_4[0m  [38;5;34mSTAR_2pass[0m  [38;5;27mSTAR_2PASS[0m  [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd DHX8_1
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/DHX8_1[ls807terra@clogin4 DHX8_1]$ ls
+DHX8_1Aligned.sortedByCoord.out.bam       DHX8_1Signal.UniqueMultiple.str2.out.wig
+DHX8_1Log.final.out                       DHX8_1Signal.Unique.str1.out.wig
+DHX8_1Log.out                             DHX8_1Signal.Unique.str2.out.wig
+DHX8_1Log.progress.out                    DHX8_1SJ.out.tab
+DHX8_1Signal.UniqueMultiple.str1.out.wig
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/DHX8_1[ls807terra@clogin4 DHX8_1]$ client_loop: send disconnect: Broken pipe
+p[Kclear
+[H[2J]0;~/OneDrive/RNA-seq/U_D8_041620Yuns-MacBook-Air:U_D8_041620 chrisadore$ cd ../. ./..
+]0;~Yuns-MacBook-Air:~ chrisadore$ ls
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Google 雲端硬碟
+Library
+Movies
+Music
+OneDrive
+Pictures
+Public
+airway_scaledcounts.csv
+httpsanalysis.ingenuity.compa_1787256
+igv
+prism下載連結.txt
+]0;~Yuns-MacBook-Air:~ chrisadore$ ph[Kython3
+Python 3.8.5 (v3.8.5:580fbb018f, Jul 20 2020, 12:11:27) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print()")")H")e")l")l")o")
+Hello
+[KYuns-Air:~ chrisadore$ clear
+[H[2J]0;~Yuns-Air:~ chrisadore$ l[Kssh ls807terra@140.110.14 8.14
+Password + OTP:
+Last failed login: Mon Oct 26 10:58:44 CST 2020 from ptas.m7.ntu.edu.tw on ssh:notty
+There were 2 failed login attempts since the last successful login.
+Last login: Mon Oct 26 10:55:33 2020 from ptas.m7.ntu.edu.tw
+
+
+
+
+Dear User,
+
+
+To run your jobs, use PBS Pro commands:
+
+step 1: Prepare your job script first and specify Queue and ProjectID in it.
+        $ less /pkg/README.JOB.SCRIPT.EXAMPLE
+
+        $ get_su_balance
+
+        $ vi pbs_job.sh
+
+step 2: Submit your job script to PBS and then you'll get the job id.
+        $ chmod u+x pbs_job.sh
+        $ qsub pbs_job.sh
+
+step 3: Trace job id and monitor your job.
+        $ qstat -u your_account
+        $ qstat -f
+
+Other handy PBS commands:
+
+      Terminate your job.
+        $ qdel job_id
+
+      Query available compute nodes.
+        $ pbsnodes -a
+
+      Display the list of all available Queues
+        $ qstat -Q
+
+Other useful query commands:
+        $ jobstat
+        $ nodestat
+        $ pqueues
+       
+Note: 
+      1. Do NOT use login nodes for computation.
+      2. No Bitcoin Mining!
+
+]0;ls807terra@clogin4:~[?1034h[ls807terra@clogin4 ~]$ l[Kqstat -u ls807terra
+
+srvc1: 
+                                                            Req'd  Req'd   Elap
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+8644334.srvc1   ls807ter ngs192G  STAR_2pass   2493   1  40  180gb   --  R 116:4
+8670539.srvc1   ls807ter ngs384G  Cufflink    49592   1  40  370gb   --  R 20:21
+]0;ls807terra@clogin4:~[ls807terra@clogin4 ~]$ [K[ls807terra@clogin4 ~]$ cd ../../project/GP1/ls807terra/R807_members/Yun
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ ls
+[0m[38;5;9m1_R1.fastq.gz[0m  [38;5;9m2_R2.fastq.gz[0m  [38;5;9m4_R1.fastq.gz[0m  [38;5;27mHTseq[0m           [38;5;27mtrim_RNAseq[0m
+[38;5;9m1_R2.fastq.gz[0m  [38;5;9m3_R1.fastq.gz[0m  [38;5;9m4_R2.fastq.gz[0m  [38;5;27mSTAR_alignment[0m  [38;5;27mWig2BW[0m
+[38;5;9m2_R1.fastq.gz[0m  [38;5;9m3_R2.fastq.gz[0m  [38;5;27mCufflink[0m       [38;5;27mTophat[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ cd[K[Kll
+總計 17190700
+-rw-rw-r--+ 1 ls807terra TRI1071854 2395749108  9月 29 15:04 [0m[38;5;9m1_R1.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 2719334890  9月 29 16:09 [38;5;9m1_R2.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 1940513836  9月 29 13:06 [38;5;9m2_R1.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 2260756697  9月 29 13:08 [38;5;9m2_R2.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 1927603236  9月 29 17:13 [38;5;9m3_R1.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 2239186508  9月 29 17:41 [38;5;9m3_R2.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 1873650388  9月 29 13:19 [38;5;9m4_R1.fastq.gz[0m
+-rw-rw-r--+ 1 ls807terra TRI1071854 2246403673  9月 29 13:38 [38;5;9m4_R2.fastq.gz[0m
+drwxrwxr-x+ 4 ls807terra TRI1071854       4096 10月 27 10:07 [38;5;27mCufflink[0m
+drwxrwxr-x+ 2 ls807terra TRI1071854       4096 10月 19 23:56 [38;5;27mHTseq[0m
+drwxrwxr-x+ 7 ls807terra TRI1071854       4096 10月 23 15:16 [38;5;27mSTAR_alignment[0m
+drwxrwxr-x+ 6 ls807terra TRI1071854       4096 10月 24 17:48 [38;5;27mTophat[0m
+drwxrwxr-x+ 2 ls807terra TRI1071854       4096 10月 19 00:20 [38;5;27mtrim_RNAseq[0m
+drwxrwxr-x+ 3 ls807terra TRI1071854       4096 10月 16 20:31 [38;5;27mWig2BW[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ cd STAR_alignment/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls
+[0m[38;5;27mDHX8_1[0m  [38;5;27mDHX8_2[0m  [38;5;27mDHX8_3[0m  [38;5;27mDHX8_4[0m  [38;5;34mSTAR_2pass[0m  [38;5;27mSTAR_2PASS[0m  [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ll
+總計 28
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 18 21:45 [0m[38;5;27mDHX8_1[0m
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 16 19:51 [38;5;27mDHX8_2[0m
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 16 19:42 [38;5;27mDHX8_3[0m
+drwxrwxr-x+ 2 ls807terra MST109178  4096 10月 16 19:45 [38;5;27mDHX8_4[0m
+-rwxrw-r--+ 1 ls807terra TRI1071854 1201 10月 22 14:56 [38;5;34mSTAR_2pass[0m
+drwxrwxr-x+ 6 ls807terra TRI1071854 4096 10月 27 00:16 [38;5;27mSTAR_2PASS[0m
+-rwxrw-r--+ 1 ls807terra TRI1071854  799 10月  3 09:46 [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd STAR_2PASS/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ ls
+[0m[38;5;27m1[0m  [38;5;27m2[0m  [38;5;27m3[0m  [38;5;27m4[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ ll
+總計 16
+drwxrwxr-x+ 4 ls807terra MST109178 4096 10月 23 11:17 [0m[38;5;27m1[0m
+drwxrwxr-x+ 4 ls807terra MST109178 4096 10月 25 02:25 [38;5;27m2[0m
+drwxrwxr-x+ 4 ls807terra MST109178 4096 10月 27 00:16 [38;5;27m3[0m
+drwxrwxr-x+ 5 ls807terra MST109178 4096 10月 27 00:16 [38;5;27m4[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ cd 3
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/3[ls807terra@clogin4 3]$ ls
+3Aligned.sortedByCoord.out.bam    3Log.progress.out                    3SJ.out.tab
+3Aligned.toTranscriptome.out.bam  3Signal.UniqueMultiple.str1.out.wig  [0m[38;5;27m3_STARgenome[0m
+3Chimeric.out.junction            3Signal.UniqueMultiple.str2.out.wig  [38;5;27m3_STARpass1[0m
+3Log.final.out                    3Signal.Unique.str1.out.wig
+3Log.out                          3Signal.Unique.str2.out.wig
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/3[ls807terra@clogin4 3]$ ll
+總計 22598948
+-rw-rw-r--+ 1 ls807terra MST109178 7555999379 10月 27 00:08 3Aligned.sortedByCoord.out.bam
+-rw-rw-r--+ 1 ls807terra MST109178 6225991677 10月 27 00:02 3Aligned.toTranscriptome.out.bam
+-rw-rw-r--+ 1 ls807terra MST109178    4455323 10月 27 00:02 3Chimeric.out.junction
+-rw-rw-r--+ 1 ls807terra MST109178       1871 10月 27 00:16 3Log.final.out
+-rw-rw-r--+ 1 ls807terra MST109178   23328240 10月 27 00:16 3Log.out
+-rw-rw-r--+ 1 ls807terra MST109178      83991 10月 27 00:16 3Log.progress.out
+-rw-rw-r--+ 1 ls807terra MST109178 2314693518 10月 27 00:16 3Signal.UniqueMultiple.str1.out.wig
+-rw-rw-r--+ 1 ls807terra MST109178 2449625898 10月 27 00:16 3Signal.UniqueMultiple.str2.out.wig
+-rw-rw-r--+ 1 ls807terra MST109178 2212312523 10月 27 00:16 3Signal.Unique.str1.out.wig
+-rw-rw-r--+ 1 ls807terra MST109178 2347826276 10月 27 00:16 3Signal.Unique.str2.out.wig
+-rw-rw-r--+ 1 ls807terra MST109178    6938309 10月 27 00:16 3SJ.out.tab
+drwx------+ 2 ls807terra MST109178       4096 10月 25 02:30 [0m[38;5;27m3_STARgenome[0m
+drwx------+ 2 ls807terra MST109178       4096 10月 25 19:31 [38;5;27m3_STARpass1[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/3[ls807terra@clogin4 3]$ ls
+3Aligned.sortedByCoord.out.bam    3Log.progress.out                    3SJ.out.tab
+3Aligned.toTranscriptome.out.bam  3Signal.UniqueMultiple.str1.out.wig  [0m[38;5;27m3_STARgenome[0m
+3Chimeric.out.junction            3Signal.UniqueMultiple.str2.out.wig  [38;5;27m3_STARpass1[0m
+3Log.final.out                    3Signal.Unique.str1.out.wig
+3Log.out                          3Signal.Unique.str2.out.wig
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/3[ls807terra@clogin4 3]$ cd 3_STARpass1/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/3/3_STARpass1[ls807terra@clogin4 3_STARpass1]$ ls
+Log.final.out  SJ.out.tab
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS/3/3_STARpass1[ls807terra@clogin4 3_STARpass1]$ client_loop: send disconnect: Broken pipe
+]0;~Yuns-Air:~ chrisadore$ ls
+Applications				Music
+Creative Cloud Files			OneDrive
+Desktop					Pictures
+Documents				Public
+Downloads				airway_scaledcounts.csv
+Dropbox					httpsanalysis.ingenuity.compa_1787256
+Google 雲端硬碟				igv
+Library					prism下載連結.txt
+Movies
+]0;~Yuns-Air:~ chrisadore$ clear
+[H[2J]0;~Yuns-Air:~ chrisadore$ sshclear[3Plsssh ls807terra@140.110.148.14
+Password + OTP:
+Password + OTP:
+Last failed login: Tue Oct 27 14:52:46 CST 2020 from 140.112.52.147 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Tue Oct 27 11:47:05 2020 from 114-136-102-97.emome-ip.hinet.net
+
+
+
+
+Dear User,
+
+
+To run your jobs, use PBS Pro commands:
+
+step 1: Prepare your job script first and specify Queue and ProjectID in it.
+        $ less /pkg/README.JOB.SCRIPT.EXAMPLE
+
+        $ get_su_balance
+
+        $ vi pbs_job.sh
+
+step 2: Submit your job script to PBS and then you'll get the job id.
+        $ chmod u+x pbs_job.sh
+        $ qsub pbs_job.sh
+
+step 3: Trace job id and monitor your job.
+        $ qstat -u your_account
+        $ qstat -f
+
+Other handy PBS commands:
+
+      Terminate your job.
+        $ qdel job_id
+
+      Query available compute nodes.
+        $ pbsnodes -a
+
+      Display the list of all available Queues
+        $ qstat -Q
+
+Other useful query commands:
+        $ jobstat
+        $ nodestat
+        $ pqueues
+       
+Note: 
+      1. Do NOT use login nodes for computation.
+      2. No Bitcoin Mining!
+
+]0;ls807terra@clogin4:~[?1034h[ls807terra@clogin4 ~]$ cd ../[4Plscd 3_STARpass1/ls[Klscd 3[2Pllscd STAR_2PASS/ll[Kscd STAR_alignment/ll[Kscd ../../project/GP1/ls807terra/R807_members/Yun[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pqstat -u ls807terracd ../../project/GP1/ls807terra/R807_members/Yun
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ ls
+[0m[38;5;9m1_R1.fastq.gz[0m  [38;5;9m2_R2.fastq.gz[0m  [38;5;9m4_R1.fastq.gz[0m  [38;5;27mHTseq[0m           [38;5;27mtrim_RNAseq[0m
+[38;5;9m1_R2.fastq.gz[0m  [38;5;9m3_R1.fastq.gz[0m  [38;5;9m4_R2.fastq.gz[0m  [38;5;27mSTAR_alignment[0m  [38;5;27mWig2BW[0m
+[38;5;9m2_R1.fastq.gz[0m  [38;5;9m3_R2.fastq.gz[0m  [38;5;27mCufflink[0m       [38;5;27mTophat[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun[ls807terra@clogin4 Yun]$ cd STAR_alignment/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls
+[0m[38;5;27mDHX8_1[0m  [38;5;27mDHX8_2[0m  [38;5;27mDHX8_3[0m  [38;5;27mDHX8_4[0m  [38;5;34mSTAR_2pass[0m  [38;5;27mSTAR_2PASS[0m  [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd DHX8_[K[K[K[K[KSTAR_2PASS/
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ ls
+[0m[38;5;27m1[0m  [38;5;27m2[0m  [38;5;27m3[0m  [38;5;27m4[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ cd 1[K[K[K[Klscd STAR_2PASS/ls[Kcd STAR_alignment/ls[Kcd ../../project/GP1/ls807terra/R807_members/Yun[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd 3_STARpass1/ls[Klscd 3[2Pllscd STAR_2PASS/ll[Kscd STAR_alignment/ll[Kscd ../../project/GP1/ls807terra/R807_members/Yun[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pqstat -u ls807terra[5Pub cufflink tat -u ls807terra
+
+srvc1: 
+                                                            Req'd  Req'd   Elap
+Job ID          Username Queue    Jobname    SessID NDS TSK Memory Time  S Time
+--------------- -------- -------- ---------- ------ --- --- ------ ----- - -----
+8644334.srvc1   ls807ter ngs192G  STAR_2pass   2493   1  40  180gb   --  R 119:5
+8670539.srvc1   ls807ter ngs384G  Cufflink    49592   1  40  370gb   --  R 23:28
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ ll
+總計 16
+drwxrwxr-x+ 4 ls807terra MST109178 4096 10月 23 11:17 [0m[38;5;27m1[0m
+drwxrwxr-x+ 4 ls807terra MST109178 4096 10月 25 02:25 [38;5;27m2[0m
+drwxrwxr-x+ 4 ls807terra MST109178 4096 10月 27 00:16 [38;5;27m3[0m
+drwxrwxr-x+ 5 ls807terra MST109178 4096 10月 27 00:16 [38;5;27m4[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/STAR_2PASS[ls807terra@clogin4 STAR_2PASS]$ cd ..
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ ls
+[0m[38;5;27mDHX8_1[0m  [38;5;27mDHX8_2[0m  [38;5;27mDHX8_3[0m  [38;5;27mDHX8_4[0m  [38;5;34mSTAR_2pass[0m  [38;5;27mSTAR_2PASS[0m  [38;5;34mSTAR_outWig[0m
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd DHX8_
+-bash: cd: DHX8_: 沒有此一檔案或目錄
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ cd DHX8_1
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/DHX8_1[ls807terra@clogin4 DHX8_1]$ ls
+DHX8_1Aligned.sortedByCoord.out.bam       DHX8_1Signal.UniqueMultiple.str2.out.wig
+DHX8_1Log.final.out                       DHX8_1Signal.Unique.str1.out.wig
+DHX8_1Log.out                             DHX8_1Signal.Unique.str2.out.wig
+DHX8_1Log.progress.out                    DHX8_1SJ.out.tab
+DHX8_1Signal.UniqueMultiple.str1.out.wig
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment/DHX8_1[ls807terra@clogin4 DHX8_1]$ v[Kcd ..
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ l[Kvim STAR_outWig 
+]0;ls807terra@clogin4:/project/GP1/ls807terra/R807_members/Yun/STAR_alignment[ls807terra@clogin4 STAR_alignment]$ client_loop: send disconnect: Broken pipe
+]0;~Yuns-Air:~ chrisadore$ 

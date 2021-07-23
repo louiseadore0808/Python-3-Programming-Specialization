@@ -1,0 +1,17 @@
+ll
+ls -l
+cd Documents/
+ll
+ls -l
+cd ..
+ll
+cd ..
+ll
+ls -l
+cd ~ 
+ls -l
+cd Desktop/
+ll
+ls -l
+scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8.tar.gz  ./
+scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8.tar.gz  ./

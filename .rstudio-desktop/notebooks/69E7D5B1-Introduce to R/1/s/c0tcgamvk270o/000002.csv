@@ -1,0 +1,2 @@
+"0","nycflights <- nycflights %>%"
+"0","  mutate(dep_type = ifelse(dep_delay < 5, ""on time"", ""delayed""))"

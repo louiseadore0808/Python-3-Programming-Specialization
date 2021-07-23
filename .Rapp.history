@@ -1,0 +1,26 @@
+1+1
+abs(-1)
+seq1 <- seq(-5,5, by =0.2)
+seq (1,30)
+seq (from = 1, to = 30)
+seq (to = 30, from = 1)
+1:3-
+o
+1:30
+seq1
+seq(-5,5, by 0.3)
+seq2 <- seq(length = 51, from = -5, by = 0.2)
+seq2
+rep1 <- rep(x, times = 3)
+x <- (1:3)
+rep1 <- rep(x, times = 3)
+rep1
+rep1 <- rep(x, each = 3)
+rep1
+b <- c(TRUE, FALSE, TRUE)
+b
+x <- c(1, 2, 3, 4)
+bseq <- x < 3
+bseq
+install.packages("languageserver")
+radian

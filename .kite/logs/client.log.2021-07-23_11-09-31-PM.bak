@@ -1,0 +1,1601 @@
+[kited] 2021/07/16 16:34:37.471673 app.go:197: listening at port: 46624
+[kited] 2021/07/16 16:34:37.471860 app.go:198: machine ID: 37e74c0badd7eca0bbabb658a86f2c27
+[kited] 2021/07/16 16:34:37.471892 app.go:199: install ID: a932afdf-f5bc-47c3-b778-c6b827fd5c4c
+[kited] 2021/07/16 16:34:37.471917 app.go:200: OS: darwin
+[kited] 2021/07/16 16:34:37.472113 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz, family 6, model 69, 2 cores, 4 threads, flags: AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,NX,POPCNT,RDRAND,RDTSCP,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2021/07/16 16:34:37.472159 app.go:202: platform: darwin Standalone Workstation 11.4
+[kited] 2021/07/16 16:34:37.472181 app.go:203: root dir: /Users/chrisadore/.kite
+[kited] 2021/07/16 16:34:37.472202 app.go:204: log file: /Users/chrisadore/.kite/logs/client.log
+[kited] 2021/07/16 16:34:37.472223 app.go:205: dev mode: false
+[kited] 2021/07/16 16:34:37.472244 app.go:206: version: 0.20210610.0
+[kited] 2021/07/16 16:34:37.472265 app.go:207: configuration: Release
+[kited] 2021/07/16 16:34:37.472308 app.go:214: proxy: environment
+[kited] 2021/07/16 16:34:37.482430 client.go:172: Successfully loaded 1 licenses
+[kited] 2021/07/16 16:34:37.513595 manager.go:173: using tf_threads value of 1
+[kited] 2021/07/16 16:34:40.820360 manager.go:263: watching dir /Users/chrisadore
+[kited] 2021/07/16 16:34:40.907013 app.go:341: using startup mode: SystemBoot
+[kited] 2021/07/16 16:34:40.907097 app.go:342: using startup channel: 
+[kited] 2021/07/16 16:34:40.912978 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2021/07/16 16:34:40.925043 state.go:75: track: setting user ids User{id:0 email: installID:a932afdf-f5bc-47c3-b778-c6b827fd5c4c machineID:37e74c0badd7eca0bbabb658a86f2c27}
+[kited] 2021/07/16 16:34:40.994119 manager.go:385: walking root dir /Users/chrisadore
+[kited] 2021/07/16 16:34:44.466841 http.go:146: received login event
+[kited] 2021/07/16 16:34:44.485618 listener.go:58: connection dropped: failed to get reader: WebSocket closed: read timed out: context canceled
+[kited] 2021/07/16 16:34:44.486537 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/16 16:34:45.603245 manager.go:378: identifying with id: 856220
+[kited] 2021/07/16 16:34:52.397666 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/16 16:34:53.865354 track.go:167: tracker.Event: Background Library Walk Completed
+[kited] 2021/07/16 16:34:53.865557 manager.go:401: Library dirs: 0
+[kited] 2021/07/16 16:34:53.865610 manager.go:402: Walk took: 12.868316125s
+[kited] 2021/07/16 16:34:53.865649 manager.go:406: finished walking root dir /Users/chrisadore
+[kited] 2021/07/16 16:34:58.805251 track.go:167: tracker.Event: Found Editors
+[kited] 2021/07/16 16:34:58.805394 track.go:167: tracker.Event: Found Installed Plugins
+[kited] 2021/07/16 16:35:07.398085 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/16 16:35:07.485765 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/16 16:44:46.514108 handlers.go:68: GET /clientapi/plugins 200 4671 8.915665614s
+[kited] 2021/07/16 16:49:40.836557 api.go:96: Unloading data for python
+[kited] 2021/07/16 16:49:40.837619 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2021/07/16 16:51:48.268772 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/16 16:51:48.269728 plugins_helpers.go:104: attempting to update atom
+[kited] 2021/07/16 16:51:48.987440 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/16 16:51:48.987505 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/16 16:51:52.435688 track.go:167: tracker.Event: Successful Plugin Updates
+[kited] 2021/07/16 16:54:45.637787 handlers.go:68: GET /clientapi/plugins 200 4671 8.139593859s
+[kited] 2021/07/16 17:04:41.031464 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/16 17:04:45.643106 handlers.go:68: GET /clientapi/plugins 200 4671 8.085656985s
+[kited] 2021/07/16 17:14:46.142235 handlers.go:68: GET /clientapi/plugins 200 4671 8.64744385s
+[kited] 2021/07/16 17:24:45.707415 handlers.go:68: GET /clientapi/plugins 200 4671 8.16616255s
+[kited] 2021/07/16 17:34:41.214449 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/16 17:34:44.884435 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/16 17:34:46.780259 handlers.go:68: GET /clientapi/plugins 200 4671 9.132549415s
+[kited] 2021/07/16 17:44:11.458232 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50149->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/16 18:51:53.330763 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50166->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/16 19:19:28.183133 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50204->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/16 19:56:41.276296 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50222->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/16 21:03:14.650096 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50270->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/16 22:10:15.500927 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50284->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/16 22:33:16.481610 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50383->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 02:34:12.789528 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50402->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 06:34:39.312046 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50493->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 10:35:35.742562 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50520->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 13:02:43.081164 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50598->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 13:03:34.658451 handlers.go:68: GET /clientapi/plugins 200 4671 9.671851315s
+[kited] 2021/07/17 13:10:39.872636 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/17 13:10:39.942362 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/17 13:13:33.236456 handlers.go:68: GET /clientapi/plugins 200 4671 8.286622217s
+[kited] 2021/07/17 13:23:28.509148 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/17 13:23:33.219615 handlers.go:68: GET /clientapi/plugins 200 4671 8.227759256s
+[kited] 2021/07/17 13:33:33.065789 handlers.go:68: GET /clientapi/plugins 200 4671 8.117879982s
+[kited] 2021/07/17 15:19:53.558480 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50729->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 19:20:46.581715 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:51018->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 22:50:17.932157 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:51171->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/17 22:56:22.581206 handlers.go:68: GET /clientapi/plugins 200 4671 8.929986982s
+[kited] 2021/07/17 23:06:17.393981 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/17 23:06:22.035856 handlers.go:68: GET /clientapi/plugins 200 4671 8.193373823s
+[kited] 2021/07/17 23:16:22.000031 handlers.go:68: GET /clientapi/plugins 200 4671 8.122987623s
+[kited] 2021/07/17 23:23:43.794561 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/17 23:23:43.847878 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/17 23:26:22.253120 handlers.go:68: GET /clientapi/plugins 200 4671 8.3780719s
+[kited] 2021/07/18 00:06:10.830068 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:51330->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 00:07:20.592460 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 00:07:25.116070 handlers.go:68: GET /clientapi/plugins 200 4671 8.004580369s
+[kited] 2021/07/18 00:17:26.247242 handlers.go:68: GET /clientapi/plugins 200 4670 9.10451425s
+[kited] 2021/07/18 00:17:26.278271 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 00:27:25.441785 handlers.go:68: GET /clientapi/plugins 200 4670 8.247588172s
+[kited] 2021/07/18 00:27:25.476347 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 00:37:20.705616 editorslist.go:19: Detected 1 running editors with 1 new entries, purged 0 entries
+[kited] 2021/07/18 00:37:25.411163 handlers.go:68: GET /clientapi/plugins 200 4670 8.256888237s
+[kited] 2021/07/18 00:37:25.444203 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 00:47:26.503721 handlers.go:68: GET /clientapi/plugins 200 4861 9.319240569s
+[kited] 2021/07/18 00:47:26.537493 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 00:55:02.087034 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 00:55:02.140338 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 00:57:26.362817 handlers.go:68: GET /clientapi/plugins 200 4861 9.184599134s
+[kited] 2021/07/18 00:57:26.399507 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 01:06:11.359196 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 01:07:20.721423 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 01:07:26.984263 handlers.go:68: GET /clientapi/plugins 200 4861 9.777946946s
+[kited] 2021/07/18 01:07:27.018051 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 01:17:27.355652 handlers.go:68: GET /clientapi/plugins 200 4861 10.099930835s
+[kited] 2021/07/18 01:17:27.392948 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 01:27:26.166451 handlers.go:68: GET /clientapi/plugins 200 4861 8.873768305s
+[kited] 2021/07/18 01:27:26.201605 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 01:37:20.844986 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 01:37:26.485969 handlers.go:68: GET /clientapi/plugins 200 4861 9.191622477s
+[kited] 2021/07/18 01:37:26.520085 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 01:47:26.441302 handlers.go:68: GET /clientapi/plugins 200 4861 9.088408235s
+[kited] 2021/07/18 01:47:26.477646 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 01:55:17.238663 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 01:55:17.289535 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 01:57:26.385675 handlers.go:68: GET /clientapi/plugins 200 4861 9.059758659s
+[kited] 2021/07/18 01:57:26.422339 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 02:06:11.696722 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 02:07:20.931253 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 02:07:27.355904 handlers.go:68: GET /clientapi/plugins 200 4861 9.933924414s
+[kited] 2021/07/18 02:07:27.390767 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 02:17:26.379694 handlers.go:68: GET /clientapi/plugins 200 4861 8.970883108s
+[kited] 2021/07/18 02:17:26.413856 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 02:27:26.902822 handlers.go:68: GET /clientapi/plugins 200 4861 9.455596405s
+[kited] 2021/07/18 02:27:26.935426 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 02:37:21.000769 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 02:37:26.446661 handlers.go:68: GET /clientapi/plugins 200 4861 9.016120022s
+[kited] 2021/07/18 02:37:26.479740 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 02:47:26.750595 handlers.go:68: GET /clientapi/plugins 200 4861 9.268257288s
+[kited] 2021/07/18 02:47:26.784282 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 02:55:32.388851 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 02:55:32.443176 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 02:57:26.444926 handlers.go:68: GET /clientapi/plugins 200 4861 8.960284011s
+[kited] 2021/07/18 02:57:26.478555 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 03:06:12.001658 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 03:07:21.012248 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 03:07:26.553887 handlers.go:68: GET /clientapi/plugins 200 4861 9.035671879s
+[kited] 2021/07/18 03:07:26.584680 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 03:17:26.916667 handlers.go:68: GET /clientapi/plugins 200 4861 9.406431238s
+[kited] 2021/07/18 03:17:26.949288 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 03:27:24.872892 handlers.go:68: GET /clientapi/plugins 200 4861 9.476485219s
+[kited] 2021/07/18 03:27:24.906589 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 03:37:18.924080 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 03:37:24.567757 handlers.go:68: GET /clientapi/plugins 200 4861 9.189671394s
+[kited] 2021/07/18 03:37:24.602030 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 03:47:24.971653 handlers.go:68: GET /clientapi/plugins 200 4861 9.522947236s
+[kited] 2021/07/18 03:47:25.007969 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 03:55:45.328972 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 03:55:45.381754 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 03:57:24.536281 handlers.go:68: GET /clientapi/plugins 200 4861 9.116268102s
+[kited] 2021/07/18 03:57:24.570829 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 04:06:10.125980 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 04:07:18.967856 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 04:07:24.707281 handlers.go:68: GET /clientapi/plugins 200 4861 9.252013561s
+[kited] 2021/07/18 04:07:24.741047 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 04:17:25.026218 handlers.go:68: GET /clientapi/plugins 200 4861 9.570260105s
+[kited] 2021/07/18 04:17:25.053682 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 04:27:26.829061 handlers.go:68: GET /clientapi/plugins 200 4861 9.151426541s
+[kited] 2021/07/18 04:27:26.864083 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 04:37:21.185886 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 04:37:27.077559 handlers.go:68: GET /clientapi/plugins 200 4861 9.414106003s
+[kited] 2021/07/18 04:37:27.099357 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 04:47:27.070565 handlers.go:68: GET /clientapi/plugins 200 4861 9.412004631s
+[kited] 2021/07/18 04:47:27.104295 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 04:56:02.554427 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 04:56:02.610414 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 04:57:27.131474 handlers.go:68: GET /clientapi/plugins 200 4861 9.481841606s
+[kited] 2021/07/18 04:57:27.165683 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 05:06:12.447674 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 05:07:21.177074 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 05:07:26.963329 handlers.go:68: GET /clientapi/plugins 200 4861 9.277245264s
+[kited] 2021/07/18 05:07:26.998634 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 05:17:27.097134 handlers.go:68: GET /clientapi/plugins 200 4861 9.368148662s
+[kited] 2021/07/18 05:17:27.121475 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 05:27:26.870068 handlers.go:68: GET /clientapi/plugins 200 4861 9.158991339s
+[kited] 2021/07/18 05:27:26.906121 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 05:37:21.201708 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 05:37:26.780633 handlers.go:68: GET /clientapi/plugins 200 4861 9.118546107s
+[kited] 2021/07/18 05:37:26.811293 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 05:47:27.095843 handlers.go:68: GET /clientapi/plugins 200 4861 9.392053298s
+[kited] 2021/07/18 05:47:27.146523 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 05:56:17.665477 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 05:56:17.722591 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 05:57:27.332778 handlers.go:68: GET /clientapi/plugins 200 4861 9.582848023s
+[kited] 2021/07/18 05:57:27.365708 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 06:06:12.732361 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 06:07:21.304926 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 06:07:27.147462 handlers.go:68: GET /clientapi/plugins 200 4861 9.33888879s
+[kited] 2021/07/18 06:07:27.182144 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 06:17:27.410832 handlers.go:68: GET /clientapi/plugins 200 4861 9.631908574s
+[kited] 2021/07/18 06:17:27.446722 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 06:27:26.919258 handlers.go:68: GET /clientapi/plugins 200 4861 9.083773288s
+[kited] 2021/07/18 06:27:26.953707 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 06:37:21.341975 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 06:37:27.482146 handlers.go:68: GET /clientapi/plugins 200 4861 9.66892402s
+[kited] 2021/07/18 06:37:27.517068 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 06:47:27.130791 handlers.go:68: GET /clientapi/plugins 200 4861 9.254054667s
+[kited] 2021/07/18 06:47:27.164162 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 06:56:32.757536 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 06:56:32.811963 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 06:57:27.326260 handlers.go:68: GET /clientapi/plugins 200 4861 9.471417899s
+[kited] 2021/07/18 06:57:27.360151 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 07:06:12.994611 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 07:07:21.431122 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 07:07:27.182477 handlers.go:68: GET /clientapi/plugins 200 4861 9.25724345s
+[kited] 2021/07/18 07:07:27.216214 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 07:17:27.294302 handlers.go:68: GET /clientapi/plugins 200 4861 9.332883663s
+[kited] 2021/07/18 07:17:27.331644 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 07:27:27.597927 handlers.go:68: GET /clientapi/plugins 200 4861 9.5552503s
+[kited] 2021/07/18 07:27:27.631242 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 07:37:21.560862 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 07:37:26.736721 handlers.go:68: GET /clientapi/plugins 200 4861 8.716620022s
+[kited] 2021/07/18 07:37:26.765497 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 07:47:27.735116 handlers.go:68: GET /clientapi/plugins 200 4861 9.654720988s
+[kited] 2021/07/18 07:47:27.769196 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 07:56:47.981992 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 07:56:48.035589 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 07:57:27.251924 handlers.go:68: GET /clientapi/plugins 200 4861 9.188103494s
+[kited] 2021/07/18 07:57:27.284742 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 08:06:13.329690 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 08:07:21.585211 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 08:07:27.626648 handlers.go:68: GET /clientapi/plugins 200 4861 9.547986031s
+[kited] 2021/07/18 08:07:27.654839 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 08:17:27.429287 handlers.go:68: GET /clientapi/plugins 200 4861 9.366843235s
+[kited] 2021/07/18 08:17:27.463058 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 08:27:27.203713 handlers.go:68: GET /clientapi/plugins 200 4861 9.097502913s
+[kited] 2021/07/18 08:27:27.237991 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 08:37:21.610603 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 08:37:26.568812 handlers.go:68: GET /clientapi/plugins 200 4861 8.491346678s
+[kited] 2021/07/18 08:37:26.591292 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 08:47:27.200363 handlers.go:68: GET /clientapi/plugins 200 4861 9.080069292s
+[kited] 2021/07/18 08:47:27.234242 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 08:57:03.001218 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 08:57:03.062555 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 08:57:27.407467 handlers.go:68: GET /clientapi/plugins 200 4861 9.310075251s
+[kited] 2021/07/18 08:57:27.429594 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 09:06:13.625281 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 09:07:21.658161 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 09:07:27.584137 handlers.go:68: GET /clientapi/plugins 200 4861 9.444593241s
+[kited] 2021/07/18 09:07:27.618433 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 09:17:27.240247 handlers.go:68: GET /clientapi/plugins 200 4861 9.127001121s
+[kited] 2021/07/18 09:17:27.275094 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 09:27:27.326745 handlers.go:68: GET /clientapi/plugins 200 4861 9.110204273s
+[kited] 2021/07/18 09:27:27.362508 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 09:37:21.754503 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 09:37:27.632210 handlers.go:68: GET /clientapi/plugins 200 4861 9.434485275s
+[kited] 2021/07/18 09:37:27.667190 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 09:47:27.768293 handlers.go:68: GET /clientapi/plugins 200 4861 9.512911411s
+[kited] 2021/07/18 09:47:27.802191 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 09:57:18.180400 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 09:57:18.237900 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 09:57:27.522963 handlers.go:68: GET /clientapi/plugins 200 4861 9.256739909s
+[kited] 2021/07/18 09:57:27.543521 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:06:14.101607 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 10:07:21.816848 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 10:07:28.003543 handlers.go:68: GET /clientapi/plugins 200 4861 9.678206691s
+[kited] 2021/07/18 10:07:28.037636 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:17:27.456347 handlers.go:68: GET /clientapi/plugins 200 4861 9.154799007s
+[kited] 2021/07/18 10:17:27.483688 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:27:27.445478 handlers.go:68: GET /clientapi/plugins 200 4861 9.088009485s
+[kited] 2021/07/18 10:27:27.472098 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:37:21.868606 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 10:37:27.525972 handlers.go:68: GET /clientapi/plugins 200 4861 9.183227904s
+[kited] 2021/07/18 10:37:27.549483 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:47:28.118184 handlers.go:68: GET /clientapi/plugins 200 4861 9.731647716s
+[kited] 2021/07/18 10:47:28.154391 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:57:25.527140 handlers.go:68: GET /clientapi/plugins 200 4861 9.298805011s
+[kited] 2021/07/18 10:57:25.562618 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 10:57:31.144753 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 10:57:31.190300 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 11:06:12.218195 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 11:07:19.777839 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 11:07:25.658293 handlers.go:68: GET /clientapi/plugins 200 4861 9.36839066s
+[kited] 2021/07/18 11:07:25.690730 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 11:17:25.013280 handlers.go:68: GET /clientapi/plugins 200 4861 8.742199492s
+[kited] 2021/07/18 11:17:25.047410 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 11:27:27.517221 handlers.go:68: GET /clientapi/plugins 200 4861 9.089101908s
+[kited] 2021/07/18 11:27:27.551536 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 11:37:21.971069 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 11:37:27.564933 handlers.go:68: GET /clientapi/plugins 200 4861 9.159018245s
+[kited] 2021/07/18 11:37:27.598937 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 11:47:27.761479 handlers.go:68: GET /clientapi/plugins 200 4861 9.288930246s
+[kited] 2021/07/18 11:47:27.781997 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 11:57:27.622344 handlers.go:68: GET /clientapi/plugins 200 4861 9.138198783s
+[kited] 2021/07/18 11:57:27.651103 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 11:57:48.389953 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 11:57:48.448493 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 12:06:14.797992 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 12:07:22.028511 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 12:07:27.549491 handlers.go:68: GET /clientapi/plugins 200 4861 9.035201598s
+[kited] 2021/07/18 12:07:27.583745 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 12:17:27.865725 handlers.go:68: GET /clientapi/plugins 200 4861 9.346214457s
+[kited] 2021/07/18 12:17:27.902102 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 12:27:27.503472 handlers.go:68: GET /clientapi/plugins 200 4861 8.936144109s
+[kited] 2021/07/18 12:27:27.528719 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 12:37:22.135691 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 12:37:27.716946 handlers.go:68: GET /clientapi/plugins 200 4861 9.10330588s
+[kited] 2021/07/18 12:37:27.740184 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 12:47:27.691170 handlers.go:68: GET /clientapi/plugins 200 4861 9.022081727s
+[kited] 2021/07/18 12:47:27.724473 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 12:57:28.296823 handlers.go:68: GET /clientapi/plugins 200 4861 9.647211014s
+[kited] 2021/07/18 12:57:28.333918 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 12:58:03.568643 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 12:58:03.613866 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 13:06:15.730122 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 13:07:22.210130 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 13:07:28.316870 handlers.go:68: GET /clientapi/plugins 200 4861 9.603364731s
+[kited] 2021/07/18 13:07:28.350054 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 13:17:27.846662 handlers.go:68: GET /clientapi/plugins 200 4861 9.144125989s
+[kited] 2021/07/18 13:17:27.880724 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 13:27:27.857531 handlers.go:68: GET /clientapi/plugins 200 4861 9.117106127s
+[kited] 2021/07/18 13:27:27.891061 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 13:37:22.233855 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 13:37:27.167129 handlers.go:68: GET /clientapi/plugins 200 4861 8.459660221s
+[kited] 2021/07/18 13:37:27.198049 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 13:47:27.801069 handlers.go:68: GET /clientapi/plugins 200 4861 9.094738639s
+[kited] 2021/07/18 13:47:27.824204 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 13:57:27.410182 handlers.go:68: GET /clientapi/plugins 200 4861 8.716109379s
+[kited] 2021/07/18 13:57:27.443348 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 13:58:18.606354 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 13:58:18.659964 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 14:06:16.523574 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 14:07:22.260126 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 14:07:27.730836 handlers.go:68: GET /clientapi/plugins 200 4861 8.961932505s
+[kited] 2021/07/18 14:07:27.753571 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 14:17:28.098080 handlers.go:68: GET /clientapi/plugins 200 4861 9.338655562s
+[kited] 2021/07/18 14:17:28.131775 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 14:27:27.541077 handlers.go:68: GET /clientapi/plugins 200 4861 8.723932691s
+[kited] 2021/07/18 14:27:27.575078 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 14:37:22.370605 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 14:37:27.978808 handlers.go:68: GET /clientapi/plugins 200 4861 9.126223796s
+[kited] 2021/07/18 14:37:28.003084 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 14:47:28.478713 handlers.go:68: GET /clientapi/plugins 200 4861 9.581961605s
+[kited] 2021/07/18 14:47:28.515892 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 14:57:27.923914 handlers.go:68: GET /clientapi/plugins 200 4861 9.04722798s
+[kited] 2021/07/18 14:57:27.958144 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 14:58:33.787705 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 14:58:33.832504 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 15:06:17.207081 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 15:07:22.418640 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 15:07:28.494467 handlers.go:68: GET /clientapi/plugins 200 4861 9.574207042s
+[kited] 2021/07/18 15:07:28.528600 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 15:17:28.173716 handlers.go:68: GET /clientapi/plugins 200 4861 9.25551358s
+[kited] 2021/07/18 15:17:28.209621 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 15:27:27.959001 handlers.go:68: GET /clientapi/plugins 200 4861 8.997862255s
+[kited] 2021/07/18 15:27:27.983065 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 15:37:22.410544 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 15:37:27.965586 handlers.go:68: GET /clientapi/plugins 200 4861 9.075005207s
+[kited] 2021/07/18 15:37:27.998988 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 15:47:28.202681 handlers.go:68: GET /clientapi/plugins 200 4861 9.27648546s
+[kited] 2021/07/18 15:47:28.225261 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 15:57:28.037973 handlers.go:68: GET /clientapi/plugins 200 4861 9.108859952s
+[kited] 2021/07/18 15:57:28.059408 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 15:58:48.859280 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 15:58:48.905345 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 16:06:19.888548 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 16:07:22.533638 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 16:07:28.309134 handlers.go:68: GET /clientapi/plugins 200 4861 9.322069382s
+[kited] 2021/07/18 16:07:28.342057 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 16:17:28.112876 handlers.go:68: GET /clientapi/plugins 200 4861 9.143749337s
+[kited] 2021/07/18 16:17:28.150468 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 16:27:28.232933 handlers.go:68: GET /clientapi/plugins 200 4861 9.207671024s
+[kited] 2021/07/18 16:27:28.269130 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 16:37:22.569068 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 16:37:28.146326 handlers.go:68: GET /clientapi/plugins 200 4861 9.12355737s
+[kited] 2021/07/18 16:37:28.182933 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 16:47:28.244805 handlers.go:68: GET /clientapi/plugins 200 4861 9.099142554s
+[kited] 2021/07/18 16:47:28.280239 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 16:57:28.506139 handlers.go:68: GET /clientapi/plugins 200 4861 9.376121923s
+[kited] 2021/07/18 16:57:28.531309 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 16:59:04.044208 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 16:59:04.091116 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 17:06:20.233750 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 17:07:22.647617 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 17:07:28.117151 handlers.go:68: GET /clientapi/plugins 200 4861 8.995171848s
+[kited] 2021/07/18 17:07:28.150253 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 17:17:28.362684 handlers.go:68: GET /clientapi/plugins 200 4861 9.250268002s
+[kited] 2021/07/18 17:17:28.397444 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 17:27:28.503180 handlers.go:68: GET /clientapi/plugins 200 4861 9.303272015s
+[kited] 2021/07/18 17:27:28.539983 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 17:37:22.741071 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 17:37:28.483647 handlers.go:68: GET /clientapi/plugins 200 4861 9.290721851s
+[kited] 2021/07/18 17:37:28.506934 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 17:47:28.333915 handlers.go:68: GET /clientapi/plugins 200 4861 9.046351252s
+[kited] 2021/07/18 17:47:28.369194 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 17:57:28.301013 handlers.go:68: GET /clientapi/plugins 200 4861 9.026427603s
+[kited] 2021/07/18 17:57:28.334788 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 17:59:19.188447 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 17:59:19.233130 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 18:06:20.552607 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 18:07:22.813611 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 18:07:29.150827 handlers.go:68: GET /clientapi/plugins 200 4861 9.841312128s
+[kited] 2021/07/18 18:07:29.183267 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 18:17:28.478556 handlers.go:68: GET /clientapi/plugins 200 4861 9.197368185s
+[kited] 2021/07/18 18:17:28.512696 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 18:27:27.700004 handlers.go:68: GET /clientapi/plugins 200 4861 8.384320009s
+[kited] 2021/07/18 18:27:27.731129 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 18:37:22.817753 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 18:37:28.449108 handlers.go:68: GET /clientapi/plugins 200 4861 9.144960466s
+[kited] 2021/07/18 18:37:28.468824 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 18:47:28.469722 handlers.go:68: GET /clientapi/plugins 200 4861 9.123548457s
+[kited] 2021/07/18 18:47:28.500774 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 18:57:29.258979 handlers.go:68: GET /clientapi/plugins 200 4861 9.857996707s
+[kited] 2021/07/18 18:57:29.287618 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 18:59:34.311045 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 18:59:34.372917 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 19:06:21.404806 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 19:07:22.952837 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 19:07:28.654799 handlers.go:68: GET /clientapi/plugins 200 4861 9.214327117s
+[kited] 2021/07/18 19:07:28.685138 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 19:17:28.485754 handlers.go:68: GET /clientapi/plugins 200 4861 9.047857909s
+[kited] 2021/07/18 19:17:28.523091 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 19:27:29.188943 handlers.go:68: GET /clientapi/plugins 200 4861 9.761201115s
+[kited] 2021/07/18 19:27:29.211717 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 19:37:22.952097 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 19:37:28.557547 handlers.go:68: GET /clientapi/plugins 200 4861 9.164523819s
+[kited] 2021/07/18 19:37:28.587643 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 19:47:28.381159 handlers.go:68: GET /clientapi/plugins 200 4861 8.942559898s
+[kited] 2021/07/18 19:47:28.401386 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 19:57:29.263756 handlers.go:68: GET /clientapi/plugins 200 4861 9.811014058s
+[kited] 2021/07/18 19:57:29.298861 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 19:59:49.359499 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 19:59:49.442509 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 20:06:21.604518 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 20:07:23.007534 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 20:07:30.885956 handlers.go:68: GET /clientapi/plugins 200 4861 11.385758402s
+[kited] 2021/07/18 20:07:30.940118 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 20:17:29.240812 handlers.go:68: GET /clientapi/plugins 200 4861 9.744942482s
+[kited] 2021/07/18 20:17:29.301771 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 20:27:29.510977 handlers.go:68: GET /clientapi/plugins 200 4861 9.992408135s
+[kited] 2021/07/18 20:27:29.543993 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 20:37:23.086050 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 20:37:30.519168 handlers.go:68: GET /clientapi/plugins 200 4861 11.018589556s
+[kited] 2021/07/18 20:37:30.556548 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 20:47:29.861918 handlers.go:68: GET /clientapi/plugins 200 4861 10.305699129s
+[kited] 2021/07/18 20:47:29.896112 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 20:57:29.497498 handlers.go:68: GET /clientapi/plugins 200 4861 9.949869078s
+[kited] 2021/07/18 20:57:29.534146 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 21:00:04.462504 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 21:00:04.519888 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 21:06:21.896621 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 21:07:23.172766 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 21:07:30.760953 handlers.go:68: GET /clientapi/plugins 200 4861 11.147772203s
+[kited] 2021/07/18 21:07:30.802032 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 21:17:29.585076 handlers.go:68: GET /clientapi/plugins 200 4861 9.937178728s
+[kited] 2021/07/18 21:17:29.609352 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 21:30:36.735568 handlers.go:68: GET /clientapi/plugins 200 4861 16.407149157s
+[kited] 2021/07/18 21:30:36.761911 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 21:44:23.937154 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 21:44:30.569750 handlers.go:68: GET /clientapi/plugins 200 4861 10.16420718s
+[kited] 2021/07/18 21:44:30.605130 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 21:54:30.342809 handlers.go:68: GET /clientapi/plugins 200 4861 9.890721605s
+[kited] 2021/07/18 21:54:30.382527 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 22:04:30.243288 handlers.go:68: GET /clientapi/plugins 200 4861 9.818119536s
+[kited] 2021/07/18 22:04:30.270141 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 22:06:22.243772 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 22:07:20.339841 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 22:07:20.394994 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 22:14:23.939768 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 22:14:29.748835 handlers.go:68: GET /clientapi/plugins 200 4861 9.270934418s
+[kited] 2021/07/18 22:14:29.786040 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 22:29:39.773253 handlers.go:68: GET /clientapi/plugins 200 4861 9.725107395s
+[kited] 2021/07/18 22:29:39.800011 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 22:39:39.940981 handlers.go:68: GET /clientapi/plugins 200 4861 9.847602111s
+[kited] 2021/07/18 22:39:39.975445 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 22:49:33.624183 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 22:49:40.468566 handlers.go:68: GET /clientapi/plugins 200 4861 10.400822334s
+[kited] 2021/07/18 22:49:40.504908 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 22:59:42.745389 handlers.go:68: GET /clientapi/plugins 200 4861 12.212872413s
+[kited] 2021/07/18 22:59:42.806178 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/18 23:08:11.117959 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:59024->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 01:05:41.246557 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:59622->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 01:41:51.270142 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:59700->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 04:26:19.005534 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:59739->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 08:00:35.521157 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:59761->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 09:58:38.817603 handlers.go:68: GET /clientapi/plugins 200 4861 51.361747715s
+[kited] 2021/07/19 09:58:39.021875 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 09:58:39.110504 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp: lookup t.kite.com: no such host
+[kited] 2021/07/19 09:58:39.114092 track.go:112: error sending Mixpanel event uninstalled_plugin_detected: mixpanel: Get "https://api.mixpanel.com/track?data=eyJldmVudCI6InVuaW5zdGFsbGVkX3BsdWdpbl9kZXRlY3RlZCIsInByb3BlcnRpZXMiOnsiY2xpZW50X3VwdGltZV9ucyI6OTEyNTU1NjI5ODI1NjMsImNsaWVudF92ZXJzaW9uIjoiMC4yMDIxMDYxMC4wIiwiZGlzdGluY3RfaWQiOiI4NTYyMjAiLCJlZGl0b3IiOiJ2c2NvZGUiLCJpbnN0YWxsX2lkIjoiYTkzMmFmZGYtZjViYy00N2MzLWI3NzgtYzZiODI3ZmQ1YzRjIiwia2l0ZV9sb2NhbCI6dHJ1ZSwibWFjaGluZSI6ImtpdGVfbG9jYWwiLCJvcyI6ImRhcndpbiIsInBsYXRmb3JtIjoiZGFyd2luIiwic2VudF9hdCI6MTYyNjY1OTkxOSwidG9rZW4iOiJmYjZiOWIzMzYxMjJhOGIyOWM2MGY0YzI4ZGFiNmQwMyIsInVzZXJfaWQiOjg1NjIyMH19&ip=1": dial tcp: lookup api.mixpanel.com: no such host
+[kited] 2021/07/19 09:58:39.119530 track.go:119: error sending Customer.io event uninstalled_plugin_detected: Post "https://track.customer.io/api/v1/customers/856220/events": dial tcp: lookup track.customer.io: no such host
+[kited] 2021/07/19 10:01:02.563456 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 10:01:02.672489 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 10:02:00.431590 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:59926->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/19 10:07:51.192916 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 10:07:59.036017 handlers.go:68: GET /clientapi/plugins 200 4861 11.317802123s
+[kited] 2021/07/19 10:07:59.097000 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 10:16:52.524134 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.104:60203->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/19 10:17:57.667213 handlers.go:68: GET /clientapi/plugins 200 4861 10.757798883s
+[kited] 2021/07/19 10:17:57.692122 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 10:27:56.775033 handlers.go:68: GET /clientapi/plugins 200 4861 9.812940419s
+[kited] 2021/07/19 10:27:56.808753 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 10:37:50.481235 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 10:37:56.978199 handlers.go:68: GET /clientapi/plugins 200 4861 10.04718245s
+[kited] 2021/07/19 10:37:57.015377 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 10:47:57.911097 handlers.go:68: GET /clientapi/plugins 200 4861 10.783919721s
+[kited] 2021/07/19 10:47:57.939282 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 10:57:56.435036 handlers.go:68: GET /clientapi/plugins 200 4861 9.317518352s
+[kited] 2021/07/19 10:57:56.471495 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 11:00:10.525442 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.43.199:60379->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/19 11:01:17.378741 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 11:01:17.439430 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 11:07:51.079636 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 11:08:01.364102 handlers.go:68: GET /clientapi/plugins 200 4861 13.86278361s
+[kited] 2021/07/19 11:08:01.387536 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 11:17:56.205781 handlers.go:68: GET /clientapi/plugins 200 4861 8.721635698s
+[kited] 2021/07/19 11:17:56.228976 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 11:27:56.537880 handlers.go:68: GET /clientapi/plugins 200 4861 9.034769172s
+[kited] 2021/07/19 11:27:56.573214 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 11:37:51.082328 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 11:38:05.662117 handlers.go:68: GET /clientapi/plugins 200 4861 18.185466929s
+[kited] 2021/07/19 11:38:05.710090 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 11:48:03.569896 handlers.go:68: GET /clientapi/plugins 200 4861 16.049087026s
+[kited] 2021/07/19 11:48:03.617872 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 11:58:00.757132 handlers.go:68: GET /clientapi/plugins 200 4861 13.271340488s
+[kited] 2021/07/19 11:58:00.800525 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 12:00:10.786842 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/19 12:01:32.394559 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 12:01:32.484478 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 12:07:51.005819 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 12:07:56.743574 handlers.go:68: GET /clientapi/plugins 200 4861 9.232923939s
+[kited] 2021/07/19 12:07:56.778662 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 12:17:57.682476 handlers.go:68: GET /clientapi/plugins 200 4861 10.191298865s
+[kited] 2021/07/19 12:17:57.716563 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 12:27:56.729175 handlers.go:68: GET /clientapi/plugins 200 4861 9.116443523s
+[kited] 2021/07/19 12:27:56.765492 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 12:37:51.113784 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 12:37:57.667582 handlers.go:68: GET /clientapi/plugins 200 4861 10.066015168s
+[kited] 2021/07/19 12:37:57.707078 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 12:47:57.341855 handlers.go:68: GET /clientapi/plugins 200 4861 9.697375469s
+[kited] 2021/07/19 12:47:57.375084 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 12:57:56.822584 handlers.go:68: GET /clientapi/plugins 200 4861 9.196333305s
+[kited] 2021/07/19 12:57:56.858386 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 13:00:11.294802 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/19 13:01:47.540115 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 13:01:47.603664 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 13:07:51.187482 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 13:07:57.103280 handlers.go:68: GET /clientapi/plugins 200 4861 9.427161861s
+[kited] 2021/07/19 13:07:57.133825 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 13:17:57.280317 handlers.go:68: GET /clientapi/plugins 200 4861 9.591454041s
+[kited] 2021/07/19 13:17:57.318399 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 14:00:11.527960 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/19 14:05:11.666950 handlers.go:68: GET /clientapi/plugins 200 4861 9.695186722s
+[kited] 2021/07/19 14:05:11.703948 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 14:15:05.657778 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 14:15:11.327276 handlers.go:68: GET /clientapi/plugins 200 4861 9.212113804s
+[kited] 2021/07/19 14:15:11.350492 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 14:25:10.129062 handlers.go:68: GET /clientapi/plugins 200 4861 7.975139874s
+[kited] 2021/07/19 14:25:10.151665 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 14:35:13.601499 handlers.go:68: GET /clientapi/plugins 200 4861 11.43458487s
+[kited] 2021/07/19 14:35:13.678529 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 14:39:17.077360 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 14:39:17.136822 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 14:45:05.737109 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 14:45:12.586623 handlers.go:68: GET /clientapi/plugins 200 4861 10.35390259s
+[kited] 2021/07/19 14:45:12.648432 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 14:55:11.767287 handlers.go:68: GET /clientapi/plugins 200 4861 9.632633376s
+[kited] 2021/07/19 14:55:11.800506 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 15:02:37.458757 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.104:61943->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 15:09:17.006552 handlers.go:68: GET /clientapi/plugins 200 4861 11.105001275s
+[kited] 2021/07/19 15:09:17.068163 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 15:19:09.373302 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 15:19:15.120834 handlers.go:68: GET /clientapi/plugins 200 4861 9.265143828s
+[kited] 2021/07/19 15:19:15.150234 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 21:56:24.244130 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.104:62516->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/19 21:59:16.122987 handlers.go:68: GET /clientapi/plugins 200 4861 11.211028704s
+[kited] 2021/07/19 21:59:16.179471 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:09:12.798492 handlers.go:68: GET /clientapi/plugins 200 4861 10.898569206s
+[kited] 2021/07/19 22:09:12.853723 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:13:31.796908 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 22:13:31.850990 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 22:19:05.418708 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 22:19:11.357325 handlers.go:68: GET /clientapi/plugins 200 4861 9.432909713s
+[kited] 2021/07/19 22:19:11.393381 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:29:20.761607 handlers.go:68: GET /clientapi/plugins 200 4861 18.881358258s
+[kited] 2021/07/19 22:29:20.828371 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:32:39.011073 handlers.go:68: POST /clientapi/metrics/counters 0 0 18.303884ms
+[kited] 2021/07/19 22:32:39.011066 handlers.go:68: POST /clientapi/metrics/counters 0 0 28.408532ms
+[kited] 2021/07/19 22:32:39.014915 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 21.998832ms
+[kited] 2021/07/19 22:32:40.927998 handlers.go:68: POST /clientapi/editor/event 200 0 21.014391ms
+[kited] 2021/07/19 22:32:40.977650 track.go:167: tracker.Event: coding_session_started
+[kited] 2021/07/19 22:32:42.287726 libraries.go:113: error getting anaconda libraries: exec: "conda": executable file not found in $PATH
+[kited] 2021/07/19 22:32:42.297615 builder.go:63: pythonlocal.Builder (856220, kite_local): starting build with filename: /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Function_Parameters.py
+[kited] 2021/07/19 22:32:42.299007 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries
+[kited] 2021/07/19 22:32:42.299193 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users/chrisadore/github
+[kited] 2021/07/19 22:32:42.299472 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users/chrisadore
+[kited] 2021/07/19 22:32:42.299584 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users
+[kited] 2021/07/19 22:32:43.108123 handlers.go:68: GET /clientapi/ping 200 2 717.537µs
+[kited] 2021/07/19 22:32:43.451131 handlers.go:68: POST /clientapi/editor/event 200 0 592.552µs
+[kited] 2021/07/19 22:32:43.452102 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 115.17µs
+[kited] 2021/07/19 22:32:43.728827 handlers.go:68: POST /clientapi/editor/event 200 0 422.182µs
+[kited] 2021/07/19 22:32:45.807826 builder.go:63: pythonlocal.Builder (856220, kite_local): add project took 3.507973223s
+[kited] 2021/07/19 22:32:45.808018 selectfiles.go:219: Starting walk of project: /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries
+[kited] 2021/07/19 22:32:45.808538 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Function_Parameters.py
+[kited] 2021/07/19 22:32:45.827330 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Dictionary_methods.py
+[kited] 2021/07/19 22:32:45.834349 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/11.6. Introduction- Accumulating Multiple Results In a Dictionary.py
+[kited] 2021/07/19 22:32:45.835653 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/course_2_assessment_3.py
+[kited] 2021/07/19 22:32:45.839917 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Accumlate_Dictionary2.py
+[kited] 2021/07/19 22:32:45.840624 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Assessment- Dictionary Mechanics.py
+[kited] 2021/07/19 22:32:45.842696 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/11.7. Accumulating Results From a Dictionary.py
+[kited] 2021/07/19 22:32:45.843394 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Accumlate_Dictionary.py
+[kited] 2021/07/19 22:32:45.844378 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Aliasing and copying.py
+[kited] 2021/07/19 22:32:45.846511 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Demonstration-Dictionary_Methods.py
+[kited] 2021/07/19 22:32:45.848104 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/11.8. Accumulating the Best Key.py
+[kited] 2021/07/19 22:32:45.865190 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/Dictionary/Dictionary_basic.py
+[kited] 2021/07/19 22:32:45.866330 selectfiles.go:272: Walk project took 58.273516ms
+[kited] 2021/07/19 22:32:45.867197 selectfiles.go:284: Found 12 children in directory, 0 library files
+[kited] 2021/07/19 22:32:45.867250 builder.go:63: pythonlocal.Builder (856220, kite_local): selected 12 (of 1) files
+[kited] 2021/07/19 22:32:45.867275 builder.go:63: pythonlocal.Builder (856220, kite_local): file selection took 3.569485809s
+[kited] 2021/07/19 22:32:46.117353 handlers.go:68: POST /clientapi/editor/event 200 0 264.132µs
+[kited] 2021/07/19 22:32:46.331292 manager.go:278: loaded builtin-stdlib==3.7 in 5.225920159s
+[kited] 2021/07/19 22:32:46.339786 builder.go:63: pythonlocal.Builder (856220, kite_local): manager add took 472.229517ms
+[kited] 2021/07/19 22:32:46.429489 manager.go:115: dropping response
+[kited] 2021/07/19 22:32:46.627537 builder.go:63: pythonlocal.Builder (856220, kite_local): manager build took 286.916371ms
+[kited] 2021/07/19 22:32:46.628401 builder.go:63: pythonlocal.Builder (856220, kite_local): constructed 2 definitions, 0 documentation, 17 method patterns and 0 tokens
+[kited] 2021/07/19 22:32:46.628944 track.go:167: tracker.Event: Index Build
+[kited] 2021/07/19 22:32:49.146914 handlers.go:68: POST /clientapi/editor/event 200 0 5.552894ms
+[kited] 2021/07/19 22:32:49.153916 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 76 7.885655ms
+[kited] 2021/07/19 22:32:53.334035 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 76 3.155175ms
+[kited] 2021/07/19 22:32:58.367045 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 76 5.937619ms
+[kited] 2021/07/19 22:33:03.358371 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 76 2.384752ms
+[kited] 2021/07/19 22:33:08.417386 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 76 25.22854ms
+[kited] 2021/07/19 22:33:13.307820 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 76 566.986µs
+[kited] 2021/07/19 22:33:18.308287 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 815.659µs
+[kited] 2021/07/19 22:33:23.310629 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.373876ms
+[kited] 2021/07/19 22:33:28.307293 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 677.145µs
+[kited] 2021/07/19 22:33:33.308009 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 788.55µs
+[kited] 2021/07/19 22:33:38.307511 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 674.293µs
+[kited] 2021/07/19 22:33:43.307239 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.055584ms
+[kited] 2021/07/19 22:33:48.309305 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 637.341µs
+[kited] 2021/07/19 22:33:53.307526 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 949.244µs
+[kited] 2021/07/19 22:33:58.310043 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 713.336µs
+[kited] 2021/07/19 22:34:03.306992 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 819.451µs
+[kited] 2021/07/19 22:34:08.308185 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.22852ms
+[kited] 2021/07/19 22:34:13.333300 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 449.453µs
+[kited] 2021/07/19 22:34:18.321218 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 822.324µs
+[kited] 2021/07/19 22:34:23.327006 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 3.210936ms
+[kited] 2021/07/19 22:34:28.310160 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.076853ms
+[kited] 2021/07/19 22:34:33.310830 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 617.19µs
+[kited] 2021/07/19 22:34:38.310890 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.552756ms
+[kited] 2021/07/19 22:34:43.306421 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 772.056µs
+[kited] 2021/07/19 22:34:48.307628 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.872329ms
+[kited] 2021/07/19 22:34:53.306215 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 746.173µs
+[kited] 2021/07/19 22:34:58.308733 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.003794ms
+[kited] 2021/07/19 22:35:03.308388 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 852.007µs
+[kited] 2021/07/19 22:35:08.315476 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 476.529µs
+[kited] 2021/07/19 22:35:13.306493 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 381.709µs
+[kited] 2021/07/19 22:35:18.307323 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 510.301µs
+[kited] 2021/07/19 22:35:23.311596 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 664.094µs
+[kited] 2021/07/19 22:35:28.304968 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 502.844µs
+[kited] 2021/07/19 22:35:33.308096 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 480.468µs
+[kited] 2021/07/19 22:35:38.308372 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 2.535536ms
+[kited] 2021/07/19 22:35:43.317940 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 10.146726ms
+[kited] 2021/07/19 22:35:48.307422 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 847.398µs
+[kited] 2021/07/19 22:35:53.312970 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 836.136µs
+[kited] 2021/07/19 22:35:58.311369 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 790.368µs
+[kited] 2021/07/19 22:36:03.308752 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.12092ms
+[kited] 2021/07/19 22:36:08.307469 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 666.15µs
+[kited] 2021/07/19 22:36:13.309522 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 2.778058ms
+[kited] 2021/07/19 22:36:18.308500 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 786.668µs
+[kited] 2021/07/19 22:36:23.304344 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 617.188µs
+[kited] 2021/07/19 22:36:28.305375 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 958.861µs
+[kited] 2021/07/19 22:36:33.310829 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 742.237µs
+[kited] 2021/07/19 22:36:38.310200 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 5.98857ms
+[kited] 2021/07/19 22:36:43.306343 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 641.984µs
+[kited] 2021/07/19 22:36:48.315105 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 8.910971ms
+[kited] 2021/07/19 22:36:53.305513 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 554.009µs
+[kited] 2021/07/19 22:36:58.305979 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 726.702µs
+[kited] 2021/07/19 22:37:03.315227 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 940.123µs
+[kited] 2021/07/19 22:37:08.307869 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 545.524µs
+[kited] 2021/07/19 22:37:13.303757 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 685.871µs
+[kited] 2021/07/19 22:37:18.375877 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 2.524927ms
+[kited] 2021/07/19 22:37:23.306133 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.080516ms
+[kited] 2021/07/19 22:37:28.303550 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 1.111123ms
+[kited] 2021/07/19 22:37:33.308027 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 751.666µs
+[kited] 2021/07/19 22:37:38.303619 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 662.03µs
+[kited] 2021/07/19 22:37:43.306426 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 745.183µs
+[kited] 2021/07/19 22:37:48.303811 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 843.005µs
+[kited] 2021/07/19 22:37:53.305228 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 766.192µs
+[kited] 2021/07/19 22:37:58.303323 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 638.451µs
+[kited] 2021/07/19 22:38:03.304896 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 629.555µs
+[kited] 2021/07/19 22:38:08.302373 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 577.968µs
+[kited] 2021/07/19 22:38:13.303333 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 707.763µs
+[kited] 2021/07/19 22:38:18.304518 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 595.45µs
+[kited] 2021/07/19 22:38:23.302931 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 647.923µs
+[kited] 2021/07/19 22:38:28.304768 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 596.097µs
+[kited] 2021/07/19 22:38:33.304380 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 725.618µs
+[kited] 2021/07/19 22:38:38.304298 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 634.403µs
+[kited] 2021/07/19 22:38:43.302535 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 696.992µs
+[kited] 2021/07/19 22:38:48.305560 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 862.175µs
+[kited] 2021/07/19 22:38:53.310435 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 8.768142ms
+[kited] 2021/07/19 22:38:58.303860 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 445.847µs
+[kited] 2021/07/19 22:39:03.301229 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 658.224µs
+[kited] 2021/07/19 22:39:08.301752 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 814.569µs
+[kited] 2021/07/19 22:39:12.601769 handlers.go:68: GET /clientapi/plugins 200 4860 10.681002857s
+[kited] 2021/07/19 22:39:12.866918 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:39:13.302434 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 604.084µs
+[kited] 2021/07/19 22:39:18.303338 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 628.025µs
+[kited] 2021/07/19 22:39:23.304184 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 656.219µs
+[kited] 2021/07/19 22:39:28.301379 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 716.72µs
+[kited] 2021/07/19 22:39:33.311585 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 8.873104ms
+[kited] 2021/07/19 22:39:38.301897 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 750.68µs
+[kited] 2021/07/19 22:39:43.312392 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 9.359603ms
+[kited] 2021/07/19 22:39:48.303411 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 909.937µs
+[kited] 2021/07/19 22:39:53.301338 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 627.171µs
+[kited] 2021/07/19 22:39:58.302860 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 621.792µs
+[kited] 2021/07/19 22:40:03.310497 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 10.040146ms
+[kited] 2021/07/19 22:40:08.304183 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 723.55µs
+[kited] 2021/07/19 22:40:13.302422 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 574.403µs
+[kited] 2021/07/19 22:40:18.311945 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 9.196023ms
+[kited] 2021/07/19 22:40:23.311561 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 419.797µs
+[kited] 2021/07/19 22:40:28.315131 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 8.464481ms
+[kited] 2021/07/19 22:40:33.306369 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 847.955µs
+[kited] 2021/07/19 22:40:38.306527 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 533.495µs
+[kited] 2021/07/19 22:40:43.301716 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 692.541µs
+[kited] 2021/07/19 22:40:48.307963 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 730.625µs
+[kited] 2021/07/19 22:40:53.315241 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 11.972186ms
+[kited] 2021/07/19 22:40:58.309979 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 588.336µs
+[kited] 2021/07/19 22:41:03.302829 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 464.065µs
+[kited] 2021/07/19 22:41:08.298612 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 359.068µs
+[kited] 2021/07/19 22:41:13.299053 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FFunction_Parameters.py 200 121 474.576µs
+[kited] 2021/07/19 22:41:18.303999 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.755043ms
+[kited] 2021/07/19 22:41:23.306125 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 459.988µs
+[kited] 2021/07/19 22:41:28.299012 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 202.795µs
+[kited] 2021/07/19 22:41:33.306006 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 5.848711ms
+[kited] 2021/07/19 22:41:38.299073 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 244.093µs
+[kited] 2021/07/19 22:41:43.299019 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 186.157µs
+[kited] 2021/07/19 22:41:48.302911 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 168.751µs
+[kited] 2021/07/19 22:41:53.298398 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 258.899µs
+[kited] 2021/07/19 22:41:58.316236 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 156.366µs
+[kited] 2021/07/19 22:42:03.297654 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 157.525µs
+[kited] 2021/07/19 22:42:08.302324 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 476.262µs
+[kited] 2021/07/19 22:42:13.300888 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 327.017µs
+[kited] 2021/07/19 22:42:18.300658 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 147.42µs
+[kited] 2021/07/19 22:42:23.299608 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 150.044µs
+[kited] 2021/07/19 22:42:28.300331 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 174.784µs
+[kited] 2021/07/19 22:42:33.298635 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 440.88µs
+[kited] 2021/07/19 22:42:38.299949 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 411.738µs
+[kited] 2021/07/19 22:42:43.298244 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 337.602µs
+[kited] 2021/07/19 22:42:48.297799 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 207.073µs
+[kited] 2021/07/19 22:42:53.323390 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 351.776µs
+[kited] 2021/07/19 22:42:58.299098 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 176.559µs
+[kited] 2021/07/19 22:43:03.302922 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 120.251µs
+[kited] 2021/07/19 22:43:08.300851 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 115.075µs
+[kited] 2021/07/19 22:43:13.300007 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 121.109µs
+[kited] 2021/07/19 22:43:18.296333 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 159.003µs
+[kited] 2021/07/19 22:43:19.420826 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 176.6µs
+[kited] 2021/07/19 22:43:24.395220 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 110.009µs
+[kited] 2021/07/19 22:43:29.395312 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 125.652µs
+[kited] 2021/07/19 22:43:34.396363 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 141.478µs
+[kited] 2021/07/19 22:43:38.531288 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FREADME.md 200 98 3.891313ms
+[kited] 2021/07/19 22:43:41.250261 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FREADME.md 200 98 182.478µs
+[kited] 2021/07/19 22:43:46.223116 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FREADME.md 200 98 113.01µs
+[kited] 2021/07/19 22:43:49.796249 handlers.go:68: POST /clientapi/metrics/counters 0 0 11.692434ms
+[kited] 2021/07/19 22:43:49.797957 handlers.go:68: POST /clientapi/metrics/counters 0 0 13.177083ms
+[kited] 2021/07/19 22:44:04.997704 handlers.go:68: POST /clientapi/metrics/counters 0 0 1.430692ms
+[kited] 2021/07/19 22:44:04.997767 handlers.go:68: POST /clientapi/metrics/counters 0 0 228.084µs
+[kited] 2021/07/19 22:44:04.998769 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.091919ms
+[kited] 2021/07/19 22:44:06.338080 handlers.go:68: POST /clientapi/metrics/counters 0 0 269.033µs
+[kited] 2021/07/19 22:44:06.340554 handlers.go:68: POST /clientapi/metrics/counters 0 0 245.675µs
+[kited] 2021/07/19 22:44:06.957615 handlers.go:68: GET /clientapi/ping 200 2 1.500548ms
+[kited] 2021/07/19 22:44:07.011045 handlers.go:68: GET /clientapi/user 200 200 38.514113ms
+[kited] 2021/07/19 22:47:49.146112 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2021/07/19 22:49:05.188633 api.go:96: Unloading data for python
+[kited] 2021/07/19 22:49:05.435349 editorslist.go:19: Detected 2 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 22:49:14.722821 handlers.go:68: GET /clientapi/plugins 200 4860 10.535655321s
+[kited] 2021/07/19 22:49:14.803350 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:50:04.468721 handlers.go:68: POST /clientapi/metrics/counters 0 0 4.533238ms
+[kited] 2021/07/19 22:50:04.468846 handlers.go:68: POST /clientapi/metrics/counters 0 0 3.595126ms
+[kited] 2021/07/19 22:50:04.649322 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 2.785074ms
+[kited] 2021/07/19 22:50:05.326363 handlers.go:68: GET /clientapi/ping 200 2 515.338µs
+[kited] 2021/07/19 22:50:05.340640 handlers.go:68: GET /clientapi/user 200 200 2.657791ms
+[kited] 2021/07/19 22:50:05.477980 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 411.372µs
+[kited] 2021/07/19 22:50:10.393880 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 172.465µs
+[kited] 2021/07/19 22:50:15.394163 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 442.067µs
+[kited] 2021/07/19 22:50:20.394899 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 155.386µs
+[kited] 2021/07/19 22:50:25.391884 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 158.623µs
+[kited] 2021/07/19 22:50:30.391584 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 297.302µs
+[kited] 2021/07/19 22:50:35.391911 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 259.098µs
+[kited] 2021/07/19 22:50:40.404718 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.084174ms
+[kited] 2021/07/19 22:50:45.396746 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.939005ms
+[kited] 2021/07/19 22:50:50.390808 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 197.593µs
+[kited] 2021/07/19 22:50:55.390226 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 169.358µs
+[kited] 2021/07/19 22:51:00.391272 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 567.456µs
+[kited] 2021/07/19 22:51:05.393929 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 316.717µs
+[kited] 2021/07/19 22:51:10.392029 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 272.352µs
+[kited] 2021/07/19 22:51:15.392489 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 297.446µs
+[kited] 2021/07/19 22:51:20.390813 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 258.016µs
+[kited] 2021/07/19 22:51:25.391458 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 285.218µs
+[kited] 2021/07/19 22:51:30.391416 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 270.717µs
+[kited] 2021/07/19 22:51:35.390633 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 218.616µs
+[kited] 2021/07/19 22:51:40.392982 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 208.157µs
+[kited] 2021/07/19 22:51:45.390174 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 266.558µs
+[kited] 2021/07/19 22:51:50.389254 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 132.382µs
+[kited] 2021/07/19 22:51:55.402890 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 439.176µs
+[kited] 2021/07/19 22:52:00.390658 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 255.605µs
+[kited] 2021/07/19 22:52:05.391877 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 198.64µs
+[kited] 2021/07/19 22:52:10.388562 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 235.168µs
+[kited] 2021/07/19 22:52:15.388637 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 137.21µs
+[kited] 2021/07/19 22:52:20.393141 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 131.907µs
+[kited] 2021/07/19 22:52:25.392618 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 233.431µs
+[kited] 2021/07/19 22:52:30.390183 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 271.914µs
+[kited] 2021/07/19 22:52:35.402332 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 10.690385ms
+[kited] 2021/07/19 22:52:40.389520 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 524.973µs
+[kited] 2021/07/19 22:52:45.392024 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 150.48µs
+[kited] 2021/07/19 22:52:50.391800 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 236.517µs
+[kited] 2021/07/19 22:52:55.388907 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 295.379µs
+[kited] 2021/07/19 22:53:00.389525 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 239.863µs
+[kited] 2021/07/19 22:53:05.389176 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 492.85µs
+[kited] 2021/07/19 22:53:10.391835 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 382.007µs
+[kited] 2021/07/19 22:53:15.390384 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 198.013µs
+[kited] 2021/07/19 22:53:20.396263 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 8.245702ms
+[kited] 2021/07/19 22:53:25.387829 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 161.048µs
+[kited] 2021/07/19 22:53:30.388368 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 181.17µs
+[kited] 2021/07/19 22:53:35.391276 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 182.178µs
+[kited] 2021/07/19 22:53:40.389568 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 153.72µs
+[kited] 2021/07/19 22:53:45.388888 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 214.437µs
+[kited] 2021/07/19 22:53:50.391278 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 683.069µs
+[kited] 2021/07/19 22:53:55.390078 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 329.833µs
+[kited] 2021/07/19 22:54:00.388203 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 428.06µs
+[kited] 2021/07/19 22:54:05.388520 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 180.937µs
+[kited] 2021/07/19 22:54:10.393442 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 181.024µs
+[kited] 2021/07/19 22:54:15.388755 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 914.136µs
+[kited] 2021/07/19 22:54:20.392199 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 157.4µs
+[kited] 2021/07/19 22:54:25.388260 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 796.865µs
+[kited] 2021/07/19 22:54:30.387747 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 144.253µs
+[kited] 2021/07/19 22:54:35.387540 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 275.749µs
+[kited] 2021/07/19 22:54:40.386662 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 153.435µs
+[kited] 2021/07/19 22:54:45.388860 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 138.854µs
+[kited] 2021/07/19 22:54:50.388071 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 218.595µs
+[kited] 2021/07/19 22:54:55.398752 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.635998ms
+[kited] 2021/07/19 22:55:00.387745 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 371.259µs
+[kited] 2021/07/19 22:55:05.387561 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 865.919µs
+[kited] 2021/07/19 22:55:10.386945 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 269.379µs
+[kited] 2021/07/19 22:55:15.387935 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 589.587µs
+[kited] 2021/07/19 22:55:20.390523 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 311.936µs
+[kited] 2021/07/19 22:55:25.386903 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 448.51µs
+[kited] 2021/07/19 22:55:30.389600 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 472.852µs
+[kited] 2021/07/19 22:55:35.385600 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 186.709µs
+[kited] 2021/07/19 22:55:40.414430 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 162.989µs
+[kited] 2021/07/19 22:55:45.386982 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 235.624µs
+[kited] 2021/07/19 22:55:50.387990 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 212.072µs
+[kited] 2021/07/19 22:55:55.386630 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 197.345µs
+[kited] 2021/07/19 22:56:00.385577 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 192.78µs
+[kited] 2021/07/19 22:56:05.387722 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 228.52µs
+[kited] 2021/07/19 22:56:10.386370 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 122.285µs
+[kited] 2021/07/19 22:56:15.385721 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 216.742µs
+[kited] 2021/07/19 22:56:20.388174 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 290.399µs
+[kited] 2021/07/19 22:56:23.829655 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/19 22:56:25.385828 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 383.744µs
+[kited] 2021/07/19 22:56:30.387866 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 215.514µs
+[kited] 2021/07/19 22:56:35.387952 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 317.725µs
+[kited] 2021/07/19 22:56:40.386097 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 341.088µs
+[kited] 2021/07/19 22:56:45.385139 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.4µs
+[kited] 2021/07/19 22:56:50.385166 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 186.87µs
+[kited] 2021/07/19 22:56:55.388927 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 262.612µs
+[kited] 2021/07/19 22:57:00.386189 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 311.717µs
+[kited] 2021/07/19 22:57:05.387098 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 382.323µs
+[kited] 2021/07/19 22:57:10.385255 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 370.133µs
+[kited] 2021/07/19 22:57:15.388174 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 454.166µs
+[kited] 2021/07/19 22:57:20.384841 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 285.438µs
+[kited] 2021/07/19 22:57:25.388102 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.626531ms
+[kited] 2021/07/19 22:57:30.384078 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 206.793µs
+[kited] 2021/07/19 22:57:35.385190 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 777.901µs
+[kited] 2021/07/19 22:57:40.386014 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 204.896µs
+[kited] 2021/07/19 22:57:45.384805 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 192.762µs
+[kited] 2021/07/19 22:57:50.390040 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 178.764µs
+[kited] 2021/07/19 22:57:55.386472 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 233.6µs
+[kited] 2021/07/19 22:58:00.384818 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 228.482µs
+[kited] 2021/07/19 22:58:05.385419 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 204.174µs
+[kited] 2021/07/19 22:58:10.384088 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 306.986µs
+[kited] 2021/07/19 22:58:15.386742 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 251.995µs
+[kited] 2021/07/19 22:58:20.383912 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 284.583µs
+[kited] 2021/07/19 22:58:25.384085 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.643µs
+[kited] 2021/07/19 22:58:30.385400 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 312.091µs
+[kited] 2021/07/19 22:58:35.386586 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 160.856µs
+[kited] 2021/07/19 22:58:40.386496 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 121.294µs
+[kited] 2021/07/19 22:58:45.383846 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 202.915µs
+[kited] 2021/07/19 22:58:50.384946 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.444µs
+[kited] 2021/07/19 22:58:55.383043 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 157.016µs
+[kited] 2021/07/19 22:59:00.382574 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 118.831µs
+[kited] 2021/07/19 22:59:05.389267 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 205.665µs
+[kited] 2021/07/19 22:59:10.382422 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 104.654µs
+[kited] 2021/07/19 22:59:15.391464 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 202.65µs
+[kited] 2021/07/19 22:59:19.015520 handlers.go:68: GET /clientapi/plugins 200 4860 14.786722975s
+[kited] 2021/07/19 22:59:19.084575 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 22:59:20.382036 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 147.232µs
+[kited] 2021/07/19 22:59:25.396690 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 201.446µs
+[kited] 2021/07/19 22:59:30.383376 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 583.71µs
+[kited] 2021/07/19 22:59:35.382236 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 150.891µs
+[kited] 2021/07/19 22:59:40.383108 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 236.16µs
+[kited] 2021/07/19 22:59:45.383163 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 307.848µs
+[kited] 2021/07/19 22:59:50.387435 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 247.449µs
+[kited] 2021/07/19 22:59:55.382427 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 400.357µs
+[kited] 2021/07/19 23:00:00.382553 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 655.775µs
+[kited] 2021/07/19 23:00:05.384901 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 132.652µs
+[kited] 2021/07/19 23:00:10.384798 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 989.804µs
+[kited] 2021/07/19 23:00:15.384685 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 518.843µs
+[kited] 2021/07/19 23:00:20.384023 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 536.037µs
+[kited] 2021/07/19 23:00:25.385696 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 142.134µs
+[kited] 2021/07/19 23:00:30.381610 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 195.867µs
+[kited] 2021/07/19 23:00:35.383456 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 179.214µs
+[kited] 2021/07/19 23:00:40.384912 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 327.851µs
+[kited] 2021/07/19 23:00:45.381520 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 319.898µs
+[kited] 2021/07/19 23:00:50.384791 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 198.009µs
+[kited] 2021/07/19 23:00:55.398852 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 323.808µs
+[kited] 2021/07/19 23:01:00.382920 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 268.581µs
+[kited] 2021/07/19 23:01:05.380724 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 135.358µs
+[kited] 2021/07/19 23:01:10.382498 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 299.336µs
+[kited] 2021/07/19 23:01:15.383590 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 685.253µs
+[kited] 2021/07/19 23:01:20.383032 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 206.894µs
+[kited] 2021/07/19 23:01:25.382636 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 276.192µs
+[kited] 2021/07/19 23:01:30.380885 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 320.997µs
+[kited] 2021/07/19 23:01:35.379213 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 156.927µs
+[kited] 2021/07/19 23:01:40.382254 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 249.088µs
+[kited] 2021/07/19 23:01:45.379006 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 124.8µs
+[kited] 2021/07/19 23:01:50.380194 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 171.275µs
+[kited] 2021/07/19 23:01:55.380760 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 280.037µs
+[kited] 2021/07/19 23:02:00.383369 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 202.707µs
+[kited] 2021/07/19 23:02:05.380206 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 366.17µs
+[kited] 2021/07/19 23:02:10.380163 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 391.363µs
+[kited] 2021/07/19 23:02:15.383276 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.563209ms
+[kited] 2021/07/19 23:02:20.379066 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 263.939µs
+[kited] 2021/07/19 23:02:25.381838 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 180.987µs
+[kited] 2021/07/19 23:02:30.378464 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 267.322µs
+[kited] 2021/07/19 23:02:35.381704 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 169.104µs
+[kited] 2021/07/19 23:02:40.381288 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 252.056µs
+[kited] 2021/07/19 23:02:45.397576 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 207.026µs
+[kited] 2021/07/19 23:02:50.381519 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 192.205µs
+[kited] 2021/07/19 23:02:55.381531 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 518.024µs
+[kited] 2021/07/19 23:03:00.380004 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 900.06µs
+[kited] 2021/07/19 23:03:05.377836 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 177.925µs
+[kited] 2021/07/19 23:03:10.379246 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 352.341µs
+[kited] 2021/07/19 23:03:15.383111 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 374.846µs
+[kited] 2021/07/19 23:03:20.380639 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.461µs
+[kited] 2021/07/19 23:03:25.380811 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 261.149µs
+[kited] 2021/07/19 23:03:30.379301 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 208.198µs
+[kited] 2021/07/19 23:03:35.378524 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 135.656µs
+[kited] 2021/07/19 23:03:40.379068 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 164.408µs
+[kited] 2021/07/19 23:03:45.377939 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 215.345µs
+[kited] 2021/07/19 23:03:50.377837 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 180.42µs
+[kited] 2021/07/19 23:03:55.385893 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 2.218328ms
+[kited] 2021/07/19 23:04:00.381340 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 276.186µs
+[kited] 2021/07/19 23:04:05.377435 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 165.415µs
+[kited] 2021/07/19 23:04:10.376980 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 203.05µs
+[kited] 2021/07/19 23:04:15.380119 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 335.758µs
+[kited] 2021/07/19 23:04:20.389812 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 150.142µs
+[kited] 2021/07/19 23:04:25.378467 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 193.49µs
+[kited] 2021/07/19 23:04:30.376907 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 103.372µs
+[kited] 2021/07/19 23:04:35.377179 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 121.664µs
+[kited] 2021/07/19 23:04:40.376637 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 131.973µs
+[kited] 2021/07/19 23:04:45.376018 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 107.438µs
+[kited] 2021/07/19 23:04:50.376778 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 114.541µs
+[kited] 2021/07/19 23:04:55.378774 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 471.22µs
+[kited] 2021/07/19 23:04:59.867856 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 146.118µs
+[kited] 2021/07/19 23:05:02.106528 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 103.876µs
+[kited] 2021/07/19 23:05:04.744358 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 195.495µs
+[kited] 2021/07/19 23:05:07.531665 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 92.562µs
+[kited] 2021/07/19 23:05:12.527307 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 351.431µs
+[kited] 2021/07/19 23:05:14.419324 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 125.512µs
+[kited] 2021/07/19 23:05:15.704665 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 196.581µs
+[kited] 2021/07/19 23:05:16.693380 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 222.401µs
+[kited] 2021/07/19 23:05:21.687805 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 226.803µs
+[kited] 2021/07/19 23:05:26.690486 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 253.243µs
+[kited] 2021/07/19 23:05:30.769258 handlers.go:68: POST /clientapi/metrics/counters 0 0 1.193979ms
+[kited] 2021/07/19 23:05:30.769503 handlers.go:68: POST /clientapi/metrics/counters 0 0 715.361µs
+[kited] 2021/07/19 23:09:14.959440 handlers.go:68: GET /clientapi/plugins 200 4861 10.786153697s
+[kited] 2021/07/19 23:09:15.016479 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 23:12:24.619485 handlers.go:68: POST /clientapi/metrics/counters 0 0 2.251912ms
+[kited] 2021/07/19 23:12:24.632100 handlers.go:68: POST /clientapi/metrics/counters 0 0 420.503µs
+[kited] 2021/07/19 23:12:24.779934 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 2.499172ms
+[kited] 2021/07/19 23:12:25.363976 handlers.go:68: GET /clientapi/ping 200 2 696.391µs
+[kited] 2021/07/19 23:12:25.451434 handlers.go:68: GET /clientapi/user 200 200 3.522245ms
+[kited] 2021/07/19 23:12:25.456372 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 285.799µs
+[kited] 2021/07/19 23:12:30.413918 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 535.554µs
+[kited] 2021/07/19 23:12:35.412129 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 261.787µs
+[kited] 2021/07/19 23:12:40.413082 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 347.481µs
+[kited] 2021/07/19 23:12:45.412083 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 270.066µs
+[kited] 2021/07/19 23:12:50.411629 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 186.798µs
+[kited] 2021/07/19 23:12:55.411712 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 320.776µs
+[kited] 2021/07/19 23:13:00.411405 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 186.061µs
+[kited] 2021/07/19 23:13:05.411433 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 319.579µs
+[kited] 2021/07/19 23:13:10.411398 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 226.192µs
+[kited] 2021/07/19 23:13:15.411624 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 272.037µs
+[kited] 2021/07/19 23:13:20.411347 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 285.177µs
+[kited] 2021/07/19 23:13:25.412246 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 306.284µs
+[kited] 2021/07/19 23:13:30.410020 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 164.572µs
+[kited] 2021/07/19 23:13:35.415139 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 226.469µs
+[kited] 2021/07/19 23:13:40.411058 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 238.435µs
+[kited] 2021/07/19 23:13:45.412323 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 633.024µs
+[kited] 2021/07/19 23:13:49.063494 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 23:13:49.196824 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 23:13:50.412020 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 270.169µs
+[kited] 2021/07/19 23:13:55.411655 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 268.043µs
+[kited] 2021/07/19 23:14:00.412675 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 148.606µs
+[kited] 2021/07/19 23:14:05.410565 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 195.72µs
+[kited] 2021/07/19 23:14:10.411796 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 215.665µs
+[kited] 2021/07/19 23:14:15.411586 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 215.557µs
+[kited] 2021/07/19 23:14:20.419247 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 178.714µs
+[kited] 2021/07/19 23:14:25.411832 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 189.853µs
+[kited] 2021/07/19 23:14:30.411395 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 300.495µs
+[kited] 2021/07/19 23:14:35.410512 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 367.781µs
+[kited] 2021/07/19 23:14:40.412867 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 347.401µs
+[kited] 2021/07/19 23:14:45.410575 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 277.084µs
+[kited] 2021/07/19 23:14:50.412227 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 658.915µs
+[kited] 2021/07/19 23:14:55.412517 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 184.873µs
+[kited] 2021/07/19 23:15:00.413297 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 332.352µs
+[kited] 2021/07/19 23:15:05.410048 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 157.447µs
+[kited] 2021/07/19 23:15:10.409970 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 216.516µs
+[kited] 2021/07/19 23:15:15.412783 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 206.153µs
+[kited] 2021/07/19 23:15:20.409479 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 185.914µs
+[kited] 2021/07/19 23:15:25.410470 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 348.616µs
+[kited] 2021/07/19 23:15:30.413317 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 315.392µs
+[kited] 2021/07/19 23:15:35.409189 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 168.498µs
+[kited] 2021/07/19 23:15:40.410657 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 253.305µs
+[kited] 2021/07/19 23:15:45.409223 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 193.128µs
+[kited] 2021/07/19 23:15:50.410137 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 412.681µs
+[kited] 2021/07/19 23:15:55.409950 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 489.255µs
+[kited] 2021/07/19 23:16:00.419566 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 758.107µs
+[kited] 2021/07/19 23:16:05.408398 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 159.729µs
+[kited] 2021/07/19 23:16:10.411872 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 619.092µs
+[kited] 2021/07/19 23:16:15.408774 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 134.776µs
+[kited] 2021/07/19 23:16:20.408818 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 209.566µs
+[kited] 2021/07/19 23:16:25.409600 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 169.366µs
+[kited] 2021/07/19 23:16:30.417210 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 6.14213ms
+[kited] 2021/07/19 23:16:35.408654 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.254µs
+[kited] 2021/07/19 23:16:40.408137 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 208.259µs
+[kited] 2021/07/19 23:16:45.408348 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 247.246µs
+[kited] 2021/07/19 23:16:50.409246 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 272.874µs
+[kited] 2021/07/19 23:16:55.408721 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 333.28µs
+[kited] 2021/07/19 23:17:00.408907 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 231.386µs
+[kited] 2021/07/19 23:17:05.407313 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 229.085µs
+[kited] 2021/07/19 23:17:10.406795 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 214.466µs
+[kited] 2021/07/19 23:17:15.408482 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 235.245µs
+[kited] 2021/07/19 23:17:20.407150 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 246.973µs
+[kited] 2021/07/19 23:17:25.408316 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 235.867µs
+[kited] 2021/07/19 23:17:30.407058 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 316.127µs
+[kited] 2021/07/19 23:17:35.408014 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 253.952µs
+[kited] 2021/07/19 23:17:40.406910 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 192.813µs
+[kited] 2021/07/19 23:17:45.407386 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 389.045µs
+[kited] 2021/07/19 23:17:50.407982 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 200.493µs
+[kited] 2021/07/19 23:17:55.406557 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 227.379µs
+[kited] 2021/07/19 23:18:00.407841 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 162.934µs
+[kited] 2021/07/19 23:18:05.406936 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 279.602µs
+[kited] 2021/07/19 23:18:10.407611 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 202.069µs
+[kited] 2021/07/19 23:18:15.406219 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 172.461µs
+[kited] 2021/07/19 23:18:20.406150 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 142.68µs
+[kited] 2021/07/19 23:18:25.406407 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 122.132µs
+[kited] 2021/07/19 23:18:30.406002 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 136.93µs
+[kited] 2021/07/19 23:18:35.407121 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 214.693µs
+[kited] 2021/07/19 23:18:40.405928 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 241.937µs
+[kited] 2021/07/19 23:18:45.407022 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 233.168µs
+[kited] 2021/07/19 23:18:50.405684 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 143.282µs
+[kited] 2021/07/19 23:18:55.405545 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 175.606µs
+[kited] 2021/07/19 23:19:00.406758 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 239.172µs
+[kited] 2021/07/19 23:19:05.407763 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 663.592µs
+[kited] 2021/07/19 23:19:07.684102 editorslist.go:19: Detected 2 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 23:19:10.408464 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 345.751µs
+[kited] 2021/07/19 23:19:14.841036 handlers.go:68: GET /clientapi/plugins 200 4861 10.613544527s
+[kited] 2021/07/19 23:19:14.906981 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 23:19:15.405323 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 235.75µs
+[kited] 2021/07/19 23:19:20.405479 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 260.739µs
+[kited] 2021/07/19 23:19:25.406347 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 195.798µs
+[kited] 2021/07/19 23:19:30.404596 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 198.102µs
+[kited] 2021/07/19 23:19:35.406355 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 162.666µs
+[kited] 2021/07/19 23:19:40.405098 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 228.4µs
+[kited] 2021/07/19 23:19:45.405410 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 128.636µs
+[kited] 2021/07/19 23:19:50.404463 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 346.875µs
+[kited] 2021/07/19 23:19:55.404680 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 223.512µs
+[kited] 2021/07/19 23:20:00.405811 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 208.63µs
+[kited] 2021/07/19 23:20:05.404525 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 174.56µs
+[kited] 2021/07/19 23:20:10.405204 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 160.454µs
+[kited] 2021/07/19 23:20:15.404397 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 284.605µs
+[kited] 2021/07/19 23:20:20.405338 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 169.688µs
+[kited] 2021/07/19 23:20:25.403933 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.31µs
+[kited] 2021/07/19 23:20:30.403883 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 197.89µs
+[kited] 2021/07/19 23:20:35.405506 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 163.49µs
+[kited] 2021/07/19 23:20:40.403975 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 196.048µs
+[kited] 2021/07/19 23:20:45.404878 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 159.459µs
+[kited] 2021/07/19 23:20:50.403764 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 142.154µs
+[kited] 2021/07/19 23:20:55.404761 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 185.245µs
+[kited] 2021/07/19 23:21:00.403746 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 155.022µs
+[kited] 2021/07/19 23:21:05.403535 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 217.226µs
+[kited] 2021/07/19 23:21:10.404714 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 250.517µs
+[kited] 2021/07/19 23:21:15.403587 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 172.944µs
+[kited] 2021/07/19 23:21:20.404411 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 163.304µs
+[kited] 2021/07/19 23:21:25.403270 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 167.56µs
+[kited] 2021/07/19 23:21:30.404340 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 247.997µs
+[kited] 2021/07/19 23:21:35.403144 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 240.802µs
+[kited] 2021/07/19 23:21:40.403065 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 150µs
+[kited] 2021/07/19 23:21:45.403066 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 173.952µs
+[kited] 2021/07/19 23:21:50.403120 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 227.589µs
+[kited] 2021/07/19 23:21:55.404008 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 358.233µs
+[kited] 2021/07/19 23:22:00.402875 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 203.837µs
+[kited] 2021/07/19 23:22:05.402713 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 296.842µs
+[kited] 2021/07/19 23:22:10.403883 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 172.48µs
+[kited] 2021/07/19 23:22:15.402641 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 158.296µs
+[kited] 2021/07/19 23:22:20.403801 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 164.971µs
+[kited] 2021/07/19 23:22:25.402262 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 266.721µs
+[kited] 2021/07/19 23:22:30.403553 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 302.335µs
+[kited] 2021/07/19 23:22:35.402067 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 105.638µs
+[kited] 2021/07/19 23:22:40.401591 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 124.368µs
+[kited] 2021/07/19 23:22:45.403209 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 230.709µs
+[kited] 2021/07/19 23:22:50.401754 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 170.192µs
+[kited] 2021/07/19 23:22:55.403202 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 175.223µs
+[kited] 2021/07/19 23:23:00.401858 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 204.504µs
+[kited] 2021/07/19 23:23:05.403058 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 265.885µs
+[kited] 2021/07/19 23:23:10.401801 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 197.167µs
+[kited] 2021/07/19 23:23:15.401818 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 262.328µs
+[kited] 2021/07/19 23:23:20.402754 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 205.834µs
+[kited] 2021/07/19 23:23:25.401220 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 165.805µs
+[kited] 2021/07/19 23:23:30.427862 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 444.901µs
+[kited] 2021/07/19 23:23:35.401266 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 320.092µs
+[kited] 2021/07/19 23:23:40.402529 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 247.731µs
+[kited] 2021/07/19 23:23:45.401196 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 234.88µs
+[kited] 2021/07/19 23:23:50.400859 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 200.731µs
+[kited] 2021/07/19 23:23:55.402156 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 254.248µs
+[kited] 2021/07/19 23:24:00.400723 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 320.176µs
+[kited] 2021/07/19 23:24:05.401831 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 184.026µs
+[kited] 2021/07/19 23:24:10.400535 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 211.883µs
+[kited] 2021/07/19 23:24:15.400408 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 208.784µs
+[kited] 2021/07/19 23:24:20.401651 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 225.963µs
+[kited] 2021/07/19 23:24:25.400137 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 169.365µs
+[kited] 2021/07/19 23:24:30.401460 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 201.845µs
+[kited] 2021/07/19 23:24:35.400147 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 296.269µs
+[kited] 2021/07/19 23:24:40.401374 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 261.883µs
+[kited] 2021/07/19 23:24:45.399999 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 273.339µs
+[kited] 2021/07/19 23:24:50.400157 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 182.784µs
+[kited] 2021/07/19 23:24:55.401149 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 211.442µs
+[kited] 2021/07/19 23:25:00.399589 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 206.253µs
+[kited] 2021/07/19 23:25:05.401031 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 218.829µs
+[kited] 2021/07/19 23:25:10.399509 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 187.069µs
+[kited] 2021/07/19 23:25:15.411083 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 10.414335ms
+[kited] 2021/07/19 23:25:20.399386 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 221.389µs
+[kited] 2021/07/19 23:25:25.399206 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 180.97µs
+[kited] 2021/07/19 23:25:30.400627 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 194.875µs
+[kited] 2021/07/19 23:25:35.399005 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 161.725µs
+[kited] 2021/07/19 23:25:40.400475 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 189.456µs
+[kited] 2021/07/19 23:25:45.399056 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 168.456µs
+[kited] 2021/07/19 23:25:50.400154 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 224.901µs
+[kited] 2021/07/19 23:25:55.398789 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 226.124µs
+[kited] 2021/07/19 23:26:00.398682 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 167.273µs
+[kited] 2021/07/19 23:26:05.400088 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 172.789µs
+[kited] 2021/07/19 23:26:10.398675 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 360.496µs
+[kited] 2021/07/19 23:26:15.399744 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 223.792µs
+[kited] 2021/07/19 23:26:20.406262 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 144.551µs
+[kited] 2021/07/19 23:26:25.399654 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 221.173µs
+[kited] 2021/07/19 23:26:30.398412 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 315.891µs
+[kited] 2021/07/19 23:26:35.398375 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 283.685µs
+[kited] 2021/07/19 23:26:40.399577 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 209.315µs
+[kited] 2021/07/19 23:26:45.397982 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 251.51µs
+[kited] 2021/07/19 23:26:50.399225 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 197.866µs
+[kited] 2021/07/19 23:26:55.397778 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 231.338µs
+[kited] 2021/07/19 23:27:00.399196 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 157.803µs
+[kited] 2021/07/19 23:27:05.397625 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 201.864µs
+[kited] 2021/07/19 23:27:10.397650 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 238.983µs
+[kited] 2021/07/19 23:27:15.398854 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 298.603µs
+[kited] 2021/07/19 23:27:20.397817 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 234.974µs
+[kited] 2021/07/19 23:27:25.398659 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 254.242µs
+[kited] 2021/07/19 23:27:30.397228 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 183.125µs
+[kited] 2021/07/19 23:27:35.397102 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 208.258µs
+[kited] 2021/07/19 23:27:40.398460 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 281.879µs
+[kited] 2021/07/19 23:27:45.397141 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 282.454µs
+[kited] 2021/07/19 23:27:50.398349 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 238.619µs
+[kited] 2021/07/19 23:27:55.396978 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 251.06µs
+[kited] 2021/07/19 23:28:00.398137 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 284.739µs
+[kited] 2021/07/19 23:28:05.396675 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 226.845µs
+[kited] 2021/07/19 23:28:10.396755 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 203.343µs
+[kited] 2021/07/19 23:28:15.397846 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 196.507µs
+[kited] 2021/07/19 23:28:20.396387 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 190.717µs
+[kited] 2021/07/19 23:28:25.397661 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 240.19µs
+[kited] 2021/07/19 23:28:30.396314 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 201.355µs
+[kited] 2021/07/19 23:28:35.397391 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 165.117µs
+[kited] 2021/07/19 23:28:40.396123 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 225.181µs
+[kited] 2021/07/19 23:28:45.396047 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 167.512µs
+[kited] 2021/07/19 23:28:50.397259 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 200.702µs
+[kited] 2021/07/19 23:28:55.395824 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 209.515µs
+[kited] 2021/07/19 23:29:00.397014 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 182.991µs
+[kited] 2021/07/19 23:29:05.397953 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 555.484µs
+[kited] 2021/07/19 23:29:10.398299 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 284.426µs
+[kited] 2021/07/19 23:29:14.494596 handlers.go:68: GET /clientapi/plugins 200 4860 10.339856698s
+[kited] 2021/07/19 23:29:14.556079 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 23:29:15.395701 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 220.187µs
+[kited] 2021/07/19 23:29:20.395768 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 177.848µs
+[kited] 2021/07/19 23:29:25.396841 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 349.272µs
+[kited] 2021/07/19 23:29:30.395217 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 167.027µs
+[kited] 2021/07/19 23:29:35.396475 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 207.973µs
+[kited] 2021/07/19 23:29:40.395104 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 168.805µs
+[kited] 2021/07/19 23:29:45.395369 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 141.057µs
+[kited] 2021/07/19 23:29:50.395216 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 222.805µs
+[kited] 2021/07/19 23:29:55.395461 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 437.44µs
+[kited] 2021/07/19 23:30:00.396196 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 274.694µs
+[kited] 2021/07/19 23:30:05.394814 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 177.795µs
+[kited] 2021/07/19 23:30:10.395954 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 262.848µs
+[kited] 2021/07/19 23:30:15.393940 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 224.172µs
+[kited] 2021/07/19 23:30:20.396094 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 308.515µs
+[kited] 2021/07/19 23:30:25.394285 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 129.8µs
+[kited] 2021/07/19 23:30:30.394401 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 279.967µs
+[kited] 2021/07/19 23:30:35.395415 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 173.848µs
+[kited] 2021/07/19 23:30:40.394420 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 166.827µs
+[kited] 2021/07/19 23:30:45.395517 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 240.906µs
+[kited] 2021/07/19 23:30:50.394022 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 189.267µs
+[kited] 2021/07/19 23:30:55.393910 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 160.378µs
+[kited] 2021/07/19 23:31:00.395284 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 317.819µs
+[kited] 2021/07/19 23:31:05.393708 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 228.773µs
+[kited] 2021/07/19 23:31:10.395018 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 250.064µs
+[kited] 2021/07/19 23:31:15.394048 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 155.688µs
+[kited] 2021/07/19 23:31:20.394920 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 325.065µs
+[kited] 2021/07/19 23:31:25.393571 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 188.93µs
+[kited] 2021/07/19 23:31:30.393343 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 222.853µs
+[kited] 2021/07/19 23:31:35.396484 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 227.917µs
+[kited] 2021/07/19 23:31:40.393462 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 238.512µs
+[kited] 2021/07/19 23:31:45.394411 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 261.302µs
+[kited] 2021/07/19 23:31:51.822548 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 2.393336ms
+[kited] 2021/07/19 23:31:55.545641 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 470.882µs
+[kited] 2021/07/19 23:32:00.570624 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 315.867µs
+[kited] 2021/07/19 23:32:06.393733 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 176.718µs
+[kited] 2021/07/19 23:32:11.071583 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 307.655µs
+[kited] 2021/07/19 23:32:16.622487 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 204.506µs
+[kited] 2021/07/19 23:32:20.565535 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 331.48µs
+[kited] 2021/07/19 23:32:25.573098 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 269.18µs
+[kited] 2021/07/19 23:32:30.576831 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 259.815µs
+[kited] 2021/07/19 23:32:36.251683 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 367.296µs
+[kited] 2021/07/19 23:32:40.529971 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 170.771µs
+[kited] 2021/07/19 23:32:45.580020 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 214.893µs
+[kited] 2021/07/19 23:32:50.558449 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 232.437µs
+[kited] 2021/07/19 23:32:55.570417 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 254.885µs
+[kited] 2021/07/19 23:42:45.715277 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 107.16µs
+[kited] 2021/07/19 23:42:49.151267 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.109443ms
+[kited] 2021/07/19 23:42:53.432226 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 482.836µs
+[kited] 2021/07/19 23:42:58.427474 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 651.008µs
+[kited] 2021/07/19 23:43:01.095173 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:64225->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/19 23:43:03.435922 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.10325ms
+[kited] 2021/07/19 23:43:08.426397 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 513.009µs
+[kited] 2021/07/19 23:43:13.424810 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 244.277µs
+[kited] 2021/07/19 23:43:18.425607 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 176.53µs
+[kited] 2021/07/19 23:43:23.425811 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 384.168µs
+[kited] 2021/07/19 23:43:28.424624 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 143.233µs
+[kited] 2021/07/19 23:43:33.424854 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 151.21µs
+[kited] 2021/07/19 23:43:38.432121 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.247149ms
+[kited] 2021/07/19 23:43:43.431225 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 252.136µs
+[kited] 2021/07/19 23:43:47.792113 handlers.go:68: POST /clientapi/metrics/counters 0 0 173.228895ms
+[kited] 2021/07/19 23:43:47.792405 handlers.go:68: POST /clientapi/metrics/counters 0 0 132.415082ms
+[kited] 2021/07/19 23:48:58.776660 handlers.go:68: GET /clientapi/plugins 200 4860 11.390423819s
+[kited] 2021/07/19 23:48:58.836867 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/19 23:58:50.734896 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 23:58:58.362389 handlers.go:68: GET /clientapi/plugins 200 4861 11.181738548s
+[kited] 2021/07/19 23:58:58.423732 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 00:08:58.630692 handlers.go:68: GET /clientapi/plugins 200 4861 11.409407177s
+[kited] 2021/07/20 00:08:58.704995 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 00:18:59.500346 handlers.go:68: GET /clientapi/plugins 200 4861 12.341245309s
+[kited] 2021/07/20 00:18:59.575189 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 00:23:47.039131 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 00:23:47.115445 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 00:28:50.696144 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 00:29:00.050746 handlers.go:68: GET /clientapi/plugins 200 4861 12.834225826s
+[kited] 2021/07/20 00:29:00.140324 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 00:39:03.387538 handlers.go:68: GET /clientapi/plugins 200 4861 16.237952365s
+[kited] 2021/07/20 00:39:03.478304 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 00:43:01.305098 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 00:48:57.893762 handlers.go:68: GET /clientapi/plugins 200 4861 10.735829959s
+[kited] 2021/07/20 00:48:57.959600 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 01:01:33.424102 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 01:01:41.707995 handlers.go:68: GET /clientapi/plugins 200 4861 11.800222025s
+[kited] 2021/07/20 01:01:41.772716 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 02:58:07.960671 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50217->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/20 06:59:04.847845 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50553->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/20 07:57:06.048467 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50708->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/20 13:48:46.545807 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:50769->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/20 13:51:55.547208 handlers.go:68: GET /clientapi/plugins 200 4861 11.16935351s
+[kited] 2021/07/20 13:51:55.612497 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 14:01:56.472564 handlers.go:68: GET /clientapi/plugins 200 4861 12.153474119s
+[kited] 2021/07/20 14:01:56.544623 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 14:06:59.206150 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 14:06:59.301731 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 14:11:48.100516 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 14:11:57.019985 handlers.go:68: GET /clientapi/plugins 200 4861 12.637942623s
+[kited] 2021/07/20 14:11:57.092147 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 14:21:55.117450 handlers.go:68: GET /clientapi/plugins 200 4861 10.739375866s
+[kited] 2021/07/20 14:21:55.192750 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 14:31:56.366249 handlers.go:68: GET /clientapi/plugins 200 4861 11.937146328s
+[kited] 2021/07/20 14:31:56.440475 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 14:45:15.036986 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 14:45:24.683238 handlers.go:68: GET /clientapi/plugins 200 4861 13.231514962s
+[kited] 2021/07/20 14:45:24.791730 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 14:48:42.817282 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 14:55:21.928133 handlers.go:68: GET /clientapi/plugins 200 4861 10.423642681s
+[kited] 2021/07/20 14:55:21.985661 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 17:01:39.339255 handlers.go:68: GET /clientapi/plugins 200 4861 13.287184496s
+[kited] 2021/07/20 17:01:39.400593 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 17:03:05.333950 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.104:51988->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/20 17:06:55.945490 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 17:06:56.014018 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 17:11:29.639926 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 17:11:36.910529 handlers.go:68: GET /clientapi/plugins 200 4861 10.812348019s
+[kited] 2021/07/20 17:11:36.949324 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 17:21:38.079060 handlers.go:68: GET /clientapi/plugins 200 4861 11.977557234s
+[kited] 2021/07/20 17:21:38.108586 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 17:31:40.692546 handlers.go:68: GET /clientapi/plugins 200 4861 14.517979809s
+[kited] 2021/07/20 17:31:40.772602 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 17:41:29.741731 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 17:41:39.102496 handlers.go:68: GET /clientapi/plugins 200 4861 13.098509493s
+[kited] 2021/07/20 17:41:39.161820 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 17:51:39.747025 handlers.go:68: GET /clientapi/plugins 200 4861 13.671745671s
+[kited] 2021/07/20 17:51:39.804688 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 18:01:37.461996 handlers.go:68: GET /clientapi/plugins 200 4861 11.49996832s
+[kited] 2021/07/20 18:01:37.507909 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 18:03:05.421474 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 18:07:10.837032 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 18:07:10.905155 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 18:11:29.435198 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 18:11:36.536085 handlers.go:68: GET /clientapi/plugins 200 4861 10.556854453s
+[kited] 2021/07/20 18:11:36.669480 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 18:21:37.263243 handlers.go:68: GET /clientapi/plugins 200 4861 11.343014339s
+[kited] 2021/07/20 18:21:37.326424 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 18:31:39.595841 handlers.go:68: GET /clientapi/plugins 200 4861 13.676375742s
+[kited] 2021/07/20 18:31:39.690098 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 18:41:29.915295 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 18:41:37.321662 handlers.go:68: GET /clientapi/plugins 200 4861 10.93392938s
+[kited] 2021/07/20 18:41:37.403877 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 18:51:37.401075 handlers.go:68: GET /clientapi/plugins 200 4861 10.999361421s
+[kited] 2021/07/20 18:51:37.429764 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 19:01:37.278621 handlers.go:68: GET /clientapi/plugins 200 4861 10.894508179s
+[kited] 2021/07/20 19:01:37.338238 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 19:03:06.020566 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 19:07:26.279002 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 19:07:26.337828 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 19:23:03.124910 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:53881->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/20 19:25:24.847889 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 19:25:35.562802 handlers.go:68: GET /clientapi/plugins 200 4861 14.182221111s
+[kited] 2021/07/20 19:25:35.626539 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 19:35:32.322798 handlers.go:68: GET /clientapi/plugins 200 4861 11.030927746s
+[kited] 2021/07/20 19:35:32.395024 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 19:45:31.460997 handlers.go:68: GET /clientapi/plugins 200 4861 10.286788425s
+[kited] 2021/07/20 19:45:31.528512 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 19:55:24.685241 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 19:55:30.637759 handlers.go:68: GET /clientapi/plugins 200 4861 9.52345031s
+[kited] 2021/07/20 19:55:30.675691 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 20:05:31.988498 handlers.go:68: GET /clientapi/plugins 200 4861 10.800602942s
+[kited] 2021/07/20 20:05:32.069721 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 20:15:34.837664 handlers.go:68: GET /clientapi/plugins 200 4861 11.402862407s
+[kited] 2021/07/20 20:15:34.902390 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 20:21:38.307165 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 20:21:38.462110 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 20:23:07.028731 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 20:25:26.973919 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 20:25:37.399427 handlers.go:68: GET /clientapi/plugins 200 4861 13.93728168s
+[kited] 2021/07/20 20:25:37.489359 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 20:35:35.947059 handlers.go:68: GET /clientapi/plugins 200 4861 12.547902143s
+[kited] 2021/07/20 20:35:36.020780 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 20:45:35.903163 handlers.go:68: GET /clientapi/plugins 200 4861 12.511467006s
+[kited] 2021/07/20 20:45:35.990577 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 20:55:26.915801 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 20:55:34.959494 handlers.go:68: GET /clientapi/plugins 200 4861 11.550652805s
+[kited] 2021/07/20 20:55:35.032953 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 21:05:34.830952 handlers.go:68: GET /clientapi/plugins 200 4861 11.267358747s
+[kited] 2021/07/20 21:05:34.901902 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 21:15:39.994022 handlers.go:68: GET /clientapi/plugins 200 4861 16.485923259s
+[kited] 2021/07/20 21:15:40.069579 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 21:21:53.424946 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 21:21:53.522072 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 21:23:07.485957 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 21:25:27.041271 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 21:25:34.325849 handlers.go:68: GET /clientapi/plugins 200 4861 10.757982373s
+[kited] 2021/07/20 21:25:34.388745 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 21:35:35.189051 handlers.go:68: GET /clientapi/plugins 200 4861 11.561551484s
+[kited] 2021/07/20 21:35:35.252195 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 22:41:59.964454 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:56421->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/20 22:50:21.767873 handlers.go:68: GET /clientapi/plugins 200 4861 11.356948613s
+[kited] 2021/07/20 22:50:21.846523 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 23:00:13.944983 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 23:00:21.522623 handlers.go:68: GET /clientapi/plugins 200 4861 11.110641749s
+[kited] 2021/07/20 23:00:21.642610 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 23:10:22.160288 handlers.go:68: GET /clientapi/plugins 200 4861 11.660924831s
+[kited] 2021/07/20 23:10:22.213406 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 23:20:22.190329 handlers.go:68: GET /clientapi/plugins 200 4861 11.711320908s
+[kited] 2021/07/20 23:20:22.261640 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 23:26:55.385707 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/20 23:26:55.486455 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/20 23:30:14.005887 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/20 23:30:22.046759 handlers.go:68: GET /clientapi/plugins 200 4861 11.487436045s
+[kited] 2021/07/20 23:30:22.125967 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 23:40:21.239321 handlers.go:68: GET /clientapi/plugins 200 4861 10.746506859s
+[kited] 2021/07/20 23:40:21.296495 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/20 23:42:00.347576 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/20 23:50:21.173752 handlers.go:68: GET /clientapi/plugins 200 4861 10.620723387s
+[kited] 2021/07/20 23:50:21.245402 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 00:23:19.299462 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:57594->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/21 00:30:58.621933 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 00:31:06.816522 handlers.go:68: GET /clientapi/plugins 200 4861 11.754702127s
+[kited] 2021/07/21 00:31:06.887246 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 00:41:04.373907 handlers.go:68: GET /clientapi/plugins 200 4861 9.284147597s
+[kited] 2021/07/21 00:41:04.403639 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 01:37:15.848462 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:57732->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/21 03:38:27.659414 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:58029->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/21 07:38:53.908918 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:58185->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/21 08:02:12.523226 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:58202->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/21 13:11:40.294787 handlers.go:68: GET /clientapi/plugins 200 4861 14.471965303s
+[kited] 2021/07/21 13:11:40.354683 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 13:13:48.323857 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.12:58273->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/21 13:18:25.709725 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/21 13:18:25.874199 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/21 13:21:29.419673 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 13:21:38.459687 handlers.go:68: GET /clientapi/plugins 200 4861 12.565550061s
+[kited] 2021/07/21 13:21:38.522106 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 13:31:36.425652 handlers.go:68: POST /clientapi/metrics/counters 0 0 47.866877ms
+[kited] 2021/07/21 13:31:36.425515 handlers.go:68: POST /clientapi/metrics/counters 0 0 41.918843ms
+[kited] 2021/07/21 13:31:36.607237 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 8.843968ms
+[kited] 2021/07/21 13:31:38.388014 handlers.go:68: GET /clientapi/ping 200 2 3.34882ms
+[kited] 2021/07/21 13:31:38.618095 handlers.go:68: GET /clientapi/user 200 200 9.761309ms
+[kited] 2021/07/21 13:31:38.715850 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 318.518µs
+[kited] 2021/07/21 13:31:38.953383 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 109.293µs
+[kited] 2021/07/21 13:31:40.760260 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 248.863µs
+[kited] 2021/07/21 13:31:43.758915 handlers.go:68: GET /clientapi/plugins 200 4860 19.567065015s
+[kited] 2021/07/21 13:31:43.829649 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 13:31:45.958344 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 3.267825ms
+[kited] 2021/07/21 13:31:51.088660 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 278.026µs
+[kited] 2021/07/21 13:31:51.370549 handlers.go:68: POST /clientapi/editor/event 200 0 36.538432ms
+[kited] 2021/07/21 13:31:51.849592 libraries.go:113: error getting anaconda libraries: exec: "conda": executable file not found in $PATH
+[kited] 2021/07/21 13:31:51.856670 builder.go:63: pythonlocal.Builder (856220, kite_local): starting build with filename: /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/The_While_statement.py
+[kited] 2021/07/21 13:31:51.859523 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries
+[kited] 2021/07/21 13:31:51.859697 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users/chrisadore/github
+[kited] 2021/07/21 13:31:51.859829 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users/chrisadore
+[kited] 2021/07/21 13:31:51.859921 builder.go:63: pythonlocal.Builder (856220, kite_local): project path: /Users
+[kited] 2021/07/21 13:31:53.979694 builder.go:63: pythonlocal.Builder (856220, kite_local): add project took 2.11731617s
+[kited] 2021/07/21 13:31:53.979818 selectfiles.go:219: Starting walk of project: /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries
+[kited] 2021/07/21 13:31:53.980603 builder.go:63: pythonlocal.Builder (856220, kite_local): adding /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries/The_While_statement.py
+[kited] 2021/07/21 13:31:53.992612 selectfiles.go:272: Walk project took 12.760518ms
+[kited] 2021/07/21 13:31:53.993185 selectfiles.go:284: Found 1 children in directory, 0 library files
+[kited] 2021/07/21 13:31:53.993242 builder.go:63: pythonlocal.Builder (856220, kite_local): selected 1 (of 1) files
+[kited] 2021/07/21 13:31:53.993273 builder.go:63: pythonlocal.Builder (856220, kite_local): file selection took 2.136412239s
+[kited] 2021/07/21 13:31:55.123459 manager.go:278: loaded builtin-stdlib==3.7 in 3.672804622s
+[kited] 2021/07/21 13:31:55.131642 builder.go:63: pythonlocal.Builder (856220, kite_local): manager add took 1.138322468s
+[kited] 2021/07/21 13:31:55.159942 builder.go:63: pythonlocal.Builder (856220, kite_local): manager build took 28.185671ms
+[kited] 2021/07/21 13:31:55.160684 builder.go:63: pythonlocal.Builder (856220, kite_local): constructed 1 definitions, 1 documentation, 2 method patterns and 0 tokens
+[kited] 2021/07/21 13:31:55.161029 track.go:167: tracker.Event: Index Build
+[kited] 2021/07/21 13:31:55.989441 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 121 2.857768ms
+[kited] 2021/07/21 13:31:58.085772 track.go:167: tracker.Event: coding_session_started
+[kited] 2021/07/21 13:31:58.118123 track.go:167: tracker.Event: Local Index Added
+[kited] 2021/07/21 13:32:00.996372 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 6.503137ms
+[kited] 2021/07/21 13:32:06.012897 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 4.409543ms
+[kited] 2021/07/21 13:32:08.968279 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 370.226µs
+[kited] 2021/07/21 13:32:08.999712 handlers.go:68: POST /clientapi/editor/event 200 0 15.955379ms
+[kited] 2021/07/21 13:32:13.816485 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 7.912182ms
+[kited] 2021/07/21 13:32:18.751355 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 4.035688ms
+[kited] 2021/07/21 13:32:25.753959 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 1.104619ms
+[kited] 2021/07/21 13:32:30.237397 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 2.976747ms
+[kited] 2021/07/21 13:32:33.741838 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 619.95µs
+[kited] 2021/07/21 13:32:38.743587 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 2.180182ms
+[kited] 2021/07/21 13:32:43.741266 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 515.459µs
+[kited] 2021/07/21 13:32:48.743278 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 916.255µs
+[kited] 2021/07/21 13:32:53.740286 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 400.048µs
+[kited] 2021/07/21 13:32:58.743718 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 1.075255ms
+[kited] 2021/07/21 13:33:03.767824 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 753.291µs
+[kited] 2021/07/21 13:33:08.745648 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 3.193541ms
+[kited] 2021/07/21 13:33:13.745737 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 1.319582ms
+[kited] 2021/07/21 13:33:18.741114 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 497.701µs
+[kited] 2021/07/21 13:33:23.759670 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 742.578µs
+[kited] 2021/07/21 13:33:28.744171 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 516.119µs
+[kited] 2021/07/21 13:33:33.741791 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 890.141µs
+[kited] 2021/07/21 13:33:38.746020 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 1.301283ms
+[kited] 2021/07/21 13:33:43.746249 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 1.333008ms
+[kited] 2021/07/21 13:33:48.746904 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 2.047805ms
+[kited] 2021/07/21 13:33:53.745099 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 4.104861ms
+[kited] 2021/07/21 13:33:58.743870 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FThe_While_statement.py 200 58 1.441344ms
+[kited] 2021/07/21 13:34:03.850517 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 896.214µs
+[kited] 2021/07/21 13:34:08.740816 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 146.24µs
+[kited] 2021/07/21 13:34:13.749075 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 229.525µs
+[kited] 2021/07/21 13:34:18.741453 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 82.79µs
+[kited] 2021/07/21 13:34:23.742171 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 142.76µs
+[kited] 2021/07/21 13:34:28.741232 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 153.928µs
+[kited] 2021/07/21 13:34:33.741637 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 112.912µs
+[kited] 2021/07/21 13:34:38.740790 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 182.915µs
+[kited] 2021/07/21 13:34:43.741253 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 200.691µs
+[kited] 2021/07/21 13:34:48.741953 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 242.792µs
+[kited] 2021/07/21 13:34:53.740598 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 128.363µs
+[kited] 2021/07/21 13:34:58.741920 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 225.198µs
+[kited] 2021/07/21 13:35:03.751735 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 89.952µs
+[kited] 2021/07/21 13:35:08.742209 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 308.563µs
+[kited] 2021/07/21 13:35:13.740669 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 130.352µs
+[kited] 2021/07/21 13:35:18.742107 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 361.968µs
+[kited] 2021/07/21 13:35:23.740851 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 185.282µs
+[kited] 2021/07/21 13:35:28.740737 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 224.152µs
+[kited] 2021/07/21 13:35:33.740480 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 136.386µs
+[kited] 2021/07/21 13:35:38.740584 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 138.48µs
+[kited] 2021/07/21 13:35:43.748530 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 5.565368ms
+[kited] 2021/07/21 13:35:48.761117 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 169.907µs
+[kited] 2021/07/21 13:35:53.742333 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 294.229µs
+[kited] 2021/07/21 13:35:58.741033 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 319.232µs
+[kited] 2021/07/21 13:36:03.778974 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 184.252µs
+[kited] 2021/07/21 13:36:08.741459 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 199.189µs
+[kited] 2021/07/21 13:36:13.741081 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 172.891µs
+[kited] 2021/07/21 13:36:18.742361 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 304.528µs
+[kited] 2021/07/21 13:36:23.745944 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 121.991µs
+[kited] 2021/07/21 13:36:28.742896 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 281.266µs
+[kited] 2021/07/21 13:36:33.744340 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 332.018µs
+[kited] 2021/07/21 13:36:38.740003 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 153.015µs
+[kited] 2021/07/21 13:36:43.742352 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 198.797µs
+[kited] 2021/07/21 13:36:48.740387 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 141.525µs
+[kited] 2021/07/21 13:36:53.743390 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 180.331µs
+[kited] 2021/07/21 13:36:58.741148 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 147.354µs
+[kited] 2021/07/21 13:37:03.740508 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 180.28µs
+[kited] 2021/07/21 13:37:08.740450 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 201.744µs
+[kited] 2021/07/21 13:37:13.741671 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 343.107µs
+[kited] 2021/07/21 13:37:18.740390 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 282.857µs
+[kited] 2021/07/21 13:37:23.740491 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 212.742µs
+[kited] 2021/07/21 13:37:28.751082 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 9.782998ms
+[kited] 2021/07/21 13:37:33.740207 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 169.024µs
+[kited] 2021/07/21 13:37:38.743287 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 202.413µs
+[kited] 2021/07/21 13:37:43.740545 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 179.654µs
+[kited] 2021/07/21 13:37:48.747690 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 148.049µs
+[kited] 2021/07/21 13:37:53.740445 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 115.453µs
+[kited] 2021/07/21 13:37:58.740679 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 102.898µs
+[kited] 2021/07/21 13:38:03.743742 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 241.06µs
+[kited] 2021/07/21 13:38:05.315616 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 317.595µs
+[kited] 2021/07/21 13:38:10.295742 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 136.374µs
+[kited] 2021/07/21 13:38:15.293736 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FREADME.md 200 98 302.483µs
+[kited] 2021/07/21 13:38:20.295759 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FREADME.md 200 98 151.955µs
+[kited] 2021/07/21 13:38:25.293597 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 224.694µs
+[kited] 2021/07/21 13:38:26.124882 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 163.374µs
+[kited] 2021/07/21 13:38:31.105221 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 254.424µs
+[kited] 2021/07/21 13:38:34.524783 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 170.242µs
+[kited] 2021/07/21 13:38:39.514813 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 152.334µs
+[kited] 2021/07/21 13:38:44.507152 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 142.773µs
+[kited] 2021/07/21 13:38:49.138337 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 126.349µs
+[kited] 2021/07/21 13:38:54.123694 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 242.106µs
+[kited] 2021/07/21 13:38:59.121470 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 176.083µs
+[kited] 2021/07/21 13:39:04.123335 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 217.461µs
+[kited] 2021/07/21 13:39:09.272665 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 100.64µs
+[kited] 2021/07/21 13:39:14.125235 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 268.981µs
+[kited] 2021/07/21 13:39:19.125815 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 224.217µs
+[kited] 2021/07/21 13:39:24.127131 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 208.451µs
+[kited] 2021/07/21 13:39:29.120952 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 212.054µs
+[kited] 2021/07/21 13:39:32.075253 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 125.795µs
+[kited] 2021/07/21 13:39:33.594008 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2Fgithub%2FPython-Functions-Files-and-Dictionaries%2FDictionary 200 98 104.007µs
+[kited] 2021/07/21 13:39:35.135928 handlers.go:68: POST /clientapi/metrics/counters 0 0 7.906017ms
+[kited] 2021/07/21 13:39:35.136293 handlers.go:68: POST /clientapi/metrics/counters 0 0 6.425924ms
+[kited] 2021/07/21 13:41:35.817806 handlers.go:68: GET /clientapi/plugins 200 4860 11.559606773s
+[kited] 2021/07/21 13:41:36.098877 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 13:47:09.031324 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2021/07/21 13:51:27.518327 api.go:96: Unloading data for python
+[kited] 2021/07/21 13:51:27.766268 editorslist.go:19: Detected 2 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 13:51:35.227155 handlers.go:68: GET /clientapi/plugins 200 4860 11.018609128s
+[kited] 2021/07/21 13:51:35.287891 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 14:01:35.227068 handlers.go:68: GET /clientapi/plugins 200 4861 10.959236636s
+[kited] 2021/07/21 14:01:35.290909 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 14:11:35.963906 handlers.go:68: GET /clientapi/plugins 200 4860 11.740201949s
+[kited] 2021/07/21 14:11:36.020636 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 14:13:47.156640 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/21 14:18:39.121933 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/21 14:18:39.282269 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/21 14:21:25.715870 provider_darwin.go:141: [proxy.Provider.readDarwinNetworkSettingProxy]: Operation timed out. 
+[kited] 2021/07/21 14:21:33.312462 editorslist.go:19: Detected 2 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 14:22:24.717020 handlers.go:68: GET /clientapi/plugins 200 4860 58.824867738s
+[kited] 2021/07/21 14:22:24.802906 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 14:27:53.409157 handlers.go:68: POST /clientapi/metrics/counters 0 0 47.139046ms
+[kited] 2021/07/21 14:27:53.409162 handlers.go:68: POST /clientapi/metrics/counters 0 0 41.027163ms
+[kited] 2021/07/21 14:27:53.658918 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 7.440806ms
+[kited] 2021/07/21 14:27:54.959022 handlers.go:68: GET /clientapi/ping 200 2 3.23944ms
+[kited] 2021/07/21 14:27:55.194854 handlers.go:68: GET /clientapi/user 200 200 31.447052ms
+[kited] 2021/07/21 14:27:55.196264 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 164.056µs
+[kited] 2021/07/21 14:28:00.323368 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 1.738863ms
+[kited] 2021/07/21 14:28:05.146852 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 9.516963ms
+[kited] 2021/07/21 14:28:10.151614 handlers.go:68: GET /clientapi/status?filename=undefined 400 183 10.454475ms
+[kited] 2021/07/21 14:28:17.442006 handlers.go:68: POST /clientapi/metrics/counters 0 0 14.862656ms
+[kited] 2021/07/21 14:28:17.442060 handlers.go:68: POST /clientapi/metrics/counters 0 0 9.532328ms
+[kited] 2021/07/21 14:31:49.428235 handlers.go:68: GET /clientapi/plugins 200 4860 25.003531461s
+[kited] 2021/07/21 14:31:49.553276 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 14:41:38.058302 handlers.go:68: GET /clientapi/plugins 200 4861 13.653656853s
+[kited] 2021/07/21 14:41:38.166493 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 14:51:27.472352 codebase.go:212: unloading project for project root /Users/chrisadore/github/Python-Functions-Files-and-Dictionaries
+[kited] 2021/07/21 14:51:27.696630 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 14:51:34.868401 handlers.go:68: GET /clientapi/plugins 200 4861 10.70873573s
+[kited] 2021/07/21 14:51:34.929205 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 15:01:35.858012 handlers.go:68: GET /clientapi/plugins 200 4861 11.603136819s
+[kited] 2021/07/21 15:01:35.923110 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 15:11:35.728860 handlers.go:68: GET /clientapi/plugins 200 4861 11.59497193s
+[kited] 2021/07/21 15:11:35.798149 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 15:13:47.383400 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/21 15:18:54.036242 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/21 15:18:54.133115 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/21 15:21:27.675420 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 15:21:36.424162 handlers.go:68: GET /clientapi/plugins 200 4861 12.249969561s
+[kited] 2021/07/21 15:21:36.524850 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 15:31:36.112328 handlers.go:68: GET /clientapi/plugins 200 4861 11.988740953s
+[kited] 2021/07/21 15:31:36.179451 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 15:54:16.042656 handlers.go:68: GET /clientapi/plugins 200 4861 29.495255067s
+[kited] 2021/07/21 15:54:16.123158 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 16:03:49.993973 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 16:04:00.824772 handlers.go:68: GET /clientapi/plugins 200 4861 14.356482783s
+[kited] 2021/07/21 16:04:00.900216 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 16:13:47.967744 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/21 16:13:57.965543 handlers.go:68: GET /clientapi/plugins 200 4861 11.069778386s
+[kited] 2021/07/21 16:13:58.029723 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 16:23:57.668130 handlers.go:68: GET /clientapi/plugins 200 4861 10.795761633s
+[kited] 2021/07/21 16:23:57.729513 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 16:31:31.823800 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/21 16:31:31.942168 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/21 16:33:50.450804 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/21 16:33:57.921348 handlers.go:68: GET /clientapi/plugins 200 4861 10.916425187s
+[kited] 2021/07/21 16:33:57.988686 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 16:43:59.965877 handlers.go:68: GET /clientapi/plugins 200 4861 13.016162653s
+[kited] 2021/07/21 16:44:00.065152 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/21 16:53:59.243554 handlers.go:68: GET /clientapi/plugins 200 4861 12.201826456s
+[kited] 2021/07/21 16:53:59.324019 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2021/07/22 03:22:16.840147 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.123:61631->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/22 03:24:50.809804 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/22 03:24:59.075631 handlers.go:68: GET /clientapi/plugins 200 4861 11.791960966s
+[kited] 2021/07/22 03:24:59.141701 track.go:167: tracker.Event: uninstalled_plugin_detected

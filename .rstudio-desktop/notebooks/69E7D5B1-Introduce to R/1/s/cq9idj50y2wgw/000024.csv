@@ -1,0 +1,5 @@
+"0","# type your code for Question 2 here, and Knit"
+"0","sfo_feb_flights <- nycflights %>%"
+"0","  filter(dest == ""SFO"")"
+"0","ggplot(data = sfo_feb_flights, aes(x = arr_delay)) +"
+"0","  geom_histogram()"

@@ -1,0 +1,4 @@
+"0","nycflights %>%"
+"0","  group_by(origin) %>%"
+"0","  summarise(ot_dep_rate = sum(dep_type == ""on time"") / n()) %>%"
+"0","  arrange(desc(ot_dep_rate))"

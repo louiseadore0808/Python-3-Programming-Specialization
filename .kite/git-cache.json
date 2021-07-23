@@ -1,0 +1,95 @@
+{
+"Repos": {
+"/Users/chrisadore/github/2021summer_lesson1": {
+"Commits": {
+"0bb776686f5d99ad2eb32ee13db40f89d53c85a9": [
+0
+],
+"0df5ae0a7a1b21d3cc1a76374f6f433fc55c1790": null,
+"0e4c60161c1cb2b849b901eb3beb75cf419c9e3e": null,
+"155b71896b9124139edc0f87c5d79c011787c6d9": [
+0
+],
+"1a9768cb539aff5fec913d4e198287e358311ea0": null,
+"25da2068e18902ba368dbb5b51c8b63ecc7456cd": [
+2,
+0
+],
+"2f7e13914ee3ea7d7ca83e3360653525c547f2b9": null,
+"39a46bdfa294cb1709e80abf536e6993096cdc95": null,
+"3cdb0b1b0acc9a73ca93c9e115f618110b168fc8": [
+0
+],
+"45ffa5b07c60ade1026c7ccf983e8f0533bb2c96": null,
+"48703f922c9d2d0358496846d0f9c383c36add7f": null,
+"497a2c20e42658a9f099c8e785a777f86c93f12d": null,
+"59e22a69377a4cd26f65409d4ed6ab48277337cb": null,
+"61809ca40569b17fb4baa63d43cc350597906f45": null,
+"6390a251878169805e1516464b092c12cd6438ac": null,
+"73a34564296b51f86bd03132725f55d51c8e9527": null,
+"74f66dec9a176358b4297b20e2cb6a31ad024f02": null,
+"79104aae245a090142cdb2b11867bce549e0d422": null,
+"95f6117c68acad67392cdcb32cad31a87344123a": null,
+"a473700c39b56fb3a936b46a41ed8b336ffbe8ad": null,
+"ab4a2c72329d3468d9720f93c43cffae99fe3c2d": [
+1
+],
+"badba7c043ed382fc6ea387dd191fd32568e3e91": null,
+"bb0caea39e553d3810e0a6fb5831c22f83942447": null,
+"c43ae6e26d65b9b717955feed21a357691fc036d": null,
+"ccdc50451bf5e79effd246c3a7beae6e229a0c30": null,
+"d661d50ed66fe5030cb6cfef2ee552032486fa25": null,
+"db3c3dc0dd3e4b6e139abbe16c3240551a035a20": null,
+"e92a747f7c195d8d511db72389de7a03c3260aa4": null,
+"ead1dbd9d02359fde06bac365a54e541e79a5c01": [
+3,
+0
+],
+"eae38519318ac52f4e09601894487f8bbe9691a7": null,
+"f2c47dd5884972b334b759571a955442bf7df8e7": null,
+"f7a37bffc7b67a47df2fc24a003c02bd418464fc": null
+},
+"Files": [
+"PBS/PBS.sh",
+"Git/setconfig.sh",
+"PBS/HelloWorld.py",
+"Docker/HelloWorld.py"
+]
+},
+"/Users/chrisadore/github/Python-Functions-Files-and-Dictionaries": {
+"Commits": {
+"6ba4dfe1968b92f96239c10e38d826469e3b7608": null,
+"b0133e511d0dc984eec22301ef0a2d13563f96c7": [
+0,
+1,
+2,
+3,
+4,
+5,
+6
+]
+},
+"Files": [
+"Dictionary/11.6. Introduction- Accumulating Multiple Results In a Dictionary.py",
+"Dictionary/11.7. Accumulating Results From a Dictionary.py",
+"Dictionary/11.8. Accumulating the Best Key.py",
+"Dictionary/Accumlate_Dictionary.py",
+"Dictionary/Accumlate_Dictionary2.py",
+"Dictionary/course_2_assessment_3.py",
+"Function_Parameters.py"
+]
+},
+"/Users/chrisadore/github/py4e": {
+"Commits": {
+"72a5c58724da9cb8ab79b6b832de03d8f61d045a": null,
+"7cb29040b915659ea7c56b9b825b0f449d43953b": null
+},
+"Files": null
+}
+},
+"EvictionOrder": [
+"/Users/chrisadore/github/py4e",
+"/Users/chrisadore/github/2021summer_lesson1",
+"/Users/chrisadore/github/Python-Functions-Files-and-Dictionaries"
+]
+}

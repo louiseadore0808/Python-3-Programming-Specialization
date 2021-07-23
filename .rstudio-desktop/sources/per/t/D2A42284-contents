@@ -1,0 +1,54 @@
+install.packages("htmltools")
+library(htmltools)
+
+library( "DESeq2" )
+library(ggplot2)
+#setwd("/Volumes/TOSHIBA\ EXT/RNAseq1/DEseq2")
+directory<-"/Volumes/TOSHIBA\ EXT/RNAseq1/DEseq2/2passHTcount"
+sampleFiles <- grep("DHX8",list.files(directory),value=TRUE)
+sampleCondition <- c("siNeg","siDHX8","siNeg","siDHX8")
+sampleTable<-data.frame(sampleName= sampleFiles, fileName=sampleFiles, condition=sampleCondition)
+sampleTable
+ddsHTSeq<-DESeqDataSetFromHTSeqCount(sampleTable=sampleTable, directory=directory, design=~condition)
+
+#countData <- read.csv('/Volumes/TOSHIBA\ EXT/RNAseq1/DEseq2/2passHTcount/2raw_counts_table.csv', header = TRUE, sep = ",")
+#head(countData)
+#metaData <- read.csv('airway_metadata.csv', header = TRUE, sep = ",") 
+#row.names(countData) <- countData$Gene_ID
+
+#dds <- DESeqDataSetFromMatrix(countData=sampleFiles,
+#                              colData=metaData, 
+#                              design=~dex, tidy = TRUE)
+dds<-DESeq(ddsHTSeq)
+res <- results(dds)
+head(results(dds, tidy=TRUE))
+summary(res)
+res <- res[order(res$padj),] 
+head(res)
+resSig <- res[ which(res$padj < 0.1 ), ]
+write.csv(as.data.frame(res), file="/Volumes/TOSHIBA\ EXT/RNAseq1/DEseq2/2passHTcount/res.csv")
+
+par(mfrow=c(2,3))
+plotCounts(dds, gene="ENSG00000152583", intgroup="dex") 
+plotCounts(dds, gene="ENSG00000179094", intgroup="dex") 
+plotCounts(dds, gene="ENSG00000116584", intgroup="dex") 
+plotCounts(dds, gene="ENSG00000189221", intgroup="dex") 
+plotCounts(dds, gene="ENSG00000120129", intgroup="dex") 
+plotCounts(dds, gene="ENSG00000148175", intgroup="dex")
+par(mfrow=c(1,1))
+with(res, plot(log2FoldChange, -log10(pvalue), pch=20, main="Volcano plot", xlim=c(-3,3)))
+with(subset(res, padj < .05 ), points(log2FoldChange, -log10(pvalue), pch=20, col="blue"))
+with(subset(res, padj<.05 & abs(log2FoldChange)>2), points(log2FoldChange, -log10(pvalue), pch=20, col="red"))
+
+library("RColorBrewer")
+library( "gplots" )
+hist( res$pvalue, breaks=20, col="grey" )
+rld <- rlog( dds )
+assay(rld)[ 1:4, 1:4]
+plot( log2( 1+counts(dds, normalized=TRUE)[, 1:2] ), col="#00000020", pch=20, cex=0.3 )
+plot( assay(rld)[, 1:2], col="#00000020", pch=20, cex=0.3 )
+sampleDists <- dist( t( assay(rld) ) )
+sampleDistMatrix <- as.matrix( sampleDists )
+colours = colorRampPalette( rev(brewer.pal(9, "Reds")) )(255)
+heatmap.2( sampleDistMatrix, trace="none", col=colours, margins = c(12, 12),)
+plotMA(dds,ylim=c(-5,5),main="DESeq2")

@@ -1,0 +1,13 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = {louiseadore0808}
+	email = louiseadore0808@gmail.com
+[init]
+	defaultBranch = main
+  [credential]
+  helper = osxkeychain
+  useHttpPath = true
