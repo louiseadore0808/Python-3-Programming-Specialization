@@ -5,7 +5,7 @@ def sumTo(aBound):
     aNumber = 1
     while aNumber <= aBound:   #this line is condition
         theSum += aNumber      #run this block see if condition is true
-        aNumber += 1           #loop back to while condition to see if stil ture
+        aNumber += 1           #loop back to while condition to see if still true
     return theSum
 print(sumTo(4))
 print(sumTo(1000))

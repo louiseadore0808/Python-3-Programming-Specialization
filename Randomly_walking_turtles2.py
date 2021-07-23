@@ -1,7 +1,7 @@
 import random
 import turtle
 
-def isInScreen(w, t):
+def isInScreen(w, t):       #define screen size
     leftBound = - w.window_width() / 2
     rightBound = w.window_width() / 2
     topBound = w.window_height() / 2
