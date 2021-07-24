@@ -14,7 +14,8 @@ print(dk(5, ['Hello']))
 initial = 7
 def f(x, y=3, z=initial):
     print("x, y, z, are: " + str(x) + ", " + str(y) + ", " + str(z))
-
+# keyword arguments always have to come after any positional arguments 
+# that don't specify a keyword
 f(2)
 f(2, 5) #y=3 -> y=5
 f(2, 5, 8)  # -> z=8
@@ -23,9 +24,13 @@ initial = 7
 
 def f(x, y=3, z=initial):
     print("x, y, z, are: " + str(x) + ", " + str(y) + ", " + str(z))
+
 #不要設default value為mutable object, that object will be shared in 
 # all invocations of the function
-initial = 10
+initial = 10  # default values are only evaluated when we declare the function. 
+# When we declare this function f initial had the value seven, and so we can just almost 
+# replaced this with the value seven. It doesn't matter that we changed initial later on, 
+# z is going to have the value seven by default.
 f(2) #initial in def不變
 
 # Write a function called str_mult that takes in a required string parameter and an optional integer parameter. The default value for the integer parameter should be 3. The function should return the string multiplied by the integer parameter.
