@@ -2,6 +2,9 @@
 # 一個預設值，當來源端有傳入該資料時，使用來源端的資料，沒有傳入時，則依照設定的預
 # 設值來進行運算
 # 必要參數(Required Argument)一定要放在預設值參數(Optional Argument)的前面
+# Optional Parameters:
+#   define default values for formal parameters, which made it optional to provide values 
+#   for those parameters when invoking the functions
 
 def dk(a, L=[]):
     L.append(a)
