@@ -5,6 +5,8 @@
 # Optional Parameters:
 #   define default values for formal parameters, which made it optional to provide values 
 #   for those parameters when invoking the functions
+# 要注意default argument是在函數被定義時計算的！不是在執行的時候，所以就算後面再改也不會變
+# 而且不可以將mutable datatype: dictionary or string當成default argument使用
 
 def dk(a, L=[]):
     L.append(a)
