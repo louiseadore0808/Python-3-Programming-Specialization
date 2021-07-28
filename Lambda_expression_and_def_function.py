@@ -1,7 +1,7 @@
 def f(x):
     return x - 1
 # can also write in
-lambda x: x-1
+lambda x: x-1 # x: input, x-1: return object
 
 print(f)  # <function f>
 print(type(f))  # <class 'function'>
