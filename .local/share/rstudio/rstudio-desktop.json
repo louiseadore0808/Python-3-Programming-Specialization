@@ -1,14 +1,14 @@
 {
     "context_id": "654806F8",
     "theme": {
-        "name": "Crimson Editor",
-        "url": "theme/default/crimson_editor.rstheme",
-        "isDark": false
+        "name": "Pastel On Dark",
+        "url": "theme/default/pastel_on_dark.rstheme",
+        "isDark": true
     },
     "error_handler_type": "break",
     "export_plot_options": {
-        "width": 613,
-        "height": 565,
+        "width": 587,
+        "height": 488,
         "format": "png",
         "keepRatio": false,
         "viewAfterSave": false,

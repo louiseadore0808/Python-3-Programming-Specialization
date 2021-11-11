@@ -1,86 +1,3 @@
-/usr/local/bin/python3 /Users/chrisadore/.vscode/extensions/ms-python.python-2020.7.96456/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user 
-ssh ls807terra@140.110.148.14
-ssh ls807terra@1140.110.148.14
-ssh ls807terra@140.110.148.14
-pwd
-cd .
-cd ..
-ls
-pwd
-cd ..
-pwd
-cd ../../
-pwd
-cd Users/
-cd chrisadore/
-ls
-cd Desktop/
-pwd
-ls
-mkdir Yun
-ls
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8.tar.gz
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8.tar.gz /Users/chrisadore/Desktop/
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8/DHX8_2_Unique_str1.bw /Users/chrisadore/Desktop/
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8/DHX8_2_Unique_str1.bw /Users/chrisadore/Desktop/
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8 /Users/chrisadore/Desktop/
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8.tar.gz /Users/chrisadore/Desktop/
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8/DHX8_2_Unique_str1.bw
-scp ls807terra@140.110.148.22:/project/GP1/ls807terra/R807_members/Yun/Wig2BW/DHX8/DHX8_2_Unique_str1.bw /Users/chrisadore/Desktop/
-ssh ls807terra@140.110.148.14
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew --version
-git --version
-$ git config --global user.name "your name"   # Please enter your name
-$ git config --global user.name chrisadore 
-$ git config --global user.name "chrisadore" 
-$ git config --list
-$ git config --global user.chrisadore 
-ls
-git bash
-git --help
-name
-$ git config --global user.name "Eddie Kao"
-$ git config --global user.email "eddie@5xruby.tw"
-$ git config --global user.name "chrisadore"
-$ git config --global user.email "f06b43026@g.ntu.edu.tw"
-$ git config --local user.name Sherly
-$ git config --global user.name "chrisadore"
-$ git config --local user.name "chrisadore"
-git config --list
-git
-git --version
-ls
-cd httpsanalysis.ingenuity.compa_1787256/
-ls
-cd ..
-$ git config --global user.name chrisadore
-$ git config --global user.email chrisadore@icloud.com
-// brew upgrade git
-brew upgrade git
-brew install git
-git --version
-$ git config --global user.name chrisadore
-$ git config --global user.email chrisadore@icloud.com
-which git
-brew upgrade git
-ls
-cd local
-cd ../..
-ls
-cd bin
-cd bin
-cd ../
-ls
-cd Users/
-ls
-cd chrisadore/
-ls
-which git
 cd ../..
 cd usr/
 ls
@@ -498,3 +415,86 @@ scp ls807terra@140.110.148.14:/project/GP1/ls807terra/Bioinfomatic_tools/DEXSeq/
 scp ls807terra@140.110.148.14:/project/GP1/ls807terra/Bioinfomatic_tools/DEXSeq/D8_2_DEXSeq_count3.txt '/Volumes/TOSHIBA EXT/RNAseq1/2p-star-ensembl/no-strand'
 scp ls807terra@140.110.148.14:/project/GP1/ls807terra/Bioinfomatic_tools/DEXSeq/D8_3_DEXSeq_count3.txt '/Volumes/TOSHIBA EXT/RNAseq1/2p-star-ensembl/no-strand'
 scp ls807terra@140.110.148.14:/project/GP1/ls807terra/Bioinfomatic_tools/DEXSeq/D8_4_DEXSeq_count3.txt '/Volumes/TOSHIBA EXT/RNAseq1/2p-star-ensembl/no-strand'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/RNA-seq/fastq/siDHX8_RNAseq '/Volumes/TOSHIBA EXT/RNAseq1/Raw fastq'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/RNA-seq/fastq/siDHX8_RNAseq/Raw2021.tar.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/RNA-seq/fastq/siDHX8_RNAseq/Raw2021.tar.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq' 
+clear
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/RNA-seq/fastq/siDHX8_RNAseq/Raw2021.tar.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/RNA-seq/fastq/siDHX8_RNAseq/Raw2021.tar.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq' 
+clear
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/4Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/4Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/4Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/4Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/3Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/3Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EX
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/4SJ.out.tab '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/4SJ.out.tab '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/3SJ.out.tab '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/2SJ.out.tab '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/1SJ.out.tab '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/1_R2.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/3_R2.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/2_R1.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/3_R1.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/2_R2.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/4_R2.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/1Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/1Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/2Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/2Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yunstar2021/twopass/2Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/twopass/2Aligned.sortedByCoord.out.bam '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021'
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021 '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/1_R1.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/Raw_2021/4_R1.fastq.gz '/Volumes/TOSHIBA EXT/RNAseq1/Raw_fastq/Raw2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/1.count '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/2.count '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/3.count '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/3.count '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/star2021/4.count '/Volumes/TOSHIBA EXT/RNAseq1/plot_correlation/2021' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass/HT2pass.tar.gz '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass/DHX8_2pass_GeneSymbol_1.count '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass/DHX8_2pass_GeneSymbol_2.count '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass/DHX8_2pass_GeneSymbol_.count '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass/DHX8_2pass_GeneSymbol_3.count '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+scp ls807terra@140.110.148.14:/project/GP1/ls807terra/R807_members/Yun/HTseq/2pass/DHX8_2pass_GeneSymbol_4.count '/Volumes/TOSHIBA EXT/RNAseq1/HTseq' 
+ssh ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/1.Unique.str1.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+ssh ls807terra@twnia3.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/1.Unique.str1.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/1.Unique.str1.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/2.Unique.str1.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/3.Unique.str1.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/*.Unique.str1.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/*.str2.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/*.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/*.bw '/Users/chrisadore/Desktop'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/*.bw '/Users/chrisadore/Desktop'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/1*.bw '/Users/chrisadore/Desktop'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/wigTobigwig/project_U2OS_siDHX8_RNA_seq/1.bw '/Users/chrisadore/Desktop'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/bamcoverage/project_U2OS_siDHX8_RNA_seq/13thland_U2OS_bamcoverage*.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/bamcoverage/project_U2OS_siDHX8_RNA_seq/13thland_U2OS_bamcoverage*.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/bamcoverage/project_U2OS_siDHX8_RNA_seq/13thland_U2OS_bamcoverage*.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+clear
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/bamcoverage/project_U2OS_siDHX8_RNA_seq/13thland_U2OS_bamcoverage/*.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/bamcoverage/project_U2OS_siDHX8_RNA_seq/13thland_U2OS_bamcoverage/*.bw '/Volumes/TOSHIBA EXT/RNAseq1/Bamcoverage/2021'
+scp ls807terra@t3-c4.nchc.org.tw:/staging/biology/ls807terra/RNA_seq/bamcoverage/project_U2OS_siDHX8_RNA_seq/13thland_U2OS_bamcoverage/*.bw '/Users/chrisadore/Desktops'
+pythonScriptsDir = system.file( "python_scripts", package="DEXSeq" )
+list.files(pythonScriptsDir)
+find dexseq_count.py
+find DEXseq
+ls
+cd Applications/
+ls
+ls
+cd ..
+ls
+cd Library/
+ls
+cd ..
+ls
+clear
+sftp ls8-
+sftp ls807terra@t3-c4.nchc.org.tw
+list.files()  echo AAECA250 && echo $HISTCONTROL && /usr/bin/env && echo E2AC5189
+ls

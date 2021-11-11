@@ -1,4 +1,0 @@
-30 Dec 2020 06:51:58 [rdesktop] ERROR Main window closed unexpectedly; LOGGED FROM: auto rstudio::desktop::MainWindow::closeEvent(QCloseEvent *)::(anonymous class)::operator()(QVariant) const src/cpp/desktop/DesktopMainWindow.cpp:499
-05 Mar 2021 08:38:30 [rdesktop] ERROR Main window closed unexpectedly; LOGGED FROM: auto rstudio::desktop::MainWindow::closeEvent(QCloseEvent *)::(anonymous class)::operator()(QVariant) const src/cpp/desktop/DesktopMainWindow.cpp:499
-28 Jun 2021 10:25:25 [rdesktop] ERROR Main window closed unexpectedly; LOGGED FROM: auto rstudio::desktop::MainWindow::closeEvent(QCloseEvent *)::(anonymous class)::operator()(QVariant) const src/cpp/desktop/DesktopMainWindow.cpp:499
-04 Jul 2021 11:09:44 [rdesktop] ERROR Main window closed unexpectedly; LOGGED FROM: auto rstudio::desktop::MainWindow::closeEvent(QCloseEvent *)::(anonymous class)::operator()(QVariant) const src/cpp/desktop/DesktopMainWindow.cpp:499

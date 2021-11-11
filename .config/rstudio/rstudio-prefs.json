@@ -1,12 +1,11 @@
 {
     "font_size_points": 16,
-    "editor_theme": "Crimson Editor",
+    "editor_theme": "Pastel On Dark",
     "pdf_previewer": "none",
     "posix_terminal_shell": "bash",
-    "default_project_location": "~/Desktop",
-    "jobs_tab_visibility": "shown",
+    "default_project_location": "~/OneDrive - 國立台灣大學",
+    "jobs_tab_visibility": "closed",
     "initial_working_directory": "/Volumes/TOSHIBA EXT/RNAseq1",
-    "show_terminal_tab": false,
     "always_save_history": false,
     "soft_wrap_r_files": true,
     "panes": {
@@ -22,9 +21,6 @@
             "Plots",
             "Connections",
             "Help",
-            "Build",
-            "VCS",
-            "Tutorial",
             "Presentation"
         ],
         "tabSet2": [
@@ -32,9 +28,19 @@
             "Packages",
             "Viewer"
         ],
+        "hiddenTabSet": [
+            "Build",
+            "VCS",
+            "Tutorial"
+        ],
         "console_left_on_top": false,
-        "console_right_on_top": true
+        "console_right_on_top": true,
+        "additional_source_columns": 0
     },
     "save_workspace": "always",
-    "new_proj_git_init": true
+    "syntax_color_console": true,
+    "global_theme": "alternate",
+    "python_type": "system",
+    "python_version": "3.10.0",
+    "python_path": "/usr/local/bin/python3.10"
 }

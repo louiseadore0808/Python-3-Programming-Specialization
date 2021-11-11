@@ -1,0 +1,19 @@
+[kited] 2021/11/09 19:56:46.575636 app.go:197: listening at port: 46624
+[kited] 2021/11/09 19:56:46.575753 app.go:198: machine ID: 5d3ba77c34159dee45066d3025960ca7
+[kited] 2021/11/09 19:56:46.575775 app.go:199: install ID: a932afdf-f5bc-47c3-b778-c6b827fd5c4c
+[kited] 2021/11/09 19:56:46.575790 app.go:200: OS: darwin
+[kited] 2021/11/09 19:56:46.575898 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz, family 6, model 142, 4 cores, 8 threads, flags: ADX,AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,MPX,NX,POPCNT,RDRAND,RDSEED,RDTSCP,SGX,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2021/11/09 19:56:46.575917 app.go:202: platform: darwin Standalone Workstation 11.6
+[kited] 2021/11/09 19:56:46.575929 app.go:203: root dir: /Users/chrisadore/.kite
+[kited] 2021/11/09 19:56:46.575941 app.go:204: log file: /Users/chrisadore/.kite/logs/client.log
+[kited] 2021/11/09 19:56:46.575950 app.go:205: dev mode: false
+[kited] 2021/11/09 19:56:46.575960 app.go:206: version: 0.20210610.0
+[kited] 2021/11/09 19:56:46.575968 app.go:207: configuration: Release
+[kited] 2021/11/09 19:56:46.576682 app.go:214: proxy: environment
+[kited] 2021/11/09 19:56:46.588839 manager.go:173: using tf_threads value of 1
+[kited] 2021/11/09 19:56:47.115008 manager.go:263: watching dir /Users/chrisadore
+[kited] 2021/11/09 19:56:47.136228 client.go:172: Successfully loaded 1 licenses
+[kited] 2021/11/09 19:56:47.137417 app.go:341: using startup mode: PluginLaunchWithSidebar
+[kited] 2021/11/09 19:56:47.137440 app.go:342: using startup channel: vscode
+[kited] 2021/11/09 19:56:47.428802 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2021/11/09 19:56:47.429027 state.go:75: track: setting user ids User{id:0 email: installID:a932afdf-f5bc-47c3-b778-c6b827fd5c4c machineID:5d3ba77c34159dee45066d3025960ca7}

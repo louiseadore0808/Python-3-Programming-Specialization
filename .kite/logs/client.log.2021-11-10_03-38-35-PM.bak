@@ -1,0 +1,32 @@
+[kited] 2021/11/10 15:35:12.889561 app.go:197: listening at port: 46624
+[kited] 2021/11/10 15:35:12.890135 app.go:198: machine ID: 5d3ba77c34159dee45066d3025960ca7
+[kited] 2021/11/10 15:35:12.890160 app.go:199: install ID: a932afdf-f5bc-47c3-b778-c6b827fd5c4c
+[kited] 2021/11/10 15:35:12.890178 app.go:200: OS: darwin
+[kited] 2021/11/10 15:35:12.890328 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz, family 6, model 142, 4 cores, 8 threads, flags: ADX,AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,MPX,NX,POPCNT,RDRAND,RDSEED,RDTSCP,SGX,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2021/11/10 15:35:12.890360 app.go:202: platform: darwin Standalone Workstation 11.6
+[kited] 2021/11/10 15:35:12.890379 app.go:203: root dir: /Users/chrisadore/.kite
+[kited] 2021/11/10 15:35:12.890396 app.go:204: log file: /Users/chrisadore/.kite/logs/client.log
+[kited] 2021/11/10 15:35:12.890411 app.go:205: dev mode: false
+[kited] 2021/11/10 15:35:12.890427 app.go:206: version: 0.20210610.0
+[kited] 2021/11/10 15:35:12.890443 app.go:207: configuration: Release
+[kited] 2021/11/10 15:35:12.891548 app.go:214: proxy: environment
+[kited] 2021/11/10 15:35:12.926581 manager.go:173: using tf_threads value of 1
+[kited] 2021/11/10 15:35:13.987378 manager.go:263: watching dir /Users/chrisadore
+[kited] 2021/11/10 15:35:14.038346 client.go:172: Successfully loaded 1 licenses
+[kited] 2021/11/10 15:35:14.041998 app.go:341: using startup mode: SystemBoot
+[kited] 2021/11/10 15:35:14.042045 app.go:342: using startup channel: 
+[kited] 2021/11/10 15:35:14.042164 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2021/11/10 15:35:14.042279 state.go:75: track: setting user ids User{id:0 email: installID:a932afdf-f5bc-47c3-b778-c6b827fd5c4c machineID:5d3ba77c34159dee45066d3025960ca7}
+[kited] 2021/11/10 15:35:14.189779 manager.go:385: walking root dir /Users/chrisadore
+[kited] 2021/11/10 15:35:16.921327 http.go:146: received login event
+[kited] 2021/11/10 15:35:16.921919 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 15:35:16.922437 listener.go:58: connection dropped: failed to get reader: WebSocket closed: read timed out: context canceled
+[kited] 2021/11/10 15:35:17.096920 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 15:35:18.693900 track.go:167: tracker.Event: Found Editors
+[kited] 2021/11/10 15:35:18.694318 track.go:167: tracker.Event: Found No Installed Plugins
+[kited] 2021/11/10 15:35:18.813721 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 15:35:20.022001 manager.go:378: identifying with id: 856220
+[kited] 2021/11/10 15:35:23.453183 track.go:167: tracker.Event: Background Library Walk Completed
+[kited] 2021/11/10 15:35:23.453451 manager.go:401: Library dirs: 0
+[kited] 2021/11/10 15:35:23.453487 manager.go:402: Walk took: 9.263561678s
+[kited] 2021/11/10 15:35:23.453515 manager.go:406: finished walking root dir /Users/chrisadore

@@ -1,0 +1,6 @@
+(lp1
+S'{"exe_name": "", "sci": "", "uuid": "S-1-E5E554E6DA7A812C0EF8213DBDFB9A050EE3370D3BBEB5E4316A48A586513E56", "dll_name": "PyUno.py", "CUSTOMERNO": "2581", "SR": "YOU210719-02", "VERSIONTYPE": "for Mac", "scf": "", "PRODUCT": "U", "scc": "", "BUILDNUMBER": "7.0.0.943920", "VERSION": "1.0", "uno_ver": "3.1.0.9999", "COMBO": "0", "DISPLAYBUILDNUMBER": "7.0.0.943920", "event": [{"name": "U2.0", "value": "UI_SUSPEND", "time": "2021-10-21 08:25:08:844 +08:00"}], "CHANNEL": "iSales"}'
+p2
+aS'{"exe_name": "", "sci": "", "uuid": "S-1-E5E554E6DA7A812C0EF8213DBDFB9A050EE3370D3BBEB5E4316A48A586513E56", "dll_name": "PyUno.py", "CUSTOMERNO": "2581", "SR": "YOU210719-02", "VERSIONTYPE": "for Mac", "scf": "", "PRODUCT": "U", "scc": "", "BUILDNUMBER": "7.0.0.943920", "VERSION": "1.0", "uno_ver": "3.1.0.9999", "COMBO": "0", "DISPLAYBUILDNUMBER": "7.0.0.943920", "event": [{"name": "U2.0", "value": "UI_SUSPEND", "time": "2021-10-21 09:20:48:119 +08:00"}], "CHANNEL": "iSales"}'
+p3
+a.

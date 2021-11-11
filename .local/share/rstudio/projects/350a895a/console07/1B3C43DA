@@ -1,0 +1,19 @@
+list.files()
+]0;~/OneDrive - 國立台灣大學/15thland[?1034hOlivia:15thland chrisadore$ list.files()
+> [K> 
+]0;~/OneDrive - 國立台灣大學/15thlandOlivia:15thland chrisadore$ ls
+15thland.Rproj
+15thland_RNA-seq.pptx
+DEXseq.Rmd
+DEXseq.nb.html
+DEXseq_annotated_reads.py
+DEXseq_count
+DEXseq_readcount_annotated.py
+Homo_sapiens.GRCh38.102.gtf
+Homo_sapiens.GRCh38.102_ensembl.gff
+bamcoverage
+fastqc-after
+fastqc-before
+star2_en_bam
+未命名檔案夾
+]0;~/OneDrive - 國立台灣大學/15thlandOlivia:15thland chrisadore$ 

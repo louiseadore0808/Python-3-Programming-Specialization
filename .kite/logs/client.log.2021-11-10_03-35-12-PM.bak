@@ -1,0 +1,503 @@
+[kited] 2021/11/09 21:08:42.246023 app.go:197: listening at port: 46624
+[kited] 2021/11/09 21:08:42.246094 app.go:198: machine ID: 5d3ba77c34159dee45066d3025960ca7
+[kited] 2021/11/09 21:08:42.246107 app.go:199: install ID: a932afdf-f5bc-47c3-b778-c6b827fd5c4c
+[kited] 2021/11/09 21:08:42.246117 app.go:200: OS: darwin
+[kited] 2021/11/09 21:08:42.246194 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz, family 6, model 142, 4 cores, 8 threads, flags: ADX,AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,MPX,NX,POPCNT,RDRAND,RDSEED,RDTSCP,SGX,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2021/11/09 21:08:42.246210 app.go:202: platform: darwin Standalone Workstation 11.6
+[kited] 2021/11/09 21:08:42.246229 app.go:203: root dir: /Users/chrisadore/.kite
+[kited] 2021/11/09 21:08:42.246237 app.go:204: log file: /Users/chrisadore/.kite/logs/client.log
+[kited] 2021/11/09 21:08:42.246245 app.go:205: dev mode: false
+[kited] 2021/11/09 21:08:42.246253 app.go:206: version: 0.20210610.0
+[kited] 2021/11/09 21:08:42.246261 app.go:207: configuration: Release
+[kited] 2021/11/09 21:08:42.246983 app.go:214: proxy: environment
+[kited] 2021/11/09 21:08:42.252939 client.go:172: Successfully loaded 1 licenses
+[kited] 2021/11/09 21:08:42.271857 manager.go:173: using tf_threads value of 1
+[kited] 2021/11/09 21:08:42.910018 manager.go:263: watching dir /Users/chrisadore
+[kited] 2021/11/09 21:08:42.931319 app.go:341: using startup mode: PluginLaunch
+[kited] 2021/11/09 21:08:42.931362 app.go:342: using startup channel: autocomplete-python
+[kited] 2021/11/09 21:08:42.931415 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2021/11/09 21:08:42.931494 state.go:75: track: setting user ids User{id:0 email: installID:a932afdf-f5bc-47c3-b778-c6b827fd5c4c machineID:5d3ba77c34159dee45066d3025960ca7}
+[kited] 2021/11/09 21:08:43.023039 manager.go:385: walking root dir /Users/chrisadore
+[kited] 2021/11/09 21:08:43.797866 handlers.go:68: GET /clientapi/ping 200 2 104.392µs
+[kited] 2021/11/09 21:08:44.049179 handlers.go:68: GET /clientapi/ping 200 2 56.81µs
+[kited] 2021/11/09 21:08:44.893364 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 842.686103ms
+[kited] 2021/11/09 21:08:44.895708 http.go:146: received login event
+[kited] 2021/11/09 21:08:44.895934 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/09 21:08:44.896246 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/a932afdf-f5bc-47c3-b778-c6b827fd5c4c": context canceled 200ms
+[kited] 2021/11/09 21:08:45.100451 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/09 21:08:45.471700 track.go:167: tracker.Event: Found Editors
+[kited] 2021/11/09 21:08:45.471786 track.go:167: tracker.Event: Found Installed Plugins
+[kited] 2021/11/09 21:08:45.703488 handlers.go:68: GET /clientapi/ping 200 2 87.589µs
+[kited] 2021/11/09 21:08:45.706412 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/09 21:08:45.706707 plugins_helpers.go:104: attempting to update vscode
+[kited] 2021/11/09 21:08:46.994360 manager.go:378: identifying with id: 856220
+[kited] 2021/11/09 21:08:47.078586 track.go:167: tracker.Event: Successful Plugin Updates
+[kited] 2021/11/09 21:08:48.126008 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 2.420627267s
+[kited] 2021/11/09 21:08:50.702374 handlers.go:68: GET /clientapi/ping 200 2 63.94µs
+[kited] 2021/11/09 21:08:50.704947 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 156.924µs
+[kited] 2021/11/09 21:08:51.158837 track.go:167: tracker.Event: Background Library Walk Completed
+[kited] 2021/11/09 21:08:51.158892 manager.go:401: Library dirs: 0
+[kited] 2021/11/09 21:08:51.158907 manager.go:402: Walk took: 8.135580816s
+[kited] 2021/11/09 21:08:51.158919 manager.go:406: finished walking root dir /Users/chrisadore
+[kited] 2021/11/09 21:08:55.686233 handlers.go:68: GET /clientapi/ping 200 2 70.933µs
+[kited] 2021/11/09 21:08:55.688293 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 142.783µs
+[kited] 2021/11/09 21:09:00.694121 handlers.go:68: GET /clientapi/ping 200 2 65.732µs
+[kited] 2021/11/09 21:09:00.698060 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 2.049106ms
+[kited] 2021/11/09 21:09:05.701634 handlers.go:68: GET /clientapi/ping 200 2 69.803µs
+[kited] 2021/11/09 21:09:05.706435 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 2.093907ms
+[kited] 2021/11/09 21:09:10.702400 handlers.go:68: GET /clientapi/ping 200 2 51.914µs
+[kited] 2021/11/09 21:09:10.704474 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 184.516µs
+[kited] 2021/11/09 21:09:15.700823 handlers.go:68: GET /clientapi/ping 200 2 48.164µs
+[kited] 2021/11/09 21:09:15.704943 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.869964ms
+[kited] 2021/11/09 21:09:20.753348 handlers.go:68: GET /clientapi/ping 200 2 53.66µs
+[kited] 2021/11/09 21:09:20.755900 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 190.969µs
+[kited] 2021/11/09 21:09:25.735811 handlers.go:68: GET /clientapi/ping 200 2 38.746µs
+[kited] 2021/11/09 21:09:25.738862 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.62237ms
+[kited] 2021/11/09 21:09:30.590123 handlers.go:68: GET /clientapi/ping 200 2 81.852µs
+[kited] 2021/11/09 21:09:30.593367 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.307561ms
+[kited] 2021/11/09 21:09:35.595162 handlers.go:68: GET /clientapi/ping 200 2 53.085µs
+[kited] 2021/11/09 21:09:35.598127 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.108464ms
+[kited] 2021/11/09 21:09:40.603440 handlers.go:68: GET /clientapi/ping 200 2 69.7µs
+[kited] 2021/11/09 21:09:40.607257 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.221945ms
+[kited] 2021/11/09 21:09:45.597982 handlers.go:68: GET /clientapi/ping 200 2 94.853µs
+[kited] 2021/11/09 21:09:45.601132 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.280621ms
+[kited] 2021/11/09 21:09:50.619610 handlers.go:68: GET /clientapi/ping 200 2 77.392µs
+[kited] 2021/11/09 21:09:50.621664 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 304.385µs
+[kited] 2021/11/09 21:09:55.607871 handlers.go:68: GET /clientapi/ping 200 2 50.04µs
+[kited] 2021/11/09 21:09:55.610683 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 186.397µs
+[kited] 2021/11/09 21:10:00.608880 handlers.go:68: GET /clientapi/ping 200 2 137.878µs
+[kited] 2021/11/09 21:10:00.610890 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 172.921µs
+[kited] 2021/11/09 21:10:05.609933 handlers.go:68: GET /clientapi/ping 200 2 176.014µs
+[kited] 2021/11/09 21:10:05.611878 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 180.219µs
+[kited] 2021/11/09 21:10:10.617505 handlers.go:68: GET /clientapi/ping 200 2 70.994µs
+[kited] 2021/11/09 21:10:10.620082 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 196.968µs
+[kited] 2021/11/09 21:10:15.619054 handlers.go:68: GET /clientapi/ping 200 2 65.472µs
+[kited] 2021/11/09 21:10:15.623023 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.508978ms
+[kited] 2021/11/09 21:10:20.624960 handlers.go:68: GET /clientapi/ping 200 2 109.461µs
+[kited] 2021/11/09 21:10:20.628442 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.40501ms
+[kited] 2021/11/09 21:10:25.635097 handlers.go:68: GET /clientapi/ping 200 2 74.456µs
+[kited] 2021/11/09 21:10:25.637284 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 189.417µs
+[kited] 2021/11/09 21:10:30.635101 handlers.go:68: GET /clientapi/ping 200 2 85.766µs
+[kited] 2021/11/09 21:10:30.639318 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.300743ms
+[kited] 2021/11/09 21:10:35.638466 handlers.go:68: GET /clientapi/ping 200 2 72.234µs
+[kited] 2021/11/09 21:10:35.640578 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 169.26µs
+[kited] 2021/11/09 21:10:40.640232 handlers.go:68: GET /clientapi/ping 200 2 70.433µs
+[kited] 2021/11/09 21:10:40.642855 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 168.687µs
+[kited] 2021/11/09 21:10:45.635768 handlers.go:68: GET /clientapi/ping 200 2 56.019µs
+[kited] 2021/11/09 21:10:45.639939 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.367147ms
+[kited] 2021/11/09 21:10:50.638806 handlers.go:68: GET /clientapi/ping 200 2 65.697µs
+[kited] 2021/11/09 21:10:50.641037 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 180.623µs
+[kited] 2021/11/09 21:10:55.632291 handlers.go:68: GET /clientapi/ping 200 2 67.049µs
+[kited] 2021/11/09 21:10:55.634522 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 167.857µs
+[kited] 2021/11/09 21:11:00.642784 handlers.go:68: GET /clientapi/ping 200 2 72.353µs
+[kited] 2021/11/09 21:11:00.646177 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.347594ms
+[kited] 2021/11/09 21:11:05.647098 handlers.go:68: GET /clientapi/ping 200 2 69.931µs
+[kited] 2021/11/09 21:11:05.650865 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.249791ms
+[kited] 2021/11/09 21:11:10.648417 handlers.go:68: GET /clientapi/ping 200 2 75.93µs
+[kited] 2021/11/09 21:11:10.650540 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 184.308µs
+[kited] 2021/11/09 21:11:15.650272 handlers.go:68: GET /clientapi/ping 200 2 52.803µs
+[kited] 2021/11/09 21:11:15.653037 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.149427ms
+[kited] 2021/11/09 21:11:20.668423 handlers.go:68: GET /clientapi/ping 200 2 52.135µs
+[kited] 2021/11/09 21:11:20.670923 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 152.445µs
+[kited] 2021/11/09 21:11:25.677202 handlers.go:68: GET /clientapi/ping 200 2 67.885µs
+[kited] 2021/11/09 21:11:25.679258 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 151.908µs
+[kited] 2021/11/09 21:11:30.662615 handlers.go:68: GET /clientapi/ping 200 2 46.16µs
+[kited] 2021/11/09 21:11:30.665245 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.021479ms
+[kited] 2021/11/09 21:11:35.665529 handlers.go:68: GET /clientapi/ping 200 2 68.946µs
+[kited] 2021/11/09 21:11:35.667973 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 115.987µs
+[kited] 2021/11/09 21:11:40.666326 handlers.go:68: GET /clientapi/ping 200 2 79.654µs
+[kited] 2021/11/09 21:11:40.669242 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 226.206µs
+[kited] 2021/11/09 21:11:45.671635 handlers.go:68: GET /clientapi/ping 200 2 75.88µs
+[kited] 2021/11/09 21:11:45.674759 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.258472ms
+[kited] 2021/11/09 21:11:50.673090 handlers.go:68: GET /clientapi/ping 200 2 47.119µs
+[kited] 2021/11/09 21:11:50.674857 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 146.345µs
+[kited] 2021/11/09 21:11:55.675778 handlers.go:68: GET /clientapi/ping 200 2 54.197µs
+[kited] 2021/11/09 21:11:55.678103 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 166.065µs
+[kited] 2021/11/09 21:12:00.689211 handlers.go:68: GET /clientapi/ping 200 2 50.974µs
+[kited] 2021/11/09 21:12:00.693575 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.396336ms
+[kited] 2021/11/09 21:12:05.679944 handlers.go:68: GET /clientapi/ping 200 2 51.38µs
+[kited] 2021/11/09 21:12:05.682036 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 145.775µs
+[kited] 2021/11/09 21:12:10.685397 handlers.go:68: GET /clientapi/ping 200 2 84.937µs
+[kited] 2021/11/09 21:12:10.687397 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 165.514µs
+[kited] 2021/11/09 21:12:15.689785 handlers.go:68: GET /clientapi/ping 200 2 61.226µs
+[kited] 2021/11/09 21:12:15.696112 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 3.429054ms
+[kited] 2021/11/09 21:12:20.694054 handlers.go:68: GET /clientapi/ping 200 2 68.707µs
+[kited] 2021/11/09 21:12:20.696213 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 138.328µs
+[kited] 2021/11/09 21:12:25.710912 handlers.go:68: GET /clientapi/ping 200 2 49.228µs
+[kited] 2021/11/09 21:12:25.712896 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 167.215µs
+[kited] 2021/11/09 21:12:30.703429 handlers.go:68: GET /clientapi/ping 200 2 92.028µs
+[kited] 2021/11/09 21:12:30.707626 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.499242ms
+[kited] 2021/11/09 21:12:35.703867 handlers.go:68: GET /clientapi/ping 200 2 68.896µs
+[kited] 2021/11/09 21:12:35.707013 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 192.073µs
+[kited] 2021/11/09 21:12:40.706255 handlers.go:68: GET /clientapi/ping 200 2 67.574µs
+[kited] 2021/11/09 21:12:40.708310 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 178.511µs
+[kited] 2021/11/09 21:12:45.709594 handlers.go:68: GET /clientapi/ping 200 2 90.142µs
+[kited] 2021/11/09 21:12:45.713545 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.233823ms
+[kited] 2021/11/09 21:12:50.713779 handlers.go:68: GET /clientapi/ping 200 2 66.487µs
+[kited] 2021/11/09 21:12:50.715810 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 132.356µs
+[kited] 2021/11/09 21:12:55.716556 handlers.go:68: GET /clientapi/ping 200 2 75.842µs
+[kited] 2021/11/09 21:12:55.718662 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 182.849µs
+[kited] 2021/11/09 21:13:00.726651 handlers.go:68: GET /clientapi/ping 200 2 55.204µs
+[kited] 2021/11/09 21:13:00.729594 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.248296ms
+[kited] 2021/11/09 21:13:05.723078 handlers.go:68: GET /clientapi/ping 200 2 79.2µs
+[kited] 2021/11/09 21:13:05.725623 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 135.869µs
+[kited] 2021/11/09 21:13:10.722949 handlers.go:68: GET /clientapi/ping 200 2 82.089µs
+[kited] 2021/11/09 21:13:10.725114 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 172.281µs
+[kited] 2021/11/09 21:13:15.725920 handlers.go:68: GET /clientapi/ping 200 2 67.302µs
+[kited] 2021/11/09 21:13:15.729293 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.294977ms
+[kited] 2021/11/09 21:13:20.726588 handlers.go:68: GET /clientapi/ping 200 2 40.408µs
+[kited] 2021/11/09 21:13:20.728389 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 109.482µs
+[kited] 2021/11/09 21:13:25.732737 handlers.go:68: GET /clientapi/ping 200 2 80.86µs
+[kited] 2021/11/09 21:13:25.735565 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 135.967µs
+[kited] 2021/11/09 21:13:30.731515 handlers.go:68: GET /clientapi/ping 200 2 72.4µs
+[kited] 2021/11/09 21:13:30.734492 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.055009ms
+[kited] 2021/11/09 21:13:35.748745 handlers.go:68: GET /clientapi/ping 200 2 50.096µs
+[kited] 2021/11/09 21:13:35.751160 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 220.452µs
+[kited] 2021/11/09 21:13:40.755444 handlers.go:68: GET /clientapi/ping 200 2 46.497µs
+[kited] 2021/11/09 21:13:40.759545 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.340882ms
+[kited] 2021/11/09 21:13:45.746695 handlers.go:68: GET /clientapi/ping 200 2 84.362µs
+[kited] 2021/11/09 21:13:45.750121 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.314845ms
+[kited] 2021/11/09 21:13:50.749803 handlers.go:68: GET /clientapi/ping 200 2 58.332µs
+[kited] 2021/11/09 21:13:50.751954 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 162.113µs
+[kited] 2021/11/09 21:13:55.751302 handlers.go:68: GET /clientapi/ping 200 2 58.887µs
+[kited] 2021/11/09 21:13:55.754579 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 168.196µs
+[kited] 2021/11/09 21:14:00.756599 handlers.go:68: GET /clientapi/ping 200 2 48.931µs
+[kited] 2021/11/09 21:14:00.760711 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.267664ms
+[kited] 2021/11/09 21:14:05.761532 handlers.go:68: GET /clientapi/ping 200 2 69.473µs
+[kited] 2021/11/09 21:14:05.763616 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 150.679µs
+[kited] 2021/11/09 21:14:10.761585 handlers.go:68: GET /clientapi/ping 200 2 79.838µs
+[kited] 2021/11/09 21:14:10.763746 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 130.589µs
+[kited] 2021/11/09 21:14:15.768684 handlers.go:68: GET /clientapi/ping 200 2 59.362µs
+[kited] 2021/11/09 21:14:15.772889 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.230079ms
+[kited] 2021/11/09 21:14:20.765837 handlers.go:68: GET /clientapi/ping 200 2 39.381µs
+[kited] 2021/11/09 21:14:20.767681 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 162.131µs
+[kited] 2021/11/09 21:14:25.762848 handlers.go:68: GET /clientapi/ping 200 2 80.316µs
+[kited] 2021/11/09 21:14:25.765984 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.30733ms
+[kited] 2021/11/09 21:14:30.750958 handlers.go:68: GET /clientapi/ping 200 2 52.089µs
+[kited] 2021/11/09 21:14:30.754945 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.91109ms
+[kited] 2021/11/09 21:14:35.777650 handlers.go:68: GET /clientapi/ping 200 2 47.099µs
+[kited] 2021/11/09 21:14:35.781218 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.354921ms
+[kited] 2021/11/09 21:14:40.774666 handlers.go:68: GET /clientapi/ping 200 2 190.841µs
+[kited] 2021/11/09 21:14:40.777981 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.288192ms
+[kited] 2021/11/09 21:14:45.776871 handlers.go:68: GET /clientapi/ping 200 2 61.732µs
+[kited] 2021/11/09 21:14:45.780609 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.105724ms
+[kited] 2021/11/09 21:14:50.784367 handlers.go:68: GET /clientapi/ping 200 2 67.99µs
+[kited] 2021/11/09 21:14:50.786503 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 133.515µs
+[kited] 2021/11/09 21:14:55.779819 handlers.go:68: GET /clientapi/ping 200 2 82.527µs
+[kited] 2021/11/09 21:14:55.782068 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 184.252µs
+[kited] 2021/11/09 21:15:00.767307 handlers.go:68: GET /clientapi/ping 200 2 37.921µs
+[kited] 2021/11/09 21:15:00.770817 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.15343ms
+[kited] 2021/11/09 21:15:05.780656 handlers.go:68: GET /clientapi/ping 200 2 66.063µs
+[kited] 2021/11/09 21:15:05.782858 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 195.983µs
+[kited] 2021/11/09 21:15:10.788177 handlers.go:68: GET /clientapi/ping 200 2 120.459µs
+[kited] 2021/11/09 21:15:10.790453 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 148.814µs
+[kited] 2021/11/09 21:15:15.798944 handlers.go:68: GET /clientapi/ping 200 2 49.293µs
+[kited] 2021/11/09 21:15:15.802483 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.275689ms
+[kited] 2021/11/09 21:15:20.790005 handlers.go:68: GET /clientapi/ping 200 2 52.267µs
+[kited] 2021/11/09 21:15:20.791755 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 137.99µs
+[kited] 2021/11/09 21:15:25.793330 handlers.go:68: GET /clientapi/ping 200 2 39.576µs
+[kited] 2021/11/09 21:15:25.794935 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 114.096µs
+[kited] 2021/11/09 21:15:30.796543 handlers.go:68: GET /clientapi/ping 200 2 46.798µs
+[kited] 2021/11/09 21:15:30.800091 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.220398ms
+[kited] 2021/11/09 21:15:35.808991 handlers.go:68: GET /clientapi/ping 200 2 67.356µs
+[kited] 2021/11/09 21:15:35.811941 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 150.033µs
+[kited] 2021/11/09 21:15:40.805755 handlers.go:68: GET /clientapi/ping 200 2 47.366µs
+[kited] 2021/11/09 21:15:40.808604 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.202491ms
+[kited] 2021/11/09 21:15:45.800169 handlers.go:68: GET /clientapi/ping 200 2 65.499µs
+[kited] 2021/11/09 21:15:45.803366 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.167378ms
+[kited] 2021/11/09 21:15:50.808585 handlers.go:68: GET /clientapi/ping 200 2 38.302µs
+[kited] 2021/11/09 21:15:50.811009 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 122.136µs
+[kited] 2021/11/09 21:15:55.812099 handlers.go:68: GET /clientapi/ping 200 2 38.001µs
+[kited] 2021/11/09 21:15:55.814103 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 135.95µs
+[kited] 2021/11/09 21:16:00.837530 handlers.go:68: GET /clientapi/ping 200 2 47.053µs
+[kited] 2021/11/09 21:16:00.840802 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.244813ms
+[kited] 2021/11/09 21:16:05.808224 handlers.go:68: GET /clientapi/ping 200 2 54.796µs
+[kited] 2021/11/09 21:16:05.810736 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 155.375µs
+[kited] 2021/11/09 21:16:10.810613 handlers.go:68: GET /clientapi/ping 200 2 46.423µs
+[kited] 2021/11/09 21:16:10.812917 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 134.965µs
+[kited] 2021/11/09 21:16:15.816350 handlers.go:68: GET /clientapi/ping 200 2 81.951µs
+[kited] 2021/11/09 21:16:15.819756 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.529447ms
+[kited] 2021/11/09 21:16:20.817728 handlers.go:68: GET /clientapi/ping 200 2 47.7µs
+[kited] 2021/11/09 21:16:20.819694 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 138.213µs
+[kited] 2021/11/09 21:16:25.823950 handlers.go:68: GET /clientapi/ping 200 2 41.244µs
+[kited] 2021/11/09 21:16:25.826169 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 128.535µs
+[kited] 2021/11/09 21:16:30.827423 handlers.go:68: GET /clientapi/ping 200 2 46.766µs
+[kited] 2021/11/09 21:16:30.831007 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.387007ms
+[kited] 2021/11/09 21:16:35.831127 handlers.go:68: GET /clientapi/ping 200 2 70.103µs
+[kited] 2021/11/09 21:16:35.833133 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 180.614µs
+[kited] 2021/11/09 21:16:40.830019 handlers.go:68: GET /clientapi/ping 200 2 68.878µs
+[kited] 2021/11/09 21:16:40.832800 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 226.942µs
+[kited] 2021/11/09 21:16:45.832632 handlers.go:68: GET /clientapi/ping 200 2 82.641µs
+[kited] 2021/11/09 21:16:45.835473 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.157009ms
+[kited] 2021/11/09 21:16:50.836422 handlers.go:68: GET /clientapi/ping 200 2 69.181µs
+[kited] 2021/11/09 21:16:50.838454 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 122.331µs
+[kited] 2021/11/09 21:16:55.843413 handlers.go:68: GET /clientapi/ping 200 2 49.451µs
+[kited] 2021/11/09 21:16:55.845666 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 129.001µs
+[kited] 2021/11/09 21:17:00.845731 handlers.go:68: GET /clientapi/ping 200 2 99.901µs
+[kited] 2021/11/09 21:17:00.849539 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.264794ms
+[kited] 2021/11/09 21:17:05.849519 handlers.go:68: GET /clientapi/ping 200 2 47.185µs
+[kited] 2021/11/09 21:17:05.851767 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 123.787µs
+[kited] 2021/11/09 21:17:10.855459 handlers.go:68: GET /clientapi/ping 200 2 69.012µs
+[kited] 2021/11/09 21:17:10.857560 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 178.626µs
+[kited] 2021/11/09 21:17:15.853861 handlers.go:68: GET /clientapi/ping 200 2 95.94µs
+[kited] 2021/11/09 21:17:15.857663 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.249598ms
+[kited] 2021/11/09 21:17:20.853970 handlers.go:68: GET /clientapi/ping 200 2 64.993µs
+[kited] 2021/11/09 21:17:20.856011 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 142.214µs
+[kited] 2021/11/09 21:17:25.858322 handlers.go:68: GET /clientapi/ping 200 2 45.553µs
+[kited] 2021/11/09 21:17:25.860414 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 151.603µs
+[kited] 2021/11/09 21:17:30.864108 handlers.go:68: GET /clientapi/ping 200 2 66.285µs
+[kited] 2021/11/09 21:17:30.867970 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.268535ms
+[kited] 2021/11/09 21:17:35.865483 handlers.go:68: GET /clientapi/ping 200 2 67.02µs
+[kited] 2021/11/09 21:17:35.867268 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 127.018µs
+[kited] 2021/11/09 21:17:40.869034 handlers.go:68: GET /clientapi/ping 200 2 47.531µs
+[kited] 2021/11/09 21:17:40.871150 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 156.914µs
+[kited] 2021/11/09 21:17:45.879858 handlers.go:68: GET /clientapi/ping 200 2 48µs
+[kited] 2021/11/09 21:17:45.882990 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.230135ms
+[kited] 2021/11/09 21:17:50.887577 handlers.go:68: GET /clientapi/ping 200 2 65.907µs
+[kited] 2021/11/09 21:17:50.891883 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.368609ms
+[kited] 2021/11/09 21:17:55.905838 handlers.go:68: GET /clientapi/ping 200 2 50.512µs
+[kited] 2021/11/09 21:17:55.907872 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 158.399µs
+[kited] 2021/11/09 21:18:00.888233 handlers.go:68: GET /clientapi/ping 200 2 44.197µs
+[kited] 2021/11/09 21:18:00.891357 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.149836ms
+[kited] 2021/11/09 21:18:05.887097 handlers.go:68: GET /clientapi/ping 200 2 50.316µs
+[kited] 2021/11/09 21:18:05.889600 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 141.131µs
+[kited] 2021/11/09 21:18:10.884329 handlers.go:68: GET /clientapi/ping 200 2 64.657µs
+[kited] 2021/11/09 21:18:10.887505 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.286456ms
+[kited] 2021/11/09 21:18:15.886326 handlers.go:68: GET /clientapi/ping 200 2 51.781µs
+[kited] 2021/11/09 21:18:15.890941 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.308897ms
+[kited] 2021/11/09 21:18:20.890447 handlers.go:68: GET /clientapi/ping 200 2 56.847µs
+[kited] 2021/11/09 21:18:20.892597 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 148.527µs
+[kited] 2021/11/09 21:18:25.895501 handlers.go:68: GET /clientapi/ping 200 2 89.36µs
+[kited] 2021/11/09 21:18:25.898254 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 189.629µs
+[kited] 2021/11/09 21:18:30.899760 handlers.go:68: GET /clientapi/ping 200 2 65.365µs
+[kited] 2021/11/09 21:18:30.903217 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.452279ms
+[kited] 2021/11/09 21:18:35.906806 handlers.go:68: GET /clientapi/ping 200 2 68.99µs
+[kited] 2021/11/09 21:18:35.908980 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 187.964µs
+[kited] 2021/11/09 21:18:40.910067 handlers.go:68: GET /clientapi/ping 200 2 74.217µs
+[kited] 2021/11/09 21:18:40.912851 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 146.247µs
+[kited] 2021/11/09 21:18:44.791584 handlers.go:68: GET /clientapi/plugins 200 4593 2.500228295s
+[kited] 2021/11/09 21:18:45.910494 handlers.go:68: GET /clientapi/ping 200 2 85.517µs
+[kited] 2021/11/09 21:18:45.913880 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.398661ms
+[kited] 2021/11/09 21:18:50.913229 handlers.go:68: GET /clientapi/ping 200 2 91.235µs
+[kited] 2021/11/09 21:18:50.915350 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 145.842µs
+[kited] 2021/11/09 21:18:55.918170 handlers.go:68: GET /clientapi/ping 200 2 90.943µs
+[kited] 2021/11/09 21:18:55.921387 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 199.169µs
+[kited] 2021/11/09 21:19:00.909596 handlers.go:68: GET /clientapi/ping 200 2 89.448µs
+[kited] 2021/11/09 21:19:00.912974 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.091944ms
+[kited] 2021/11/09 21:19:05.929406 handlers.go:68: GET /clientapi/ping 200 2 38.822µs
+[kited] 2021/11/09 21:19:05.932016 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.04216ms
+[kited] 2021/11/09 21:19:10.937802 handlers.go:68: GET /clientapi/ping 200 2 86.169µs
+[kited] 2021/11/09 21:19:10.941186 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.475471ms
+[kited] 2021/11/09 21:19:15.929135 handlers.go:68: GET /clientapi/ping 200 2 109.758µs
+[kited] 2021/11/09 21:19:15.933020 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.261306ms
+[kited] 2021/11/09 21:19:20.933104 handlers.go:68: GET /clientapi/ping 200 2 71.97µs
+[kited] 2021/11/09 21:19:20.935302 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 179.775µs
+[kited] 2021/11/09 21:19:25.939583 handlers.go:68: GET /clientapi/ping 200 2 44.408µs
+[kited] 2021/11/09 21:19:25.941188 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 124.846µs
+[kited] 2021/11/09 21:19:30.944678 handlers.go:68: GET /clientapi/ping 200 2 68.939µs
+[kited] 2021/11/09 21:19:30.947742 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.245261ms
+[kited] 2021/11/09 21:19:35.947869 handlers.go:68: GET /clientapi/ping 200 2 66.254µs
+[kited] 2021/11/09 21:19:35.950762 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 189.046µs
+[kited] 2021/11/09 21:19:40.947666 handlers.go:68: GET /clientapi/ping 200 2 65.822µs
+[kited] 2021/11/09 21:19:40.950860 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.274454ms
+[kited] 2021/11/09 21:19:45.950048 handlers.go:68: GET /clientapi/ping 200 2 67.248µs
+[kited] 2021/11/09 21:19:45.953206 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.246827ms
+[kited] 2021/11/09 21:19:50.956371 handlers.go:68: GET /clientapi/ping 200 2 53.314µs
+[kited] 2021/11/09 21:19:50.959861 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.148835ms
+[kited] 2021/11/09 21:19:55.951489 handlers.go:68: GET /clientapi/ping 200 2 62.186µs
+[kited] 2021/11/09 21:19:55.953653 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 141.508µs
+[kited] 2021/11/09 21:20:00.962704 handlers.go:68: GET /clientapi/ping 200 2 71.365µs
+[kited] 2021/11/09 21:20:00.966359 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.775668ms
+[kited] 2021/11/09 21:20:05.970256 handlers.go:68: GET /clientapi/ping 200 2 57.618µs
+[kited] 2021/11/09 21:20:05.974736 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.838598ms
+[kited] 2021/11/09 21:20:10.967002 handlers.go:68: GET /clientapi/ping 200 2 70.731µs
+[kited] 2021/11/09 21:20:10.970724 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.82925ms
+[kited] 2021/11/09 21:20:15.968537 handlers.go:68: GET /clientapi/ping 200 2 71.964µs
+[kited] 2021/11/09 21:20:15.972111 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.715752ms
+[kited] 2021/11/09 21:20:20.982785 handlers.go:68: GET /clientapi/ping 200 2 38.921µs
+[kited] 2021/11/09 21:20:20.985070 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 128.349µs
+[kited] 2021/11/09 21:20:25.976396 handlers.go:68: GET /clientapi/ping 200 2 63.645µs
+[kited] 2021/11/09 21:20:25.979357 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 179.206µs
+[kited] 2021/11/09 21:20:30.971942 handlers.go:68: GET /clientapi/ping 200 2 68.104µs
+[kited] 2021/11/09 21:20:30.975738 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.717215ms
+[kited] 2021/11/09 21:20:36.003829 handlers.go:68: GET /clientapi/ping 200 2 69.944µs
+[kited] 2021/11/09 21:20:36.006268 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 148.697µs
+[kited] 2021/11/09 21:20:41.019028 handlers.go:68: GET /clientapi/ping 200 2 38.422µs
+[kited] 2021/11/09 21:20:41.022739 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.622818ms
+[kited] 2021/11/09 21:20:46.029078 handlers.go:68: GET /clientapi/ping 200 2 48.767µs
+[kited] 2021/11/09 21:20:46.032757 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.938838ms
+[kited] 2021/11/09 21:20:51.023248 handlers.go:68: GET /clientapi/ping 200 2 46.53µs
+[kited] 2021/11/09 21:20:51.024942 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 133.921µs
+[kited] 2021/11/09 21:20:56.041366 handlers.go:68: GET /clientapi/ping 200 2 55.165µs
+[kited] 2021/11/09 21:20:56.044156 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 155.803µs
+[kited] 2021/11/09 21:21:01.054450 handlers.go:68: GET /clientapi/ping 200 2 49.944µs
+[kited] 2021/11/09 21:21:01.058024 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 1.996513ms
+[kited] 2021/11/09 21:21:06.031913 handlers.go:68: GET /clientapi/ping 200 2 74.511µs
+[kited] 2021/11/09 21:21:06.033613 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 135.041µs
+[kited] 2021/11/09 21:21:11.037588 handlers.go:68: GET /clientapi/ping 200 2 83.948µs
+[kited] 2021/11/09 21:21:11.040216 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 151.861µs
+[kited] 2021/11/09 21:21:15.740678 handlers.go:68: POST /clientapi/editor/event 200 0 773.998µs
+[kited] 2021/11/09 21:21:15.749217 track.go:167: tracker.Event: coding_session_started
+[kited] 2021/11/09 21:21:15.749409 handlers.go:68: POST /clientapi/editor/event 200 0 177.855µs
+[kited] 2021/11/09 21:21:15.750398 manager.go:115: dropping response
+[kited] 2021/11/09 21:21:16.034415 handlers.go:68: GET /clientapi/ping 200 2 42.625µs
+[kited] 2021/11/09 21:21:16.036461 handlers.go:68: GET /clientapi/status?filename=%2FUsers%2Fchrisadore%2FDesktop%2Ftrimgalore.sh 200 76 117.783µs
+[kited] 2021/11/09 21:21:18.230123 handlers.go:68: POST /clientapi/metrics/counters 0 0 343.475µs
+[kited] 2021/11/09 21:21:18.230546 handlers.go:68: POST /clientapi/metrics/counters 0 0 779.053µs
+[kited] 2021/11/09 21:23:42.937353 api.go:96: Unloading data for python
+[kited] 2021/11/09 21:28:45.603557 handlers.go:68: GET /clientapi/plugins 200 4593 3.317163571s
+[kited] 2021/11/09 21:36:15.698497 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2021/11/09 21:38:42.877709 api.go:68: Unloading data for language bash
+[kited] 2021/11/09 21:38:43.015446 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/09 21:38:45.153247 handlers.go:68: GET /clientapi/plugins 200 4593 2.892468033s
+[kited] 2021/11/09 21:49:50.996614 handlers.go:68: GET /clientapi/plugins 200 4593 2.639308915s
+[kited] 2021/11/09 21:59:50.987018 handlers.go:68: GET /clientapi/plugins 200 4593 2.602207126s
+[kited] 2021/11/09 22:05:05.776747 listener.go:58: connection dropped: failed to get reader: failed to read frame header: EOF
+[kited] 2021/11/09 22:05:16.122048 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 200ms
+[kited] 2021/11/09 22:05:25.536349 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 400ms
+[kited] 2021/11/09 22:05:35.162422 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 800ms
+[kited] 2021/11/09 22:05:45.200219 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 1.6s
+[kited] 2021/11/09 22:05:55.985573 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 3.2s
+[kited] 2021/11/09 22:06:08.409455 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 6.4s
+[kited] 2021/11/09 22:06:14.997004 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 12.8s
+[kited] 2021/11/09 22:06:37.013356 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 25.6s
+[kited] 2021/11/09 22:07:11.834314 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 51.2s
+[kited] 2021/11/09 22:08:12.344760 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 1m42.4s
+[kited] 2021/11/09 22:09:49.121780 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/09 22:09:52.119713 handlers.go:68: GET /clientapi/plugins 200 4593 3.751438882s
+[kited] 2021/11/09 22:10:03.337532 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/09 22:10:03.401556 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/09 22:10:04.093924 listener.go:145: connection error: failed to WebSocket dial: expected handshake response status code 101 but got 502 3m24.8s
+[kited] 2021/11/09 22:19:51.032928 handlers.go:68: GET /clientapi/plugins 200 4593 2.606034682s
+[kited] 2021/11/09 22:31:55.732729 handlers.go:68: GET /clientapi/plugins 200 4593 2.777371689s
+[kited] 2021/11/09 22:41:53.736068 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/09 22:41:55.819301 handlers.go:68: GET /clientapi/plugins 200 4593 2.830140406s
+[kited] 2021/11/09 22:51:55.577075 handlers.go:68: GET /clientapi/plugins 200 4593 2.600632869s
+[kited] 2021/11/09 23:01:56.577560 handlers.go:68: GET /clientapi/plugins 200 4593 3.568883867s
+[kited] 2021/11/09 23:11:53.756761 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/09 23:11:55.595914 handlers.go:68: GET /clientapi/plugins 200 4593 2.599537224s
+[kited] 2021/11/09 23:12:22.959518 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/09 23:12:23.016649 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/09 23:21:55.291395 handlers.go:68: GET /clientapi/plugins 200 4593 2.267925896s
+[kited] 2021/11/09 23:37:13.175532 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.88.115:58984->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/09 23:39:21.216667 handlers.go:68: GET /clientapi/plugins 200 4593 2.461823932s
+[kited] 2021/11/09 23:49:19.548230 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/09 23:49:21.668013 handlers.go:68: GET /clientapi/plugins 200 4593 2.866140919s
+[kited] 2021/11/09 23:59:21.328843 handlers.go:68: GET /clientapi/plugins 200 4593 2.549954936s
+[kited] 2021/11/10 00:09:21.256830 handlers.go:68: GET /clientapi/plugins 200 4593 2.441381515s
+[kited] 2021/11/10 00:19:19.568913 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 00:19:21.438998 handlers.go:68: GET /clientapi/plugins 200 4593 2.656720872s
+[kited] 2021/11/10 00:20:03.745633 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 00:20:03.802388 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 00:29:21.556387 handlers.go:68: GET /clientapi/plugins 200 4593 2.743216853s
+[kited] 2021/11/10 00:37:13.872400 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/11/10 00:39:21.569109 handlers.go:68: GET /clientapi/plugins 200 4593 2.788928001s
+[kited] 2021/11/10 00:49:19.547622 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 00:49:21.444712 handlers.go:68: GET /clientapi/plugins 200 4593 2.62474437s
+[kited] 2021/11/10 00:59:21.488921 handlers.go:68: GET /clientapi/plugins 200 4593 2.697968327s
+[kited] 2021/11/10 01:09:24.594147 handlers.go:68: GET /clientapi/plugins 200 4593 5.775990054s
+[kited] 2021/11/10 01:14:55.342432 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.88.115:60522->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/10 01:15:07.714298 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/856220": EOF 200ms
+[kited] 2021/11/10 01:19:19.577596 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 01:19:21.441855 handlers.go:68: GET /clientapi/plugins 200 4593 2.642947052s
+[kited] 2021/11/10 01:20:18.767759 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 01:20:18.842436 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 01:29:21.563800 handlers.go:68: GET /clientapi/plugins 200 4593 2.731249664s
+[kited] 2021/11/10 01:30:45.039680 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.88.115:60915->34.107.247.156:443: read: operation timed out
+[kited] 2021/11/10 01:39:21.416350 handlers.go:68: GET /clientapi/plugins 200 4593 2.605101067s
+[kited] 2021/11/10 01:49:19.570502 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 01:49:21.391076 handlers.go:68: GET /clientapi/plugins 200 4593 2.559531073s
+[kited] 2021/11/10 01:59:21.466911 handlers.go:68: GET /clientapi/plugins 200 4593 2.660166152s
+[kited] 2021/11/10 02:09:21.521196 handlers.go:68: GET /clientapi/plugins 200 4593 2.657140207s
+[kited] 2021/11/10 02:19:19.649202 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 02:19:21.672086 handlers.go:68: GET /clientapi/plugins 200 4593 2.82293195s
+[kited] 2021/11/10 02:20:33.818805 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 02:20:33.906414 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 02:29:21.574033 handlers.go:68: GET /clientapi/plugins 200 4593 2.683934736s
+[kited] 2021/11/10 02:30:45.571712 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/11/10 02:39:21.698806 handlers.go:68: GET /clientapi/plugins 200 4593 2.740809724s
+[kited] 2021/11/10 02:49:19.768143 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 02:49:21.585570 handlers.go:68: GET /clientapi/plugins 200 4593 2.587070004s
+[kited] 2021/11/10 02:59:21.640595 handlers.go:68: GET /clientapi/plugins 200 4593 2.641384417s
+[kited] 2021/11/10 03:09:21.713757 handlers.go:68: GET /clientapi/plugins 200 4593 2.714058218s
+[kited] 2021/11/10 03:19:19.692106 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 03:19:21.745828 handlers.go:68: GET /clientapi/plugins 200 4593 2.844623759s
+[kited] 2021/11/10 03:20:48.856507 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 03:20:48.958690 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 03:33:24.962055 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.26:61308->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/10 04:11:17.066804 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.26:61578->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/10 04:12:42.554633 handlers.go:68: GET /clientapi/plugins 200 4593 2.544937858s
+[kited] 2021/11/10 04:22:42.634051 handlers.go:68: GET /clientapi/plugins 200 4593 2.640047162s
+[kited] 2021/11/10 04:32:40.791581 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 04:32:42.719913 handlers.go:68: GET /clientapi/plugins 200 4593 2.696051402s
+[kited] 2021/11/10 05:03:55.817123 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.26:61673->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/10 05:05:26.480253 handlers.go:68: GET /clientapi/plugins 200 4593 3.237115734s
+[kited] 2021/11/10 05:15:28.115119 handlers.go:68: GET /clientapi/plugins 200 4593 4.847731816s
+[kited] 2021/11/10 05:25:24.012916 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 05:25:28.174562 handlers.go:68: GET /clientapi/plugins 200 4593 4.914870216s
+[kited] 2021/11/10 05:27:08.223019 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 05:27:08.267622 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 07:34:31.355120 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.26:61794->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/10 07:35:21.042664 handlers.go:68: GET /clientapi/plugins 200 4593 2.573149902s
+[kited] 2021/11/10 07:45:21.122557 handlers.go:68: GET /clientapi/plugins 200 4593 2.688399939s
+[kited] 2021/11/10 07:55:19.179035 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 07:55:21.443331 handlers.go:68: GET /clientapi/plugins 200 4593 2.99718431s
+[kited] 2021/11/10 08:33:57.057152 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.26:62010->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/11/10 08:34:22.678674 handlers.go:68: GET /clientapi/plugins 200 4593 2.720991808s
+[kited] 2021/11/10 10:00:22.588893 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.1.1.26:62196->34.107.247.156:443: read: operation timed out
+[kited] 2021/11/10 10:15:13.295009 handlers.go:68: GET /clientapi/plugins 200 4593 2.724257114s
+[kited] 2021/11/10 10:15:55.666277 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.114:62484->34.107.247.156:443: read: operation timed out
+[kited] 2021/11/10 10:25:11.311656 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 10:25:13.153249 handlers.go:68: GET /clientapi/plugins 200 4593 2.597572036s
+[kited] 2021/11/10 10:27:10.519483 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 10:27:10.580779 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 10:35:15.253508 handlers.go:68: GET /clientapi/plugins 200 4593 2.624406283s
+[kited] 2021/11/10 10:45:15.180418 handlers.go:68: GET /clientapi/plugins 200 4593 2.556318581s
+[kited] 2021/11/10 10:55:13.371573 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 10:55:15.507078 handlers.go:68: GET /clientapi/plugins 200 4593 2.847276732s
+[kited] 2021/11/10 11:11:27.702266 handlers.go:68: GET /clientapi/plugins 200 4593 3.62928969s
+[kited] 2021/11/10 11:15:57.820777 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/11/10 11:21:26.633748 handlers.go:68: GET /clientapi/plugins 200 4593 2.54942464s
+[kited] 2021/11/10 11:31:24.814041 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 11:31:26.740520 handlers.go:68: GET /clientapi/plugins 200 4593 2.683945073s
+[kited] 2021/11/10 11:33:39.019445 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 11:33:39.074021 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 11:41:26.741842 handlers.go:68: GET /clientapi/plugins 200 4593 2.651695662s
+[kited] 2021/11/10 11:51:26.787562 handlers.go:68: GET /clientapi/plugins 200 4593 2.699879648s
+[kited] 2021/11/10 12:11:44.969939 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 10.37.204.205:63493->34.107.247.156:443: read: operation timed out
+[kited] 2021/11/10 12:12:20.301783 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 12:12:22.437009 handlers.go:68: GET /clientapi/plugins 200 4593 2.880428313s
+[kited] 2021/11/10 12:22:22.152410 handlers.go:68: GET /clientapi/plugins 200 4593 2.60336335s
+[kited] 2021/11/10 12:32:22.213635 handlers.go:68: GET /clientapi/plugins 200 4593 2.640873214s
+[kited] 2021/11/10 12:42:20.324816 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 12:42:22.198656 handlers.go:68: GET /clientapi/plugins 200 4593 2.653684616s
+[kited] 2021/11/10 12:44:49.507315 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 12:44:49.561552 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 12:52:21.950182 handlers.go:68: GET /clientapi/plugins 200 4593 2.386013636s
+[kited] 2021/11/10 13:02:22.119773 handlers.go:68: GET /clientapi/plugins 200 4593 2.531538529s
+[kited] 2021/11/10 13:11:45.216312 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/11/10 13:12:20.547800 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 13:12:22.957938 handlers.go:68: GET /clientapi/plugins 200 4593 3.347346736s
+[kited] 2021/11/10 13:22:22.172358 handlers.go:68: GET /clientapi/plugins 200 4593 2.57377372s
+[kited] 2021/11/10 13:34:46.718162 handlers.go:68: GET /clientapi/plugins 200 4593 2.744883373s
+[kited] 2021/11/10 13:57:25.795861 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 13:57:27.688715 handlers.go:68: GET /clientapi/plugins 200 4593 2.647402236s
+[kited] 2021/11/10 14:00:10.004224 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 14:00:10.086454 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 14:07:27.744076 handlers.go:68: GET /clientapi/plugins 200 4593 2.674846389s
+[kited] 2021/11/10 14:11:45.779840 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/11/10 14:17:27.953238 handlers.go:68: GET /clientapi/plugins 200 4593 2.894133044s
+[kited] 2021/11/10 14:27:25.822065 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 14:27:27.845685 handlers.go:68: GET /clientapi/plugins 200 4593 2.744255405s
+[kited] 2021/11/10 14:37:27.699877 handlers.go:68: GET /clientapi/plugins 200 4593 2.663210822s
+[kited] 2021/11/10 14:47:27.797181 handlers.go:68: GET /clientapi/plugins 200 4593 2.733187316s
+[kited] 2021/11/10 14:57:25.790221 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 14:57:27.745415 handlers.go:68: GET /clientapi/plugins 200 4593 2.715120412s
+[kited] 2021/11/10 15:00:25.003296 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/11/10 15:00:25.064992 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/11/10 15:04:06.815423 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.114:65360->34.107.247.156:443: read: operation timed out
+[kited] 2021/11/10 15:07:27.700388 handlers.go:68: GET /clientapi/plugins 200 4593 2.62574041s
+[kited] 2021/11/10 15:17:27.899039 handlers.go:68: GET /clientapi/plugins 200 4593 2.861361582s
+[kited] 2021/11/10 15:27:25.816646 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2021/11/10 15:27:27.947056 handlers.go:68: GET /clientapi/plugins 200 4593 2.861674882s
+[kited] 2021/11/10 15:29:57.170183 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.0.120:49974->34.107.247.156:443: read: operation timed out

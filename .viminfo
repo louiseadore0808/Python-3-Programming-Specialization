@@ -10,17 +10,48 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/789
+
+# Last Substitute Search Pattern:
+~MSle0&456
+
+# Last Substitute String:
+$789
+
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1635169516,,"wq!"
+:q!
+|2,0,1635169427,,"q!"
+:%s/456/789/gc
+|2,0,1635169384,,"%s/456/789/gc"
+:%s/123/456
+|2,0,1635169366,,"%s/123/456"
+:%s/sjf/123
+|2,0,1635169343,,"%s/sjf/123"
+:%s/fls/123/gc
+|2,0,1635169074,,"%s/fls/123/gc"
+:%/fls/123/gc
+|2,0,1635169039,,"%/fls/123/gc"
 :wq
 |2,0,1626794618,,"wq"
 :q
 |2,0,1626794475,,"q"
-:q!
-|2,0,1626780765,,"q!"
-:wq!
-|2,0,1626712955,,"wq!"
 
 # Search String History (newest to oldest):
+?/789
+|2,1,1635169405,47,"789"
+? 456
+|2,1,1635169384,,"456"
+? 123
+|2,1,1635169366,,"123"
+? sjf
+|2,1,1635169343,,"sjf"
+?/123
+|2,1,1635169094,47,"123"
+? fls
+|2,1,1635169074,,"fls"
 
 # Expression History (newest to oldest):
 
@@ -29,41 +60,84 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""1	LINE	0
+	sjfosj j123d ;ljblj.ij
+|3,1,1,1,1,0,1635169103,"sjfosj j123d ;ljblj.ij"
+"-	CHAR	0
 	e
-|3,1,36,0,1,0,1626792972,"e"
+|3,0,36,0,1,0,1626792972,"e"
 
 # File marks:
-'0  13  19  ~/.gitconfig
-|4,48,13,19,1626794618,"~/.gitconfig"
-'1  12  15  ~/.gitconfig
-|4,49,12,15,1626794595,"~/.gitconfig"
-'2  12  15  ~/.gitconfig
-|4,50,12,15,1626794595,"~/.gitconfig"
-'3  11  0  ~/.gitconfig
-|4,51,11,0,1626794520,"~/.gitconfig"
-'4  11  0  ~/.gitconfig
-|4,52,11,0,1626794520,"~/.gitconfig"
-'5  11  0  ~/.gitconfig
-|4,53,11,0,1626794520,"~/.gitconfig"
+'0  1  10  ~/file
+|4,48,1,10,1635169516,"~/file"
+'1  3  0  ~/file
+|4,49,3,0,1635169427,"~/file"
+'2  3  0  ~/file
+|4,50,3,0,1635169427,"~/file"
+'3  13  19  ~/.gitconfig
+|4,51,13,19,1626794618,"~/.gitconfig"
+'4  12  15  ~/.gitconfig
+|4,52,12,15,1626794595,"~/.gitconfig"
+'5  12  15  ~/.gitconfig
+|4,53,12,15,1626794595,"~/.gitconfig"
 '6  11  0  ~/.gitconfig
 |4,54,11,0,1626794520,"~/.gitconfig"
-'7  5  1  ~/.gitconfig
-|4,55,5,1,1626794475,"~/.gitconfig"
-'8  5  1  ~/.gitconfig
-|4,56,5,1,1626794475,"~/.gitconfig"
-'9  5  1  ~/.gitconfig
-|4,57,5,1,1626794475,"~/.gitconfig"
+'7  11  0  ~/.gitconfig
+|4,55,11,0,1626794520,"~/.gitconfig"
+'8  11  0  ~/.gitconfig
+|4,56,11,0,1626794520,"~/.gitconfig"
+'9  11  0  ~/.gitconfig
+|4,57,11,0,1626794520,"~/.gitconfig"
 
 # Jumplist (newest first):
+-'  1  10  ~/file
+|4,39,1,10,1635169516,"~/file"
+-'  3  0  ~/file
+|4,39,3,0,1635169427,"~/file"
+-'  3  0  ~/file
+|4,39,3,0,1635169427,"~/file"
+-'  2  0  ~/file
+|4,39,2,0,1635169405,"~/file"
+-'  2  0  ~/file
+|4,39,2,0,1635169405,"~/file"
 -'  13  19  ~/.gitconfig
 |4,39,13,19,1626794618,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794618,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794618,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794618,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794602,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794602,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794602,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1626794602,"~/.gitconfig"
 -'  12  15  ~/.gitconfig
 |4,39,12,15,1626794595,"~/.gitconfig"
 -'  12  15  ~/.gitconfig
 |4,39,12,15,1626794595,"~/.gitconfig"
+-'  12  15  ~/.gitconfig
+|4,39,12,15,1626794595,"~/.gitconfig"
+-'  12  15  ~/.gitconfig
+|4,39,12,15,1626794595,"~/.gitconfig"
+-'  12  15  ~/.gitconfig
+|4,39,12,15,1626794595,"~/.gitconfig"
+-'  12  15  ~/.gitconfig
+|4,39,12,15,1626794595,"~/.gitconfig"
+-'  12  15  ~/.gitconfig
+|4,39,12,15,1626794595,"~/.gitconfig"
+-'  12  15  ~/.gitconfig
+|4,39,12,15,1626794595,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794529,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794529,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794529,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1626794529,"~/.gitconfig"
 -'  11  0  ~/.gitconfig
@@ -72,6 +146,30 @@
 |4,39,11,0,1626794520,"~/.gitconfig"
 -'  11  0  ~/.gitconfig
 |4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  11  0  ~/.gitconfig
+|4,39,11,0,1626794520,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794498,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794498,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794498,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1626794498,"~/.gitconfig"
 -'  5  1  ~/.gitconfig
@@ -82,6 +180,36 @@
 |4,39,5,1,1626794475,"~/.gitconfig"
 -'  5  1  ~/.gitconfig
 |4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  5  1  ~/.gitconfig
+|4,39,5,1,1626794475,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794454,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794454,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794454,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1626794454,"~/.gitconfig"
 -'  13  19  ~/.gitconfig
@@ -90,6 +218,30 @@
 |4,39,13,19,1626794235,"~/.gitconfig"
 -'  13  19  ~/.gitconfig
 |4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  13  19  ~/.gitconfig
+|4,39,13,19,1626794235,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794211,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794211,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1626794211,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1626794211,"~/.gitconfig"
 -'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
@@ -138,126 +290,17 @@
 |4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
 -'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
 |4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  11  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,11,0,1626793038,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  1  0  ~/github/py4e/.git/COMMIT_EDITMSG
-|4,39,1,0,1626793007,"~/github/py4e/.git/COMMIT_EDITMSG"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
--'  2  0  ~/github/py4e/.git/rebase-merge/git-rebase-todo
-|4,39,2,0,1626792984,"~/github/py4e/.git/rebase-merge/git-rebase-todo"
 
 # History of marks within files (newest to oldest):
+
+> ~/file
+	*	1635169515	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	2	0
+	+	3	0
+	+	1	10
 
 > ~/.gitconfig
 	*	1626794618	0

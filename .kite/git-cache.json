@@ -58,25 +58,101 @@
 },
 "/Users/chrisadore/github/Python-Functions-Files-and-Dictionaries": {
 "Commits": {
-"6ba4dfe1968b92f96239c10e38d826469e3b7608": null,
-"b0133e511d0dc984eec22301ef0a2d13563f96c7": [
-0,
-1,
-2,
-3,
+"0425e56a267db4ccb98fec3ca701d40b6b12f16a": null,
+"17dc7a1d3cb5a9833e3dc8955a140dcdaacb6048": null,
+"1edb2de17d735ff5e653776502c095d66a3e402f": [
+11
+],
+"1f8969fa17a5524a3ce2716f653d09d195574492": [
 4,
 5,
+6,
+7
+],
+"271a473d90d7a085ff8f80245a804df57d297d2e": [
+8,
+9,
+10,
+11
+],
+"33ce3d556cef7b232af6cea6ba74c8d60670d63b": [
+16
+],
+"378b7e63f77003556118343fc49307826f4550c8": [
+2
+],
+"462d0536e35b78d5f4fbd2e1b030796a139d3574": null,
+"545730fb8ce1cc5f51575d154a26cf4337dfcf9a": [
+3,
+0
+],
+"560b44523360e3ecb5329ae0db58aa7d61ee0f31": [
+1
+],
+"5a098b1c3638e05c20e015a2fbae3ac9dad55c8e": null,
+"619e9ec590f23311ec003cf4ec2402661a3a5db2": null,
+"782c13db908f812108c7f87109a9ddd67d5f10d1": [
+0
+],
+"7b09ef8988a6233b16c71b49d886b3bb7c61f6ca": [
+14
+],
+"82496f756a20e6431eac61d29cd08868c189d295": [
+11
+],
+"8bf4c97b2beca7dd7cf7304e8dc20823386425c6": [
 6
-]
+],
+"93d195398875d2b633407a652235ffdae7622ccb": null,
+"963a621581bfe556f6f8e6dbf959e0c7187ae556": [
+14,
+15
+],
+"9aa284986479ec3812c70d080178cda4a0328d80": [
+1
+],
+"9bcfcffa70655eb89318283628ab8bd3bd8c755f": null,
+"b756e54f348d750fd83d135f1af24ed3b254b15f": [
+6
+],
+"c89d2008fc4708626f7d1dd4119bdeb3497a807c": [
+14
+],
+"d801ed591636188b1984b3e91a7e492d80c903dd": null,
+"da248d4f635b6ae7ba76de991abb8d84876341c1": [
+1
+],
+"dd32327cd32c1ae9077abec0565f28ef1c3ce2fc": [
+11
+],
+"f054caac477ea566a47c4a40a0ae4cbf519271ee": [
+11
+],
+"f228820494f4c67ae4c27ee99f06d246ecaafaae": null,
+"f2e0906aaeeecd0369ff1085c0f8a9640edf449a": [
+12,
+13
+],
+"feda4e5b844316151445d2270770f2d46a1d99c1": null
 },
 "Files": [
-"Dictionary/11.6. Introduction- Accumulating Multiple Results In a Dictionary.py",
-"Dictionary/11.7. Accumulating Results From a Dictionary.py",
-"Dictionary/11.8. Accumulating the Best Key.py",
-"Dictionary/Accumlate_Dictionary.py",
-"Dictionary/Accumlate_Dictionary2.py",
-"Dictionary/course_2_assessment_3.py",
-"Function_Parameters.py"
+"Optional_Parameters指定預設參數值.py",
+"Lambda_expression_and_def_function.py",
+"Sorting_reverse_absolute.py",
+"Key_Parameterse關鍵字引數.py",
+"Assessment_Advanced_Function.py",
+"Key_Parameters.py",
+"Optional_Parameters.py",
+"def_fun_Anonymous_func_with_lambda_expression.py",
+"Optional_Paraments.py",
+"Randomly_walking_turtles.py",
+"Randomly_walking_turtles2.py",
+"The_while_statement.py",
+"week4-Randomly_walking_turtles.py",
+"week4-Randomly_walking_turtles2.py",
+"Assessment_More_about_Iteration.py",
+"The_listener_loop.py",
+"Break_and_continue.py"
 ]
 },
 "/Users/chrisadore/github/py4e": {
